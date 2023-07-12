@@ -15,6 +15,10 @@ alert:
   title: This is an info alert
   content: Used as an example for giving information
   status: info
+alert-secondary:
+  title: Alert Title (Secondary)
+  content: Used as an example for giving information
+  status: secondary
 alert-warn:
   title: This is an warning alert
   content: Used as an example for giving warning
@@ -41,6 +45,7 @@ alert-noicon:
 
 ## The Design
 {% include patterns/alert/alert.md content=page.alert %}
+{% include patterns/alert/alert.md content=page.alert-secondary %}
 {% include patterns/alert/alert.md content=page.alert-warn %}
 {% include patterns/alert/alert.md content=page.alert-error %}
 {% include patterns/alert/alert.md content=page.alert-success %}

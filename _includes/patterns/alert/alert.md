@@ -2,6 +2,8 @@
 
 {% if alert.status == "info" %}
   {% assign status = "usa-alert--info" %}
+{% elsif alert.status == "secondary" %}
+  {% assign status = "usa-alert--secondary" %}
 {% elsif alert.status == "warning" %}
   {% assign status = "usa-alert--warning" %}
 {% elsif alert.status == "error" %}
