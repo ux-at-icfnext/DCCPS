@@ -28,4 +28,4 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/tabs/tabs.md content=page.tabs.content %}
+{% include patterns/tabs/tabs-html.md content=page.tabs.content %}

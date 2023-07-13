@@ -6,22 +6,17 @@ usa-accordion__content
 usa-prose */
 
 .usa-accordion.usa-tabs {
-  .usa-accordion__heading {
+  span {
     background-color: transparent;
  
     .usa-accordion__button {
-      background-color: #f0f0f0;
+      background-color: lightgray;
+      color: black;
       padding-right: 2rem;
       border-bottom-color: transparent;
-      font-family: Montserrat;
-      font-weight: bold;
-      border-top: solid 1px #DFE1E2 ;
-      border-bottom: solid 1px #DFE1E2 ;
       &[aria-expanded="true"] {
-        background-color: white;
-        color: #E50E63;
-        font-weight: bold;
-        border-left: 5px solid #E50E63;
+        background-color: lightblue;
+        color: white;
         background-image: none;
       }
       &[aria-expanded="false"] {
@@ -30,6 +25,7 @@ usa-prose */
     }
   }
   .usa-accordion__content {
+    border-top: 4px solid lightgray;
     &[aria-hidden="false"] {
       background-color: #fff;
       margin-top: -2px;
@@ -38,37 +34,21 @@ usa-prose */
 }
 @media screen and (min-width: 640px) {
   .usa-accordion.usa-tabs {
-    position: relative; 
-    margin: 25px 0;
     width: auto;
-    height: 100%;
-    .usa-accordion__heading {
-      display: block;
+    span {
+      display: inline;
       width: auto;
  
       .usa-accordion__button {
-        background: #eee;
-        padding: 10px;
-        font-size: 18px;
-        vertical-align: middle;
-        position: relative;
-        width: 264px;
-        height: 68px;
-        display: table-cell;
-        font-weight: 300;
-        margin-block: 0;
+        width: auto;
+        display: inline-block;
+        clear: both;
       }
     }
     .usa-accordion__content {
-      position: absolute;
-      top: 0;
-      left: 286px;
-      background: white;
-      right: 0;
-      bottom: 0;
-      padding: 20px;
-      line-height: 25px;
-      font-family: 'Lora';
+      float: left;
+      clear: both;
+      width: 100%;
     }
   }
 }
