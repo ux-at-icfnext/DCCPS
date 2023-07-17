@@ -22,8 +22,8 @@ usa-prose */
       }
       &[aria-expanded="false"] {
         background-image: none;
-        background-color: #2f70a8;
-        color: white;
+        background-color: transparent;
+        color: #2f70a8;
       }
     }
   }
@@ -48,7 +48,7 @@ usa-prose */
         width: auto;
         display: inline-block;
         clear: both;
-        margin-block: 0;
+        margin-block: -0.25rem;
       }
     }
     .usa-accordion__content {
