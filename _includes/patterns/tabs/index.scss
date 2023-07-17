@@ -8,27 +8,33 @@ usa-prose */
 .usa-accordion.usa-tabs {
   span {
     background-color: transparent;
- 
     .usa-accordion__button {
-      background-color: lightgray;
+      background-color: white;
       color: black;
       padding-right: 2rem;
       border-bottom-color: transparent;
       &[aria-expanded="true"] {
-        background-color: lightblue;
-        color: white;
+        border: 4px solid lightgray;
+        border-bottom: none;
+        background-color: white;
+        color: black;
         background-image: none;
       }
       &[aria-expanded="false"] {
         background-image: none;
+        background-color: #2f70a8;
+        color: white;
       }
     }
   }
   .usa-accordion__content {
-    border-top: 4px solid lightgray;
+    border: 4px solid lightgray;
+    border-top: none;
+    padding: 0.5rem 1.25rem 0.75rem;
     &[aria-hidden="false"] {
       background-color: #fff;
       margin-top: -2px;
+      border-top: 4px solid lightgray;
     }
   }
 }
@@ -43,6 +49,7 @@ usa-prose */
         width: auto;
         display: inline-block;
         clear: both;
+        margin-block: 0;
       }
     }
     .usa-accordion__content {
