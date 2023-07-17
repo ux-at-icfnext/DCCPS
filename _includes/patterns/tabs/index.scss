@@ -25,6 +25,10 @@ usa-prose */
         background-color: transparent;
         color: #2f70a8;
       }
+      &[aria-expanded="false"]:hover{
+        background-color: #2f70a8;
+        color: white;
+      }
     }
   }
   .usa-accordion__content {
