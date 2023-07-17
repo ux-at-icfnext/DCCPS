@@ -12,11 +12,11 @@ csspath: patterns/tabs/index.scss
 tabs:
   content:
     - title: Tab 1
-      header: Header 1
-      tabContent: Tab 1 Content
+      header: Tab Content 1
+      tabContent: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - title: Tab 2
-      header: Header 2
-      tabContent: Tab 2 Content
+      header: Tab Content 2
+      tabContent: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 jekyll: |
   {% include patterns/tabs/tabs.md content=page.tabs.content settings=page.tabs.settings %}
@@ -28,4 +28,4 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/tabs/tabs-html.md content=page.tabs.content %}
+{% include patterns/tabs/tabs.md content=page.tabs.content %}
