@@ -16,7 +16,17 @@
             aria-expanded="false"
             aria-controls="{{ set.ref | default: 'a' }}{{forloop.index}}"
             >
-                {{ item.title }}
+                <div class="accordion_title">
+                    {%if item.icon%}
+                        <div class="accordion_icon">
+                            <img src="{{item.icon}}" alt="{{item.alt}}">
+                        </div>
+                    {%endif%}
+                    <span>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{item.desc}}</p>
+                    </span>
+                </div>
             </button>
         </span>
         <div id="{{ set.ref | default: 'a' }}{{forloop.index}}" class="usa-accordion__content usa-prose">

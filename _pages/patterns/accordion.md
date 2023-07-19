@@ -12,6 +12,8 @@ csspath: patterns/accordion/index.scss
 accordion:
   content:
     - title: ‘But who is to give the prizes?’
+      icon: /assets/icons/apply-icon.png
+      desc: First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat
       content: |
         First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.
     - title: of course you know what “it” means.
