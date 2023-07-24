@@ -11,6 +11,9 @@
   &[aria-expanded='false']{
     background-image: url(/assets/img/usa-icons/chevron-down_white.svg),linear-gradient(transparent,transparent);
   }
+  &[aria-expanded='true']{
+    background-image: url(/assets/img/usa-icons/chevron-up_white.svg),linear-gradient(transparent,transparent);
+  }
 }
 .usa-accordion__button:hover{
   background-color: #183A57;
@@ -29,5 +32,8 @@
   h3{
     margin-bottom: 0;
   }
+}
+.accordion_icon{
+  background-size: 100px 900px;
 }
 /* USA uses h4 in order to create this margin -- however, using h4 messes with the right rail nav... also this is dumb. */
