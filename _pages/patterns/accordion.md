@@ -10,13 +10,25 @@ htmlpath: patterns/accordion/accordion-html.md
 csspath: patterns/accordion/index.scss
 
 accordion:
+  settings:
+    bordered: true
   content:
-    - title: ‘But who is to give the prizes?’
+    - title: Expand Collapse Button 1
       content: |
-        First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.
-    - title: of course you know what “it” means.
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Expand Collapse Button 2
       content: |
-        And she went on planning to herself how she would manage it. ‘They must go by the carrier,’ she thought; ‘and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Expand Collapse with Icon 1
+      icon: /assets/icons/apply-icon.png
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Exoand Collapse with Icon 2
+      icon: /assets/icons/funding-icon.png
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 
 jekyll: |
   {% include patterns/accordion/accordion.md content=page.accordion.content settings=page.accordion.settings %}
@@ -27,7 +39,7 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/accordion/accordion.md content=page.accordion.content %}
+{% include patterns/accordion/accordion.md content=page.accordion.content settings=page.accordion.settings %}
 ---
 
 ## Theme Settings
