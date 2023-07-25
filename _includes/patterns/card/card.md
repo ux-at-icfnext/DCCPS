@@ -37,7 +37,7 @@
           <div class="usa-card__footer">
             <ul class="usa-button-group {{ class }} {{ seg }}">
               <li class="usa-button-group__item">
-                <a href="{{ btn-link }}" class="usa-button {{ btn-class }}"
+                <a href="{{ card.btn-link }}" class="usa-button {{ card.btn-class }}"
                   {% if btn.disabled %} disabled="disabled" {% endif %}
                   >{{ card.btn-text }}</a
                 >
