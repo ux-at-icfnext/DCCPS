@@ -1,7 +1,7 @@
 ---
 layout: right
-title: Card
-permalink: /patterns/card
+title: Box
+permalink: /patterns/box
 section: Patterns # initial cap required to make menu work
 summary: |
   A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
@@ -15,8 +15,6 @@ card:
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
       btn: button
-      btn-text: Button
-      btn-link: Link
     - title: Card Title 2
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.

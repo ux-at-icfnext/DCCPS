@@ -35,7 +35,14 @@
         {% endif %}
         {% if card.btn %}
           <div class="usa-card__footer">
-            {% include patterns/button/button.md content=card.btn%}
+            <ul class="usa-button-group {{ class }} {{ seg }}">
+              <li class="usa-button-group__item">
+                <a href="{{ btn-link }}" class="usa-button {{ btn-class }}"
+                  {% if btn.disabled %} disabled="disabled" {% endif %}
+                  >{{ card.btn-text }}</a
+                >
+              </li>
+            </ul>
           </div>
         {% endif %}
     </div>
