@@ -10,14 +10,32 @@ htmlpath: patterns/box/box-html.md
 csspath: patterns/box/index.scss
 
 card:
-  setting:
-    grid_class: desktop:grid-col-6
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--header-first
+    bg-color_class: light-background
   content:
-    - title: Box 1
-    - title: Box 2
+    - content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Sidebar Title 2
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 
 card-2:
   settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--header-first
+    bg-color_class: dark-background
+  content:
+    - content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Sidebar Title 2
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+
+card-3:
+  settings:
+    grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
     bg-color_class: light-background
   content:
@@ -41,8 +59,9 @@ card-2:
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 
-card-3:
+card-4:
   settings:
+    grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
     bg-color_class: dark-background
   content:
@@ -81,7 +100,7 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-3.content settings=page.card-3.settings %}
 
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+{% include patterns/box/box.md content=page.card-4.content settings=page.card-4.settings %}
 
 {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
