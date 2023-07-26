@@ -8,7 +8,7 @@
     {% assign select="usa-accordion--multiselectable" %}
     {% assign selected="data-allow-multiple" %}
 {% endif %}
-<div class="usa-accordion {{border}} {{select}}" {{ selected }}>
+<div class="accordion usa-accordion {{border}} {{select}}" {{ selected }}>
     {% for item in items %}
         <span class="usa-accordion__heading">
             <button
