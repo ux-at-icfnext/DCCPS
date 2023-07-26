@@ -75,6 +75,22 @@ card-4:
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 
+card-5:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--flag
+    bg-color_class: light-background
+  content:
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: dchamber@mail.nih.gov
+      media: https://placehold.co/600x400
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      btn: button
+      btn-text: Follow on Twitter
+      btn-link: Link
+
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
@@ -92,7 +108,7 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-4.content settings=page.card-4.settings %}
 
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+{% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
 {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 

@@ -30,6 +30,7 @@
             <div class="usa-card__header">
                 <div>
                     <h2 class="usa-card__heading">{{card.title}}</h2>
+                    <span>{{card.subtitle}}</span>
                 </div>
              </div>
             {%endif%}
@@ -45,6 +46,7 @@
         {% endif %}
         {% if card.content %}
           <div class="usa-card__body">
+            <p><a href="{{card.href}}">{{card.link}}</a></p>
             <p>
               {{ card.content }}
             </p>
