@@ -16,9 +16,6 @@ card:
     - title: Card Title
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      btn: button
-      btn-text: Button
-      btn-link: Link
     - title: Card Title 2
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.

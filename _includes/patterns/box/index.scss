@@ -1,0 +1,23 @@
+.box-component{
+    .usa-card__header{
+        background-color: #363636;
+        color: white;
+        padding: 15px 20px;
+    }
+    .usa-card__body{
+        padding: 20px;
+    }
+    .title_icon{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    overflow: hidden;
+    }
+    .usa-card__heading{
+    margin-left: 2.5rem;
+    }
+}
