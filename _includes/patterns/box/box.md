@@ -19,7 +19,10 @@
                     <img src="{{card.icon}}" alt="{{card.alt}}">
                 </div>
             {%endif%}
-            <h2 class="usa-card__heading">{{card.title}}</h2>
+            <div>
+                <span>Icon Label</span>
+                <h2 class="usa-card__heading">{{card.title}}</h2>
+            </div>
         </div>
         {% endif %}
         {% if card.media %}
