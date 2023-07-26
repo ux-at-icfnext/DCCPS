@@ -10,24 +10,57 @@ htmlpath: patterns/box/box-html.md
 csspath: patterns/box/index.scss
 
 card:
+  setting:
+    grid_class: desktop:grid-col-6
+  content:
+    - title: Box 1
+    - title: Box 2
+
+card-2:
   settings:
     group_class: usa-card--header-first
+    bg-color_class: light-background
   content:
-    - title: Card Title
+    - title: Sidebar Title
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
       btn: button
       btn-text: Button
       btn-link: Link
-    - title: Card Title 2
+    - title: Sidebar Title 2
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-    - title: Card Title 3
+    - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-    - title: Card Title 4
+    - title: Sidebar Title 4
+      media: https://placehold.co/400
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+
+card-3:
+  settings:
+    group_class: usa-card--header-first
+    bg-color_class: dark-background
+  content:
+    - title: Sidebar Title
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      btn: button
+      btn-text: Button
+      btn-link: Link
+    - title: Sidebar Title 2
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Sidebar Title 3
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    - title: Sidebar Title 4
       media: https://placehold.co/400
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
@@ -42,6 +75,24 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card-2.content settings=page.card-2.settings %}
+
+{% include patterns/box/box.md content=page.card-3.content settings=page.card-3.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
 {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 ---
 

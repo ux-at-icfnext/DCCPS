@@ -7,23 +7,32 @@
 {% if set.group_class %}
     {% assign class=set.group_class %}
 {% endif %}
+{% if set.bg-color_class %}
+    {% assign bg-color_class=set.bg-color_class %}
+{% endif %}
 
 <ul class="usa-card-group box-component"> 
   {% for card in items %}
     <li class="usa-card {{ grid | default:'tablet:grid-col-4'}}">
-      <div class="usa-card__container {{ class | default: 'usa-card__container' }}">
+      <div class="usa-card__container {{ class | default: 'usa-card__container' }} {{ bg-color_class}}">
         {% if card.title %}
-        <div class="usa-card__header">
             {% if card.icon %}
-                <div class="title_icon">
-                    <img src="{{card.icon}}" alt="{{card.alt}}">
+                <div class="usa-card__header">
+                        <div class="title_icon">
+                            <img src="{{card.icon}}" alt="{{card.alt}}">
+                        </div>
+                    <div>
+                        <span>Icon Label</span>
+                        <h2 class="usa-card__heading">{{card.title}}</h2>
+                    </div>
                 </div>
+            {% else %}
+            <div class="usa-card__header">
+                <div>
+                    <h2 class="usa-card__heading">{{card.title}}</h2>
+                </div>
+             </div>
             {%endif%}
-            <div>
-                <span>Icon Label</span>
-                <h2 class="usa-card__heading">{{card.title}}</h2>
-            </div>
-        </div>
         {% endif %}
         {% if card.media %}
             <div class="usa-card__media">
