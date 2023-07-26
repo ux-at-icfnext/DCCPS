@@ -30,7 +30,9 @@
             <div class="usa-card__header">
                 <div>
                     <h2 class="usa-card__heading">{{card.title}}</h2>
-                    <span>{{card.subtitle}}</span>
+                    {% if card.subtitle %}
+                        <span>{{card.subtitle}}</span>
+                    {% endif %}
                 </div>
              </div>
             {%endif%}
