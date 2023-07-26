@@ -45,14 +45,14 @@ card-3:
     - title: Sidebar Title 2
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      btn: button
+      btn-text: Button
+      btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      btn: button
-      btn-text: Button
-      btn-link: Link
 
 card-4:
   settings:
@@ -63,12 +63,12 @@ card-4:
     - title: Sidebar Title
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      btn: button
-      btn-text: Button
-      btn-link: Link
     - title: Sidebar Title 2
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      btn: button
+      btn-text: Button
+      btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
