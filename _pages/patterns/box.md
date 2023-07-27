@@ -84,7 +84,58 @@ card-5:
     - title: David Chambers, DPhil
       subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
       link: dchamber@mail.nih.gov
-      media: https://placehold.co/600x400
+      media: /assets/images/chambers-cropped.jpg
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      btn: button
+      btn-text: Follow on Twitter
+      btn-link: Link
+
+card-6:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--flag
+    bg-color_class: light-background
+  content:
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      media: /assets/images/abazeed.jpg
+      content: ""
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      media: /assets/images/abazeed.jpg
+      content: ""
+
+card-7:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--flag
+    bg-color_class: light-background
+  content:
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: dchamber@mail.nih.gov
+      media: /assets/images/chambers-cropped.jpg
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      btn: button
+      btn-text: Follow on Twitter
+      btn-link: Link
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: dchamber@mail.nih.gov
+      media: /assets/images/chambers-cropped.jpg
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      btn: button
+      btn-text: Follow on Twitter
+      btn-link: Link
+    - title: David Chambers, DPhil
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      link: dchamber@mail.nih.gov
+      media: /assets/images/chambers-cropped.jpg
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       btn: button
@@ -110,15 +161,7 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
-
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
-
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
-
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
-
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+{% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 ---
 
 ## Theme Settings

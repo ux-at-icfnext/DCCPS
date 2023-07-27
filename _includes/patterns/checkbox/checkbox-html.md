@@ -1,5 +1,5 @@
 <fieldset class="usa-fieldset">
-  <legend class="usa-legend">Select any historical figure</legend>
+  <legend class="usa-legend">Checkboxes</legend>
   <div class="usa-checkbox">
     <input
       class="usa-checkbox__input"
@@ -10,7 +10,7 @@
       checked="checked"
     />
     <label class="usa-checkbox__label" for="check-historical-truth"
-      >Sojourner Truth</label
+      >Checkbox Example 1</label
     >
   </div>
   <div class="usa-checkbox">
@@ -22,7 +22,7 @@
       value="frederick-douglass"
     />
     <label class="usa-checkbox__label" for="check-historical-douglass"
-      >Frederick Douglass</label
+      >Checkbox Example 2</label
     >
   </div>
   <div class="usa-checkbox">
@@ -34,7 +34,7 @@
       value="booker-t-washington"
     />
     <label class="usa-checkbox__label" for="check-historical-washington"
-      >Booker T. Washington</label
+      >Checkbox Example 3</label
     >
   </div>
   <div class="usa-checkbox">
@@ -47,7 +47,7 @@
       disabled="disabled"
     />
     <label class="usa-checkbox__label" for="check-historical-carver"
-      >George Washington Carver</label
+      >Disabled Checkbox</label
     >
   </div>
 </fieldset>

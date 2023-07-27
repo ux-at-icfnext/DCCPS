@@ -1,5 +1,5 @@
 <fieldset class="usa-fieldset">
-  <legend class="usa-legend usa-legend">Select one historical figure</legend>
+  <legend class="usa-legend usa-legend">Radio Buttons</legend>
   <div class="usa-radio">
     <input
       class="usa-radio__input"
@@ -10,7 +10,7 @@
       checked="checked"
     />
     <label class="usa-radio__label" for="historical-truth"
-      >Sojourner Truth</label
+      >Radio Button 1</label
     >
   </div>
   <div class="usa-radio">
@@ -22,7 +22,7 @@
       value="frederick-douglass"
     />
     <label class="usa-radio__label" for="historical-douglass"
-      >Frederick Douglass</label
+      >Radio Button 2</label
     >
   </div>
   <div class="usa-radio">
@@ -34,7 +34,7 @@
       value="booker-t-washington"
     />
     <label class="usa-radio__label" for="historical-washington"
-      >Booker T. Washington</label
+      >Radio Button 3</label
     >
   </div>
   <div class="usa-radio">
@@ -47,7 +47,7 @@
       disabled="disabled"
     />
     <label class="usa-radio__label" for="historical-carver"
-      >George Washington Carver</label
+      >Disabled Radio Button</label
     >
   </div>
 </fieldset>

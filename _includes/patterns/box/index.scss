@@ -35,6 +35,9 @@
         .usa-card__body{
             background-color: #F2F2F2;
         }
+        .usa-card__media{
+            background-color: #F2F2F2;
+        }
     }
     .dark-background{
         .usa-card__body{
@@ -43,6 +46,19 @@
         }
         .usa-card__footer{
             background-color: #183A57;;
+        }
+    }
+    .usa-card--flag{
+        .usa-card__heading{
+            margin-left: 0;
+        }
+        .usa-card__header{
+            span{
+                margin-left: 0;
+            }
+        }
+        .usa-card__body{
+            padding: 20px;
         }
     }
 }
