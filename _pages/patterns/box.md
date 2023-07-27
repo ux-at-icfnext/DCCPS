@@ -81,7 +81,7 @@ card-5:
     group_class: usa-card--flag
     bg-color_class: light-background
   content:
-    - title: David Chambers, DPhil
+    - title: <a href="">David Chambers, DPhil</a>
       subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
       link: dchamber@mail.nih.gov
       media: /assets/images/chambers-cropped.jpg

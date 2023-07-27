@@ -18,12 +18,7 @@ jekyll2: |
 {{ page.summary | markdownify }}
 
 ## The Design
-default:
-{% include patterns/search/search.md %}
-small:
-{% include patterns/search/search.md content=page.searchsm %}
-large:
-{% include patterns/search/search.md content=page.search %}
+{% include patterns/search/search-html.md %}
 ---
 
 ## Theme Settings
