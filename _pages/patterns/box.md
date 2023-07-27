@@ -97,15 +97,15 @@ card-6:
     group_class: usa-card--flag
     bg-color_class: light-background
   content:
-    - title: David Chambers, DPhil
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+    - title: <a href="">Ali Abazeed, MPH, MPP</a>
+      subtitle: PUBLIC HEALTH ADVISOR
       link: Email  <i class="fa-solid fa-up-right-from-square"></i>
       media: /assets/images/abazeed.jpg
       content: ""
-    - title: David Chambers, DPhil
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+    - title: <a href="">Sarah Bruce Bernal, MA</a>
+      subtitle: PROGRAM ANALYST
       link: Email  <i class="fa-solid fa-up-right-from-square"></i>
-      media: /assets/images/abazeed.jpg
+      media: /assets/images/bernal.jpg
       content: ""
 
 card-7:
