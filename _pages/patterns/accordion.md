@@ -4,7 +4,7 @@ title: Accordion
 permalink: /patterns/accordion
 section: Patterns # initial cap required to make menu work
 summary: |
-  Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure.
+  An accordion is a list of headers that hide or reveal additional content when selected.
 
 htmlpath: patterns/accordion/accordion-html.md
 csspath: patterns/accordion/index.scss
@@ -24,7 +24,7 @@ accordion:
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-    - title: Exoand Collapse with Icon 2
+    - title: Expand Collapse with Icon 2
       icon: /assets/icons/funding-icon.png
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |

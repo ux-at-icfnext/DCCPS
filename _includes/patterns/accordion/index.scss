@@ -4,20 +4,22 @@
    .usa-accordion__content {}
 */
 
-.usa-accordion__button {
-  margin-block: .5rem;
-  background-color: #2f70a8;
-  color: white;
-  &[aria-expanded='false']{
-    background-image: url(/assets/img/usa-icons/chevron-down_white.svg),linear-gradient(transparent,transparent);
+.accordion{
+  .usa-accordion__button {
+    margin-block: .5rem;
+    background-color: #2f70a8;
+    color: white;
+    &[aria-expanded='false']{
+      background-image: url(/assets/img/usa-icons/chevron-down_white.svg),linear-gradient(transparent,transparent);
+    }
+    &[aria-expanded='true']{
+      background-image: url(/assets/img/usa-icons/chevron-up_white.svg),linear-gradient(transparent,transparent);
+    }
   }
-  &[aria-expanded='true']{
-    background-image: url(/assets/img/usa-icons/chevron-up_white.svg),linear-gradient(transparent,transparent);
+  .usa-accordion__button:hover{
+    background-color: #183A57;
+    color: white;
   }
-}
-.usa-accordion__button:hover{
-  background-color: #183A57;
-  color: white;
 }
 
 .accordion_title{
