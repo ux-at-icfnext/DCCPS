@@ -53,8 +53,10 @@
             margin-left: 0;
         }
         .usa-card__header{
+            background-color: #F2F2F2;
+            color: black;
             a{
-                color: white;
+                color: black;
             }
             span{
                 margin-left: 0;
@@ -62,6 +64,11 @@
         }
         .usa-card__body{
             padding: 20px;
+        }
+        .usa-card__media--inset{
+            img{
+                height:auto;
+            }
         }
     }
 }

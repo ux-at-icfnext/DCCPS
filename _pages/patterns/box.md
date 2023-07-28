@@ -96,15 +96,17 @@ card-6:
     grid_class: "desktop: grid-col-6"
     group_class: usa-card--flag
     bg-color_class: light-background
+    media_class: usa-card__media--inset
   content:
     - title: <a href="">Ali Abazeed, MPH, MPP</a>
-      subtitle: PUBLIC HEALTH ADVISOR
-      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      subtitle: PUBLIC HEALTH ADVISOR <br> PROGRAM DIRECTOR
+                OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
     - title: <a href="">Sarah Bruce Bernal, MA</a>
       subtitle: PROGRAM ANALYST
-      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      link: sarah.bernal@nih.gov
       media: /assets/images/bernal.jpg
       content: ""
 
