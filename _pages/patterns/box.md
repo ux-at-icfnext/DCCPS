@@ -127,6 +127,17 @@ card-7:
       media: /assets/images/michelle-Doose.jpeg
       content: ""
 
+card-8:
+  settings:
+    grid_class: "tablet:grid-col-4"
+    group_class: usa-card--header-first
+    bg-color_class: light-background
+  content:
+    - title: <a href="">David Chambers, DPhil</a>
+      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
@@ -149,6 +160,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
 {% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
+
+{% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
 ---
 
 ## Theme Settings
