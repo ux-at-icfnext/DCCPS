@@ -74,4 +74,22 @@
             }
         }
     }
+    .center-image{
+        .usa-card__header{
+            background-color: #F2F2F2;
+            span{
+                margin-left: 0;
+                color: black;
+            }
+            h2{
+                margin-left: 0;
+            }
+            a{
+                color: #2f70a8;
+            }
+        }
+        .usa-card__media{
+            background-color: #363636;
+        }
+    }
 }

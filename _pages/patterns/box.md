@@ -129,12 +129,13 @@ card-7:
 
 card-8:
   settings:
-    grid_class: "tablet:grid-col-4"
-    group_class: usa-card--header-first
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card__media center-image
     bg-color_class: light-background
   content:
     - title: <a href="">David Chambers, DPhil</a>
       subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+      media: /assets/images/chambers-cropped.jpg
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
