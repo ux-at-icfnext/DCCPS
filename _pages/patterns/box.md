@@ -133,11 +133,11 @@ card-8:
     group_class: usa-card__media center-image
     bg-color_class: light-background
   content:
-    - title: <a href="">David Chambers, DPhil</a>
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
-      media: /assets/images/chambers-cropped.jpg
+    - title: <a href="">Robert T. Croyle, PhD</a>
+      subtitle: DIRECTOR, DCCPS
+      media: /assets/images/robert_croyle.png
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Robert Croyle, Ph.D., was appointed director of the Division of Cancer Control and Population Sciences (DCCPS) at the National Cancer Institute (NCI) in July 2003. In this role, he oversees a research portfolio and operating budget of nearly half a billion dollars and serves on NCI’s Scientific Program Leaders governance group.
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
