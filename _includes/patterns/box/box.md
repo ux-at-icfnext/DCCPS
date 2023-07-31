@@ -51,7 +51,9 @@
         {% endif %}
         {% if card.content %}
           <div class="usa-card__body">
-            <p><a href="{{card.href}}">{{card.link}}</a></p>
+            {% if card.link %}
+                <p><a href="{{card.href}}">{{card.link}}</a></p>
+            {% endif %}
             <p>
               {{ card.content }}
             </p>
