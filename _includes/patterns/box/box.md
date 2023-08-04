@@ -10,6 +10,9 @@
 {% if set.bg-color_class %}
     {% assign bg-color_class=set.bg-color_class %}
 {% endif %}
+{% if set.media_class %}
+    {% assign media_class=set.media_class %}
+{% endif %}
 
 <ul class="usa-card-group box-component"> 
   {% for card in items %}
@@ -38,7 +41,7 @@
             {%endif%}
         {% endif %}
         {% if card.media %}
-            <div class="usa-card__media">
+            <div class="usa-card__media {{media_class}}">
                 <div class="usa-card__img">
                 <img
                     src="{{card.media}}"
@@ -48,7 +51,9 @@
         {% endif %}
         {% if card.content %}
           <div class="usa-card__body">
-            <p><a href="{{card.href}}">{{card.link}}</a></p>
+            {% if card.link %}
+                <p><a href="{{card.href}}">{{card.link}}</a></p>
+            {% endif %}
             <p>
               {{ card.content }}
             </p>

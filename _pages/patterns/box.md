@@ -96,51 +96,66 @@ card-6:
     grid_class: "desktop: grid-col-6"
     group_class: usa-card--flag
     bg-color_class: light-background
+    media_class: usa-card__media--inset
   content:
     - title: <a href="">Ali Abazeed, MPH, MPP</a>
       subtitle: PUBLIC HEALTH ADVISOR
-      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
     - title: <a href="">Sarah Bruce Bernal, MA</a>
       subtitle: PROGRAM ANALYST
-      link: Email  <i class="fa-solid fa-up-right-from-square"></i>
+      link: sarah.bernal@nih.gov
       media: /assets/images/bernal.jpg
       content: ""
 
 card-7:
   settings:
-    grid_class: "desktop: grid-col-12"
+    grid_class: "desktop: grid-col-6"
     group_class: usa-card--flag
     bg-color_class: light-background
+    media_class: usa-card__media--inset
   content:
-    - title: David Chambers, DPhil
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
-      link: dchamber@mail.nih.gov
-      media: /assets/images/chambers-cropped.jpg
+    - title: <a href="">Michelle Mollica, PhD, MPH, RN, OCN</a>
+      subtitle: DEPUTY DIRECTOR OFFICE OF CANCER SURVIVORSHI <br><br> PROGRAM DIRECTOR OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.mollica@nih.gov
+      media: /assets/images/Michelle-Mollica.png
+      content: ""
+    - title: <a href="">Michelle Doose, PhD, MPH</a>
+      subtitle: PROGRAM DIRECTOR OFFICE OF CANCER SURVIVORSHIP <br><br> PROGRAM DIRECTOR HEALTH COMMUNICATION AND INFORMATICS RESEARCH BRANCH BEHAVIORAL RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.doose@nih.gov
+      media: /assets/images/michelle-Doose.jpeg
+      content: ""
+
+card-8:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card__media center-image
+    bg-color_class: light-background
+  content:
+    - title: <a href="">Robert T. Croyle, PhD</a>
+      subtitle: DIRECTOR, DCCPS
+      media: /assets/images/robert_croyle.png
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      btn: button
-      btn-text: Follow on Twitter
-      btn-link: Link
-    - title: David Chambers, DPhil
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
-      link: dchamber@mail.nih.gov
-      media: /assets/images/chambers-cropped.jpg
-      content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      btn: button
-      btn-text: Follow on Twitter
-      btn-link: Link
-    - title: David Chambers, DPhil
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
-      link: dchamber@mail.nih.gov
-      media: /assets/images/chambers-cropped.jpg
-      content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      btn: button
-      btn-text: Follow on Twitter
-      btn-link: Link
+        Robert Croyle, Ph.D., was appointed director of the Division of Cancer Control and Population Sciences (DCCPS) at the National Cancer Institute (NCI) in July 2003. In this role, he oversees a research portfolio and operating budget of nearly half a billion dollars and serves on NCI’s Scientific Program Leaders governance group.
+
+card-9:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--flag sample-application
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - title: <a href="">Michelle Mollica, PhD, MPH, RN, OCN</a>
+      subtitle: DEPUTY DIRECTOR OFFICE OF CANCER SURVIVORSHI <br><br> PROGRAM DIRECTOR OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.mollica@nih.gov
+      media: /assets/images/Michelle-Mollica.png
+      content: ""
+    - title: <a href="">Michelle Doose, PhD, MPH</a>
+      subtitle: PROGRAM DIRECTOR OFFICE OF CANCER SURVIVORSHIP <br><br> PROGRAM DIRECTOR HEALTH COMMUNICATION AND INFORMATICS RESEARCH BRANCH BEHAVIORAL RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.doose@nih.gov
+      media: /assets/images/michelle-Doose.jpeg
+      content: ""
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
@@ -162,6 +177,12 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
+
+{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
+
+{% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
+
+{% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 ---
 
 ## Theme Settings
