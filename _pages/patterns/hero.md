@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: right
 title: Hero
 permalink: /patterns/hero
 section: Patterns # initial cap required to make menu work
 summary: |
-  A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.
+  A large banner, usually appearing as one of the first items on a page; it often contains a full-width image.
 
 
 htmlpath: patterns/hero/hero-html.md
@@ -15,25 +15,11 @@ csspath: patterns/hero/index.scss
 
 ## The Design
 {% include patterns/hero/hero-html.md %}
----
-
-
-Please note that mega menus were not added to the library. Even though this pattern exist in the USWDS, megamenus have usability and accessiblity issues. They are also becoming old fashion. See more about this from [NNGroup](https://www.nngroup.com/articles/mega-menus-work-well/). However, if the solution for you web properity needs a mega menu, the code and specifications can be found on the [header spec](https://designsystem.digital.gov/components/header/) for the USDWS.  
+--- 
 
 ## Theme Settings
-These aspects of the header can be set within the theme settings.
-- __$theme-header-font-family__  _default: ui_
-{: .usa-list}
-- __$theme-header-logo-text-width__ _default: 33%_  Width of the logo text area at desktop width as a percentage of the total header width.
-{: .usa-list}
-- __$theme-header-max-width__ _default: destop_ Maximum width of the header.
-{: .usa-list}
-- __$theme-header-min-width__ _default: desktop_ - smallest breakpoint before showing mobile menu
-{: .usa-list}
+N/A
 
-For this library we've set the `$theme-header-max-width` to "widescreen", to fit with our [Grid](/styles/grid) strategy.
-
-All other aspects to brand the header will have to be overwritten using CSS.
 
 ## Search
 Please see the [search](/patterns/search) documentation for more information on how search works in the header
