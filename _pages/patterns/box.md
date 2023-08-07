@@ -139,6 +139,24 @@ card-8:
       content: |
         Robert Croyle, Ph.D., was appointed director of the Division of Cancer Control and Population Sciences (DCCPS) at the National Cancer Institute (NCI) in July 2003. In this role, he oversees a research portfolio and operating budget of nearly half a billion dollars and serves on NCI’s Scientific Program Leaders governance group.
 
+card-9:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--header-first sample-app
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - title: <a href="">Michelle Mollica, PhD, MPH, RN, OCN</a>
+      subtitle: DEPUTY DIRECTOR OFFICE OF CANCER SURVIVORSHI <br><br> PROGRAM DIRECTOR OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.mollica@nih.gov
+      media: /assets/images/Michelle-Mollica.png
+      content: ""
+    - title: <a href="">Michelle Doose, PhD, MPH</a>
+      subtitle: PROGRAM DIRECTOR OFFICE OF CANCER SURVIVORSHIP <br><br> PROGRAM DIRECTOR HEALTH COMMUNICATION AND INFORMATICS RESEARCH BRANCH BEHAVIORAL RESEARCH PROGRAM (SECONDARY APPOINTMENT)
+      link: michelle.doose@nih.gov
+      media: /assets/images/michelle-Doose.jpeg
+      content: ""
+
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
@@ -163,6 +181,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
+
+{% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 ---
 
 ## Theme Settings
