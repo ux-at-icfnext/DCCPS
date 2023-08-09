@@ -1,9 +1,9 @@
-sitename: ICF Nex+ Library
+sitename: National Cancer Institute
 sitelogo: /assets/images/sample-logo.png
 sitelogo-small: /assets/images/sample-logo-sm.png
-sitedomain: oursite.gov
-siteemail: info@oursite.gov
-sitephone: 800-555-1GOV
-agencycontent: Agency Contact Center
-parentagency: Parent Agency
+sitedomain: https://www.cancer.gov/
+siteemail: NCIinfo@nih.gov
+sitephone: 1-800-4-CANCER
+agencycontent: Contact NCI
+parentagency: National Institutes of Health (NIH)
 parentlogo: /assets/images/parent-sample-logo.svg

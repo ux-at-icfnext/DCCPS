@@ -22,38 +22,24 @@ foot:
   - title: Link Example
     href: /
     subnav:
-      - title: Example Sub
+      - title: Office of the Director
         href: /
-      - title: Example Sub
+      - title: Behavioral Research
         href: /
-      - title: Example Sub
+      - title: Epidemiology & Genomics
         href: /
-  - title: Link Example
-    href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
+      - title: Health Disparities & Health Equality
         href: /
   - title: Link Example
     href: /
     subnav:
-      - title: Example Sub
+      - title: Healthcare Delivery Research
         href: /
-      - title: Example Sub
+      - title: Implementation Science
         href: /
-      - title: Example Sub
+      - title: Surveillance
         href: /
-  - title: Link Example
-    href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
+      - title: Survivorship
         href: /
 
 social:
