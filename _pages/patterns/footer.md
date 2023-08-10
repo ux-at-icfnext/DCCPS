@@ -17,7 +17,7 @@ csspath: patterns/footer/index.scss
 {{ page.summary }}
 
 ## The Design
-{% include patterns/footer/footer.md settings="prototype" %}
+{% include patterns/footer/footer-big.md settings="prototype" %}
 ---
 
 {% include patterns/alert/alert.md content=page.alert %}
