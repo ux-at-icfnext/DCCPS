@@ -1,0 +1,6 @@
+.usa-breadcrumb__list-item:not(:last-child):after{
+    -webkit-mask: url(/assets/icons/slash.svg) no-repeat center/contain
+}
+.usa-breadcrumb__link:visited{
+    color: #005ea2;
+}
