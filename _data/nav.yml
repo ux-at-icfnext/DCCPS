@@ -19,7 +19,7 @@ utls:
     href: /
 
 foot:
-  - title: Link Example
+  - title:
     href: /
     subnav:
       - title: Office of the Director
@@ -30,7 +30,7 @@ foot:
         href: /
       - title: Health Disparities & Health Equality
         href: /
-  - title: Link Example
+  - title:
     href: /
     subnav:
       - title: Healthcare Delivery Research
