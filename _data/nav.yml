@@ -19,56 +19,33 @@ utls:
     href: /
 
 foot:
-  - title: Link Example
+  - title:
     href: /
     subnav:
-      - title: Example Sub
+      - title: Office of the Director
         href: /
-      - title: Example Sub
+      - title: Behavioral Research
         href: /
-      - title: Example Sub
+      - title: Epidemiology & Genomics
         href: /
-  - title: Link Example
+      - title: Health Disparities & Health Equality
+        href: /
+  - title:
     href: /
     subnav:
-      - title: Example Sub
+      - title: Healthcare Delivery Research
         href: /
-      - title: Example Sub
+      - title: Implementation Science
         href: /
-      - title: Example Sub
+      - title: Surveillance
         href: /
-  - title: Link Example
-    href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-  - title: Link Example
-    href: /
-    subnav:
-      - title: Example Sub
-        href: /
-      - title: Example Sub
-        href: /
-      - title: Example Sub
+      - title: Survivorship
         href: /
 
 social:
-  - icon: /assets/img/usa-icons/facebook.svg
-    alt: "Facebook"
-    link: /
-  - icon: /assets/img/usa-icons/twitter.svg
+  - icon: /assets/icons/twitter_white.svg
     alt: "Twitter"
     link: /
-  - icon: /assets/img/usa-icons/youtube.svg
-    alt: "YouTube"
-    link: /
-  - icon: /assets/img/usa-icons/instagram.svg
-    alt: "Instagram"
-    link: /
-  - icon: /assets/img/usa-icons/rss_feed.svg
-    alt: "RSS"
+  - icon: /assets/icons/linkedin-in_white.svg
+    alt: "Linkedin"
     link: /
