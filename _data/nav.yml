@@ -43,18 +43,9 @@ foot:
         href: /
 
 social:
-  - icon: /assets/img/usa-icons/facebook.svg
-    alt: "Facebook"
-    link: /
-  - icon: /assets/img/usa-icons/twitter.svg
+  - icon: /assets/icons/twitter_white.svg
     alt: "Twitter"
     link: /
-  - icon: /assets/img/usa-icons/youtube.svg
-    alt: "YouTube"
-    link: /
-  - icon: /assets/img/usa-icons/instagram.svg
-    alt: "Instagram"
-    link: /
-  - icon: /assets/img/usa-icons/rss_feed.svg
-    alt: "RSS"
+  - icon: /assets/icons/linkedin-in_white.svg
+    alt: "Linkedin"
     link: /
