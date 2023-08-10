@@ -54,7 +54,9 @@
             <div class="link-button">
               {% if card.name %}
                 <span><a href="">{{card.name}}</a></span>
-                <span class="location">{{card.location}}</span>
+                {% if card.location %}
+                  <span class="location">{{card.location}}</span>
+                {% endif %}
               {% endif %}
               {% if card.role %}
                 <span>{{card.role}}</span>

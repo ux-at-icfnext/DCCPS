@@ -78,18 +78,17 @@ card-4:
 card-5:
   settings:
     grid_class: "desktop: grid-col-12"
-    group_class: usa-card--flag
+    group_class: usa-card--flag profile-card
     bg-color_class: light-background
+    media_class: usa-card__media--inset
   content:
-    - title: <a href="">David Chambers, DPhil</a>
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+    - name: <a href="">David Chambers, DPhil</a>
+      role: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
       link: dchamber@mail.nih.gov
       media: /assets/images/chambers-cropped.jpg
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      btn: button
-      btn-text: Follow on Twitter
-      btn-link: Link
+      flag-btn: Follow on Twitter
 
 card-6:
   settings:
@@ -204,7 +203,7 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
-{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
+
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
 
