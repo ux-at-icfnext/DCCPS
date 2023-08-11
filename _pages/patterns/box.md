@@ -78,18 +78,17 @@ card-4:
 card-5:
   settings:
     grid_class: "desktop: grid-col-12"
-    group_class: usa-card--flag
+    group_class: usa-card--flag profile-card
     bg-color_class: light-background
+    media_class: usa-card__media--inset
   content:
-    - title: <a href="">David Chambers, DPhil</a>
-      subtitle: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
+    - name: <a href="">David Chambers, DPhil</a>
+      role: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
       link: dchamber@mail.nih.gov
       media: /assets/images/chambers-cropped.jpg
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      btn: button
-      btn-text: Follow on Twitter
-      btn-link: Link
+      flag-btn: Follow on Twitter
 
 card-6:
   settings:
@@ -141,21 +140,47 @@ card-8:
 
 card-9:
   settings:
-    grid_class: "desktop: grid-col-6"
-    group_class: usa-card--flag sample-application
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--header-first sample-app
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - title: <a href="">Michelle Mollica, PhD, MPH, RN, OCN</a>
-      subtitle: DEPUTY DIRECTOR OFFICE OF CANCER SURVIVORSHI <br><br> PROGRAM DIRECTOR OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
-      link: michelle.mollica@nih.gov
-      media: /assets/images/Michelle-Mollica.png
+    - title: |
+        Sexual Health Empowerment for Cervical Health Literacy and    Cancer Prevention
+      principal-investigator: Megha Ramaswamy, Ph.D. Exit Disclaimer
+      location: UNIVERSITY OF KANSAS SCHOOL OF MEDICINE
+      profile: /assets/images/ramaswamy-megha.jpg
       content: ""
-    - title: <a href="">Michelle Doose, PhD, MPH</a>
-      subtitle: PROGRAM DIRECTOR OFFICE OF CANCER SURVIVORSHIP <br><br> PROGRAM DIRECTOR HEALTH COMMUNICATION AND INFORMATICS RESEARCH BRANCH BEHAVIORAL RESEARCH PROGRAM (SECONDARY APPOINTMENT)
-      link: michelle.doose@nih.gov
-      media: /assets/images/michelle-Doose.jpeg
+      award-number: 1R01CA181047-01A1
+      btn: true
+      btn-text: View Abstract
+      btn-2: true
+      btn-2-text: View Grant Application (PDF, 100KB)
+    - title: |
+        Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
+      principal-investigator: Wendy Demark-Wahnefried, Ph.D.
+      location: UNIVERSITY OF ALABAMA AT BIRMINGHAM
+      profile: /assets/images/wendy-demark-wahnefried.jpg
       content: ""
+      award-number: 1R21CA182508-01
+      btn: true
+      btn-text: View Abstract
+      btn-2: true
+      btn-2-text: View Grant Application (PDF, 100KB)
+
+card-10:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--flag profile-card
+    bg-color_class: light-background
+  content:
+    - name: Amanda Fallin-Bennett, Ph.D., R.N.
+      location: UNIVERSITY OF KENTUCKY
+      role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
+      media: /assets/images/amanda-fallinbennett.jpg
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      flag-btn: Other TRCB Grantees
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
@@ -178,11 +203,13 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
-{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
+
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
 
 {% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
+
+{% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
 ---
 
 ## Theme Settings

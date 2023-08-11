@@ -51,9 +51,54 @@
         {% endif %}
         {% if card.content %}
           <div class="usa-card__body">
-            {% if card.link %}
-                <p><a href="{{card.href}}">{{card.link}}</a></p>
-            {% endif %}
+            <div class="link-button">
+              {% if card.name %}
+                <span><a href="">{{card.name}}</a></span>
+                {% if card.location %}
+                  <span class="location">{{card.location}}</span>
+                {% endif %}
+              {% endif %}
+              {% if card.role %}
+                <span>{{card.role}}</span>
+              {% endif %}
+              {% if card.link %}
+                <span><a href="{{card.href}}">{{card.link}}</a></span>
+              {% endif %}
+              {%if card.flag-btn %}
+              <ul class="usa-button-group {{ class }} {{ seg }}">
+                <li class="usa-button-group__item">
+                  <a href="{{ card.btn-link }}" class="usa-button {{ card.btn-class }}"
+                    {% if btn.disabled %} disabled="disabled" {% endif %}
+                    >{{ card.flag-btn }}</a
+                  >
+                </li>
+              </ul>
+              {% endif %}
+            </div>
+            {%if card.principal-investigator %}
+              <div class="sample-app__content">
+                <div>
+                  <h4>Principal Investigator</h4>
+                  <div class="principal-investigator">
+                    <div class="usa-card__media {{media_class}}">
+                        <div class="usa-card__img">
+                        <img
+                            src="{{card.profile}}"
+                        />
+                        </div>
+                    </div>  
+                    <div>
+                      <a href="">{{card.principal-investigator}} <i class="fas fa-external-link-alt"></i></a>
+                      <span class="location">{{card.location}}</span>
+                    </div>                
+                  </div>
+                </div>
+                <div>
+                  <h4>Grant Mechanism & Award Number</h4>
+                  <span>{{card.award-number}}</span>
+                </div>
+              </div>
+            {%endif%}
             <p>
               {{ card.content }}
             </p>
@@ -68,6 +113,14 @@
                   >{{ card.btn-text }}</a
                 >
               </li>
+              {% if card.btn-2 %}
+                <li class="usa-button-group__item">
+                  <a href="{{ card-btn-2-link }}" class="usa-button {{ card.btn-2-class }}"
+                    {% if btn-2.disabled %} disabled="disabled" {% endif %}
+                    >{{ card.btn-2-text }}</a
+                  >
+                </li>
+              {% endif %}
             </ul>
           </div>
         {% endif %}
