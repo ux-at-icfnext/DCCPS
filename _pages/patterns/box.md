@@ -182,6 +182,25 @@ card-10:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       flag-btn: Other TRCB Grantees
 
+card-11:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--flag
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - name: <a href="">Ali Abazeed, MPH, MPP</a>
+      role: PUBLIC HEALTH ADVISOR
+      location: GEORGIA STATE UNIVERSITY
+      media: /assets/images/abazeed.jpg
+      content: ""
+      flag-btn: Other TRCB Grantees
+    - title: <a href="">Sarah Bruce Bernal, MA</a>
+      subtitle: PROGRAM ANALYST
+      link: sarah.bernal@nih.gov
+      media: /assets/images/bernal.jpg
+      content: ""
+
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
@@ -210,6 +229,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 
 {% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
+
+{% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
 ---
 
 ## Theme Settings

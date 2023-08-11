@@ -59,7 +59,7 @@
                 {% endif %}
               {% endif %}
               {% if card.role %}
-                <span>{{card.role}}</span>
+                <span class="role">{{card.role}}</span>
               {% endif %}
               {% if card.link %}
                 <span><a href="{{card.href}}">{{card.link}}</a></span>

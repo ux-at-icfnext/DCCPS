@@ -68,6 +68,19 @@
         .usa-card__body{
             padding: 20px;
         }
+        span{
+            padding-bottom: 0.5rem;
+        }
+        .location{
+            display: block;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        .role{
+            display: block;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
     }
     .center-image{
         .usa-card__header{
@@ -171,6 +184,11 @@
                     color: #2f70a8;
                 }
             }
+        }
+    }
+    .col-6-card{
+        .usa-card__img img{
+            height: auto;
         }
     }
 }
