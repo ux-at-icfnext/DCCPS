@@ -216,17 +216,12 @@ card-12:
       date: February, 2020
       media: /assets/images/ramaswamy-megha.jpg
       content: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
-    - title: |
-        Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
-      principal-investigator: Wendy Demark-Wahnefried, Ph.D.
-      location: UNIVERSITY OF ALABAMA AT BIRMINGHAM
-      profile: /assets/images/wendy-demark-wahnefried.jpg
-      content: ""
-      award-number: 1R21CA182508-01
-      btn: true
-      btn-text: View Abstract
-      btn-2: true
-      btn-2-text: View Grant Application (PDF, 100KB)
+    - blog-title: |
+        Understanding Context: Learning How Organizations Affect Healthcare Delivery
+      author: Sarah Kobrin
+      date: February, 2020
+      media: /assets/images/ramaswamy-megha.jpg
+      content: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
