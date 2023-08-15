@@ -49,6 +49,9 @@
               <div>
                 <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
               </div>
+              <div class="name_date">
+                <span>{{card.name}}</span><span> | </span><span>{{card.date}}</span>
+              </div>
             </div>
         {% endif %}
         {% if card.media %}

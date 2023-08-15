@@ -212,9 +212,9 @@ card-12:
   content:
     - blog-title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
-      principal-investigator: Megha Ramaswamy, Ph.D. Exit Disclaimer
-      location: UNIVERSITY OF KANSAS SCHOOL OF MEDICINE
-      profile: /assets/images/ramaswamy-megha.jpg
+      name: Sarah Kobrin
+      date: February, 2020
+      media: /assets/images/ramaswamy-megha.jpg
       content: ""
       award-number: 1R01CA181047-01A1
       btn: true
