@@ -191,4 +191,31 @@
             height: auto;
         }
     }
+    .blog-box{
+        .dark-banner{
+            background-color: #363636;
+            color: white;
+            padding: 15px 20px;
+            align-items: center;
+        }
+        .usa-card__header{
+            display: block;
+            background-color: #F2F2F2;
+            h2{
+                a{
+                    color: #2f70a8;
+                }
+            }
+            .usa-card__heading{
+                margin-left: 0;
+            }
+        }
+        img{
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            width: 84px;
+            max-height: 84px;
+        }
+    }
 }

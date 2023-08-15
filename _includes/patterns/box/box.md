@@ -32,6 +32,9 @@
             {% else %}
             <div class="usa-card__header">
                 <div>
+                  {% if card.blog-title %}
+                    <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
+                  {% endif %}
                     <h2 class="usa-card__heading">{{card.title}}</h2>
                     {% if card.subtitle %}
                         <span>{{card.subtitle}}</span>
@@ -39,6 +42,14 @@
                 </div>
              </div>
             {%endif%}
+        {% endif %}
+        {% if card.blog-title %}
+            <span class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</span>
+            <div class="usa-card__header">
+              <div>
+                <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
+              </div>
+            </div>
         {% endif %}
         {% if card.media %}
             <div class="usa-card__media {{media_class}}">

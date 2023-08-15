@@ -189,17 +189,49 @@ card-11:
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - name: <a href="">Ali Abazeed, MPH, MPP</a>
-      role: PUBLIC HEALTH ADVISOR
+    - name: Claire Spears, Ph.D.
+      role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
       location: GEORGIA STATE UNIVERSITY
-      media: /assets/images/abazeed.jpg
+      media: /assets/images/claire-spears.jpg
       content: ""
       flag-btn: Other TRCB Grantees
-    - title: <a href="">Sarah Bruce Bernal, MA</a>
-      subtitle: PROGRAM ANALYST
-      link: sarah.bernal@nih.gov
-      media: /assets/images/bernal.jpg
+    - name: Olivia Wackowski, Ph.D., M.P.H.
+      role: PROGRAM ANALYST
+      location: |
+                RUTGERS UNIVERSITY — SCHOOL OF PUBLIC HEALTH AND CANCER INSTITUTE OF NEW JERSEY
+      media: /assets/images/olivia-wackowski.jpg
       content: ""
+      flag-btn: Other TRCB Grantees
+
+card-12:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--header-first blog-box
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - blog-title: |
+        Understanding Context: Learning How Organizations Affect Healthcare Delivery
+      principal-investigator: Megha Ramaswamy, Ph.D. Exit Disclaimer
+      location: UNIVERSITY OF KANSAS SCHOOL OF MEDICINE
+      profile: /assets/images/ramaswamy-megha.jpg
+      content: ""
+      award-number: 1R01CA181047-01A1
+      btn: true
+      btn-text: View Abstract
+      btn-2: true
+      btn-2-text: View Grant Application (PDF, 100KB)
+    - title: |
+        Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
+      principal-investigator: Wendy Demark-Wahnefried, Ph.D.
+      location: UNIVERSITY OF ALABAMA AT BIRMINGHAM
+      profile: /assets/images/wendy-demark-wahnefried.jpg
+      content: ""
+      award-number: 1R21CA182508-01
+      btn: true
+      btn-text: View Abstract
+      btn-2: true
+      btn-2-text: View Grant Application (PDF, 100KB)
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
@@ -231,6 +263,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
 
 {% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
+
+{% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
 ---
 
 ## Theme Settings
