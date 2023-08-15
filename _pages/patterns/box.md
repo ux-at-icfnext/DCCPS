@@ -212,15 +212,10 @@ card-12:
   content:
     - blog-title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
-      name: Sarah Kobrin
+      author: Sarah Kobrin
       date: February, 2020
       media: /assets/images/ramaswamy-megha.jpg
-      content: ""
-      award-number: 1R01CA181047-01A1
-      btn: true
-      btn-text: View Abstract
-      btn-2: true
-      btn-2-text: View Grant Application (PDF, 100KB)
+      content: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
     - title: |
         Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
       principal-investigator: Wendy Demark-Wahnefried, Ph.D.
