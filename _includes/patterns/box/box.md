@@ -113,6 +113,18 @@
                 </div>
               </div>
             {%endif%}
+            {% if card.blog-title %}
+              <div class="blog-box__content">
+                <div class="blog-profile">
+                  <div class="usa-card__img">
+                    <img src="{{card.profile-picture}}"/>
+                  </div>
+                </div>
+                <div class="blurb">
+                  <p>{{card.blog-blurb}}</p>
+                </div>
+              </div>
+            {% endif %}
             <p>
               {{ card.content }}
             </p>

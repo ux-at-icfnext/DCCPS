@@ -215,6 +215,7 @@
             }
             .name_date{
                 border-bottom: solid black 1px;
+                padding: 10px 0;
             }
         }
         img{
@@ -223,6 +224,17 @@
             border-radius: 50%;
             width: 84px;
             max-height: 84px;
+        }
+        .blog-box__content{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+        }
+        .usa-card__body{
+            padding-top: 15px;
+        }
+        .usa-card__img{
+            padding-top: 15px;
         }
     }
 }

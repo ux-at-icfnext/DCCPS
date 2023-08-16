@@ -214,8 +214,9 @@ card-12:
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
       author: Sarah Kobrin
       date: February, 2020
-      media: /assets/images/ramaswamy-megha.jpg
-      content: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
+      profile-picture: /assets/images/ramaswamy-megha.jpg
+      blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
+      content: ""
     - blog-title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
       author: Sarah Kobrin
