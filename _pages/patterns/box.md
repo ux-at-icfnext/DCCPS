@@ -240,6 +240,11 @@ card-13:
       profile-picture: /assets/images/m22_cover.jpg
       blurb: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
       content: ""
+      monograph-buttons: true
+      btn: button 1
+      btn-text: button 1
+      btn-2: button 2
+      btn-2-text: button 2
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}

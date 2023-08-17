@@ -149,6 +149,26 @@
                 </div>
                 <div class="blurb">
                   <p>{{card.blurb}}</p>
+                  {% if card.monograph-buttons %}
+                    <div>
+                      <ul class="usa-button-group {{ class }} {{ seg }}">
+                        <li class="usa-button-group__item">
+                          <a href="{{ card.btn-link }}" class="usa-button {{ card.btn-class }}"
+                            {% if btn.disabled %} disabled="disabled" {% endif %}
+                            >{{ card.btn-text }}</a
+                          >
+                        </li>
+                        {% if card.btn-2 %}
+                          <li class="usa-button-group__item">
+                            <a href="{{ card-btn-2-link }}" class="usa-button {{ card.btn-2-class }}"
+                              {% if btn-2.disabled %} disabled="disabled" {% endif %}
+                              >{{ card.btn-2-text }}</a
+                            >
+                          </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                  {% endif %}
                 </div>
               </div>
             {% endif %}
