@@ -212,16 +212,32 @@ card-12:
   content:
     - blog-title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
+      dispatch-banner: true
       author: Sarah Kobrin
       date: February, 2020
-      profile-picture: /assets/images/ramaswamy-megha.jpg
+      profile-picture: /assets/images/kobrin.jpg
       blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
       content: ""
     - blog-title: |
-        Understanding Context: Learning How Organizations Affect Healthcare Delivery
-      author: Sarah Kobrin
-      date: February, 2020
-      profile-picture: /assets/images/ramaswamy-megha.jpg
+        Reflections on D&I Measurement Challenges, Progress, and Next Steps
+      author: Gila Neta
+      date: January, 2019
+      profile-picture: /assets/images/neta.jpg
+      blog-blurb: On the heels of the <a href="">12th Annual Conference on the Science of Dissemination and Implementation Exit Disclaimer</a>, I find myself reflecting on the essential topic of measurement.
+      content: ""
+
+card-13:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--header-first monograph
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - monograph: MONOGRAPH 22
+      monograph-title: A Socioecological Approach to Addressing Tobacco-Related Health Disparities
+      top-banner: true
+      date: September, 2017
+      profile-picture: /assets/images/m22_cover.jpg
       blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
       content: ""
 
@@ -257,6 +273,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
 
 {% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
+
+{% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
 ---
 
 ## Theme Settings

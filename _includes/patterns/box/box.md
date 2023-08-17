@@ -44,13 +44,28 @@
             {%endif%}
         {% endif %}
         {% if card.blog-title %}
+          {% if card.top-banner %}
             <span class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</span>
+          {% endif %}
             <div class="usa-card__header">
               <div>
                 <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
               </div>
               <div class="name_date">
                 <span>{{card.author}}</span><span> | </span><span>{{card.date}}</span>
+              </div>
+            </div>
+        {% endif %}
+        {% if card.monograph %}
+          {% if card.top-banner %}
+            <span class="dark-banner">Featured Monograph</span>
+          {% endif %}
+            <div class="usa-card__header">
+              <div class="name_date">
+                <span>{{card.monograph}}</span><span> : </span><span>{{card.date}}</span>
+              </div>
+              <div>
+                <h2 class="usa-card__heading"><a href="">{{card.monograph-title}}</a></h2>
               </div>
             </div>
         {% endif %}
@@ -114,6 +129,18 @@
               </div>
             {%endif%}
             {% if card.blog-title %}
+              <div class="blog-box__content">
+                <div class="blog-profile">
+                  <div class="usa-card__img">
+                    <img src="{{card.profile-picture}}"/>
+                  </div>
+                </div>
+                <div class="blurb">
+                  <p>{{card.blog-blurb}}</p>
+                </div>
+              </div>
+            {% endif %}
+            {% if card.monograph %}
               <div class="blog-box__content">
                 <div class="blog-profile">
                   <div class="usa-card__img">
