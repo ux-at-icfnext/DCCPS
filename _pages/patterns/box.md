@@ -238,7 +238,7 @@ card-13:
       top-banner: true
       date: September, 2017
       profile-picture: /assets/images/m22_cover.jpg
-      blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
+      blurb: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
       content: ""
 
 jekyll: |

@@ -148,7 +148,7 @@
                   </div>
                 </div>
                 <div class="blurb">
-                  <p>{{card.blog-blurb}}</p>
+                  <p>{{card.blurb}}</p>
                 </div>
               </div>
             {% endif %}
