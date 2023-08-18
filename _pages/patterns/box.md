@@ -115,19 +115,19 @@ card-6:
 card-7:
   settings:
     grid_class: "desktop: grid-col-6"
-    group_class: usa-card--flag
+    group_class: usa-card--flag round-img
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - title: <a href="">Michelle Mollica, PhD, MPH, RN, OCN</a>
-      subtitle: DEPUTY DIRECTOR OFFICE OF CANCER SURVIVORSHI <br><br> PROGRAM DIRECTOR OUTCOMES RESEARCH BRANCH HEALTHCARE DELIVERY RESEARCH PROGRAM (SECONDARY APPOINTMENT)
-      link: michelle.mollica@nih.gov
-      media: /assets/images/Michelle-Mollica.png
+    - title: Ali Abazeed, MPH, MPP
+      subtitle: Institute
+      link: ali.abazeed@nih.gov
+      media: /assets/images/abazeed.jpg
       content: ""
-    - title: <a href="">Michelle Doose, PhD, MPH</a>
-      subtitle: PROGRAM DIRECTOR OFFICE OF CANCER SURVIVORSHIP <br><br> PROGRAM DIRECTOR HEALTH COMMUNICATION AND INFORMATICS RESEARCH BRANCH BEHAVIORAL RESEARCH PROGRAM (SECONDARY APPOINTMENT)
-      link: michelle.doose@nih.gov
-      media: /assets/images/michelle-Doose.jpeg
+    - title: Ali Abazeed, MPH, MPP
+      subtitle: Institute
+      link: ali.abazeed@nih.gov
+      media: /assets/images/abazeed.jpg
       content: ""
 
 card-8:
@@ -290,7 +290,7 @@ jekyll: |
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
-
+{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
 
