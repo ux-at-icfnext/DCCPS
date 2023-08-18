@@ -25,13 +25,16 @@
                             <img src="{{card.icon}}" alt="{{card.alt}}">
                         </div>
                     <div>
-                        <span>Icon Label</span>
+                        <span>{{card.icon-label}}</span>
                         <h2 class="usa-card__heading">{{card.title}}</h2>
                     </div>
                 </div>
             {% else %}
             <div class="usa-card__header">
                 <div>
+                  {% if card.blog-title %}
+                    <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
+                  {% endif %}
                     <h2 class="usa-card__heading">{{card.title}}</h2>
                     {% if card.subtitle %}
                         <span>{{card.subtitle}}</span>
@@ -39,6 +42,32 @@
                 </div>
              </div>
             {%endif%}
+        {% endif %}
+        {% if card.blog-title %}
+          {% if card.top-banner %}
+            <span class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</span>
+          {% endif %}
+            <div class="usa-card__header">
+              <div>
+                <h2 class="usa-card__heading"><a href="">{{card.blog-title}}</a></h2>
+              </div>
+              <div class="name_date">
+                <span>{{card.author}}</span><span> | </span><span>{{card.date}}</span>
+              </div>
+            </div>
+        {% endif %}
+        {% if card.monograph %}
+          {% if card.top-banner %}
+            <span class="dark-banner">Featured Monograph</span>
+          {% endif %}
+            <div class="usa-card__header">
+              <div class="name_date">
+                <span>{{card.monograph}}</span><span> : </span><span>{{card.date}}</span>
+              </div>
+              <div>
+                <h2 class="usa-card__heading"><a href="">{{card.monograph-title}}</a></h2>
+              </div>
+            </div>
         {% endif %}
         {% if card.media %}
             <div class="usa-card__media {{media_class}}">
@@ -59,7 +88,7 @@
                 {% endif %}
               {% endif %}
               {% if card.role %}
-                <span>{{card.role}}</span>
+                <span class="role">{{card.role}}</span>
               {% endif %}
               {% if card.link %}
                 <span><a href="{{card.href}}">{{card.link}}</a></span>
@@ -99,12 +128,81 @@
                 </div>
               </div>
             {%endif%}
+            {% if card.blog-title %}
+              <div class="blog-box__content">
+                <div class="blog-profile">
+                  <div class="usa-card__img">
+                    <img src="{{card.profile-picture}}"/>
+                  </div>
+                </div>
+                <div class="blurb">
+                  <p>{{card.blog-blurb}}</p>
+                </div>
+              </div>
+            {% endif %}
+            {% if card.monograph %}
+              <div class="blog-box__content">
+                <div class="blog-profile">
+                  <div class="usa-card__img">
+                    <img src="{{card.profile-picture}}"/>
+                  </div>
+                </div>
+                <div class="blurb">
+                  <p>{{card.blurb}}</p>
+                  {% if card.monograph-buttons %}
+                    <div>
+                      <ul class="usa-button-group {{ class }} {{ seg }}">
+                        <li class="usa-button-group__item">
+                          <a href="{{ card.btn-link }}" class="usa-button {{ card.btn-class }}"
+                            {% if btn.disabled %} disabled="disabled" {% endif %}
+                            >{{ card.btn-text }}</a
+                          >
+                        </li>
+                        {% if card.btn-2 %}
+                          <li class="usa-button-group__item">
+                            <a href="{{ card-btn-2-link }}" class="usa-button {{ card.btn-2-class }}"
+                              {% if btn-2.disabled %} disabled="disabled" {% endif %}
+                              >{{ card.btn-2-text }}</a
+                            >
+                          </li>
+                        {% endif %}
+                        {% if card.btn-3 %}
+                          <li class="usa-button-group__item">
+                            <a href="{{ card-btn-3-link }}" class="usa-button {{ card.btn-3-class }}"
+                              {% if btn-3.disabled %} disabled="disabled" {% endif %}
+                              >{{ card.btn-3-text }}</a
+                            >
+                          </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+            {% if card.search %}
+              <section aria-label="Search component">
+                <form class="usa-search" role="search">
+                  <label class="usa-sr-only" for="search-field">Search</label>
+                  <input class="usa-input" id="search-field" type="search" name="search" placeholder="{{card.search-placeholder}}"/>
+                  <button class="usa-button" type="submit">
+                    <span class="usa-search__submit-text">Search </span
+                    ><img
+                      src="/assets/img/usa-icons-bg/search--white.svg"
+                      class="usa-search__submit-icon"
+                      alt="Search"
+                    />
+                  </button>
+                </form>
+              </section>
+              <a href="" class="search-link">{{card.search-link}}</a>
+            {% endif %}
             <p>
               {{ card.content }}
             </p>
           </div>
         {% endif %}
-        {% if card.btn %}
+        {% if card.footer %}
           <div class="usa-card__footer">
             <ul class="usa-button-group {{ class }} {{ seg }}">
               <li class="usa-button-group__item">

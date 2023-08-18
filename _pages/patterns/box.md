@@ -45,11 +45,13 @@ card-3:
     - title: Sidebar Title 2
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
       btn: button
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -66,11 +68,13 @@ card-4:
     - title: Sidebar Title 2
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
       btn: button
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -152,6 +156,7 @@ card-9:
       profile: /assets/images/ramaswamy-megha.jpg
       content: ""
       award-number: 1R01CA181047-01A1
+      footer: true
       btn: true
       btn-text: View Abstract
       btn-2: true
@@ -163,6 +168,7 @@ card-9:
       profile: /assets/images/wendy-demark-wahnefried.jpg
       content: ""
       award-number: 1R21CA182508-01
+      footer: true
       btn: true
       btn-text: View Abstract
       btn-2: true
@@ -181,6 +187,87 @@ card-10:
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       flag-btn: Other TRCB Grantees
+
+card-11:
+  settings:
+    grid_class: "desktop: grid-col-6"
+    group_class: usa-card--flag
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - name: Claire Spears, Ph.D.
+      role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
+      location: GEORGIA STATE UNIVERSITY
+      media: /assets/images/claire-spears.jpg
+      content: ""
+      flag-btn: Other TRCB Grantees
+    - name: Olivia Wackowski, Ph.D., M.P.H.
+      role: PROGRAM ANALYST
+      location: |
+                RUTGERS UNIVERSITY — SCHOOL OF PUBLIC HEALTH AND CANCER INSTITUTE OF NEW JERSEY
+      media: /assets/images/olivia-wackowski.jpg
+      content: ""
+      flag-btn: Other TRCB Grantees
+
+card-12:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--header-first blog-box
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - blog-title: |
+        Understanding Context: Learning How Organizations Affect Healthcare Delivery
+      dispatch-banner: true
+      author: Sarah Kobrin
+      date: February, 2020
+      profile-picture: /assets/images/kobrin.jpg
+      blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
+      content: ""
+    - blog-title: |
+        Reflections on D&I Measurement Challenges, Progress, and Next Steps
+      author: Gila Neta
+      date: January, 2019
+      profile-picture: /assets/images/neta.jpg
+      blog-blurb: On the heels of the <a href="">12th Annual Conference on the Science of Dissemination and Implementation Exit Disclaimer</a>, I find myself reflecting on the essential topic of measurement.
+      content: ""
+
+card-13:
+  settings:
+    grid_class: "desktop: grid-col-12"
+    group_class: usa-card--header-first monograph
+    bg-color_class: light-background
+    media_class: usa-card__media--inset
+  content:
+    - monograph: MONOGRAPH 22
+      monograph-title: A Socioecological Approach to Addressing Tobacco-Related Health Disparities
+      top-banner: true
+      date: September, 2017
+      profile-picture: /assets/images/m22_cover.jpg
+      blurb: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
+      content: ""
+      monograph-buttons: true
+      footer: false
+      btn: button 1
+      btn-text: View Monograph 22 (PDF, 12.8 MB)
+      btn-2: button 2
+      btn-2-text: View Executive Summary (PDF, 1.1 MB)
+      btn-3: button 3
+      btn-3-text: View Overview Presentation (PDF, 2.8 MB)
+
+card-14:
+  settings:
+    grid_class: "tablet:grid-col-6"
+    group_class: usa-card--header-first
+    bg-color_class: light-background
+  content:
+    - title: Find Cancer Control Funding Opportunities
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Funding
+      search: true
+      search-placeholder: Search for Funding
+      search-link: View all DCCPS Funding Opportunities
+      content: ""
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
@@ -210,6 +297,14 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 
 {% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
+
+{% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
+
+{% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
+
+{% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
+
+{% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
 ---
 
 ## Theme Settings
