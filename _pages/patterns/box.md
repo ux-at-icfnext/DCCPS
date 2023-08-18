@@ -51,6 +51,7 @@ card-3:
       btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -73,6 +74,7 @@ card-4:
       btn-link: Link
     - title: Sidebar Title 3
       icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -253,6 +255,20 @@ card-13:
       btn-3: button 3
       btn-3-text: View Overview Presentation (PDF, 2.8 MB)
 
+card-14:
+  settings:
+    grid_class: "tablet:grid-col-6"
+    group_class: usa-card--header-first
+    bg-color_class: light-background
+  content:
+    - title: Find Cancer Control Funding Opportunities
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Funding
+      search: true
+      search-placeholder: Search for Funding
+      search-link: View all DCCPS Funding Opportunities
+      content: ""
+
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
@@ -287,6 +303,8 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
 
 {% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
+
+{% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
 ---
 
 ## Theme Settings
