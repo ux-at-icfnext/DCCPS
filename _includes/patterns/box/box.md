@@ -166,6 +166,14 @@
                             >
                           </li>
                         {% endif %}
+                        {% if card.btn-3 %}
+                          <li class="usa-button-group__item">
+                            <a href="{{ card-btn-3-link }}" class="usa-button {{ card.btn-3-class }}"
+                              {% if btn-3.disabled %} disabled="disabled" {% endif %}
+                              >{{ card.btn-3-text }}</a
+                            >
+                          </li>
+                        {% endif %}
                       </ul>
                     </div>
                   {% endif %}
@@ -177,7 +185,7 @@
             </p>
           </div>
         {% endif %}
-        {% if card.btn %}
+        {% if card.footer %}
           <div class="usa-card__footer">
             <ul class="usa-button-group {{ class }} {{ seg }}">
               <li class="usa-button-group__item">

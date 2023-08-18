@@ -280,5 +280,9 @@
         .usa-card__img{
             padding-top: 15px;
         }
+        .usa-button-group{
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 2fr;
+        }
     }
 }

@@ -45,6 +45,7 @@ card-3:
     - title: Sidebar Title 2
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
       btn: button
       btn-text: Button
       btn-link: Link
@@ -66,6 +67,7 @@ card-4:
     - title: Sidebar Title 2
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
       btn: button
       btn-text: Button
       btn-link: Link
@@ -152,6 +154,7 @@ card-9:
       profile: /assets/images/ramaswamy-megha.jpg
       content: ""
       award-number: 1R01CA181047-01A1
+      footer: true
       btn: true
       btn-text: View Abstract
       btn-2: true
@@ -163,6 +166,7 @@ card-9:
       profile: /assets/images/wendy-demark-wahnefried.jpg
       content: ""
       award-number: 1R21CA182508-01
+      footer: true
       btn: true
       btn-text: View Abstract
       btn-2: true
@@ -241,10 +245,13 @@ card-13:
       blurb: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
       content: ""
       monograph-buttons: true
+      footer: false
       btn: button 1
-      btn-text: button 1
+      btn-text: View Monograph 22 (PDF, 12.8 MB)
       btn-2: button 2
-      btn-2-text: button 2
+      btn-2-text: View Executive Summary (PDF, 1.1 MB)
+      btn-3: button 3
+      btn-3-text: View Overview Presentation (PDF, 2.8 MB)
 
 jekyll: |
   {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
