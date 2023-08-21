@@ -9,14 +9,23 @@ summary: |
 htmlpath: patterns/tables/tables-html.md
 csspath: patterns/tables/index.scss
 
-tabs:
+tables:
   content:
-    - title: Tab 1
-      header: Tab Content 1
-      tabContent: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - title: Tab 2
-      header: Tab Content 2
-      tabContent: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - title: Bordered Table
+      table_headers:
+        - label: Title
+        - label: Description
+        - label: Year
+      rows:
+        - label: Row 1 Title
+          desc: Row 1 Description
+          year: Row 1 Year
+        - label: Row 2 Title
+          desc: Row 2 Description
+          year: Row 2 Year
+        - label: Row 3 Title
+          desc: Row 3 Description
+          year: Row 3 Year
 
 jekyll: |
   {% include patterns/tables/tables.md content=page.tables.content settings=page.tables.settings %}
