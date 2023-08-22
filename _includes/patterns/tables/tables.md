@@ -1,26 +1,26 @@
 {% assign items=include.content %}
 {% assign set=include.settings %}
 
-{% for item in page.tables.content %}
-<table class="usa-table">
+{% for entry in items %}
+<table class="usa-table {{entry.table_class}}">
   <caption>
-    {{item.title}}
+    {{entry.title}}
   </caption>
   <thead>
     <tr>
-    {% for entry in item.table_headers %}
-      <th scope="col">{{entry.label}}</th>
+    {% for subentry in entry.table_headers %}
+      <th scope="col">{{subentry.label}}</th>
     {% endfor %}
     </tr>
   </thead>
   <tbody>
-  {% for entry in item.rows %}
+  {% for subentry in entry.rows %}
     <tr>
-      <th scope="row">{{entry.label}}</th>
+      <th scope="row">{{subentry.label}}</th>
       <td>
-        {{entry.desc}}
+        {{subentry.desc}}
       </td>
-      <td>{{entry.year}}</td>
+      <td>{{subentry.year}}</td>
     </tr>
   {% endfor %}
   </tbody>
