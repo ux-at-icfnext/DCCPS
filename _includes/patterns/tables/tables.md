@@ -16,7 +16,15 @@
   <tbody>
   {% for subentry in entry.rows %}
     <tr>
-      <th scope="row">{{subentry.label}}</th>
+      <th scope="row">
+        {{subentry.label}}
+        {% if subentry.more-info %}
+            <hr>
+            <div class="more-information">
+                <a href="">More Information <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        {% endif %}
+    </th>
         {% for subsubentry in subentry.row %}
             <td>
                 {{subsubentry.cell}}

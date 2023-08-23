@@ -15,33 +15,42 @@ tables:
       table_class: usa-table--striped
       table_headers:
         - label: Title
-        - label: Description
-        - label: Year
+        - label: Announcement Num. / Mechanism
+        - label: Code
         - label: Clinical Research
         - label: Expires
         - label: Contact
       rows:
-        - label: Row 1
+        - label: <a href="">Notice of intent to Publish a Funding Opportunity Announcement for Maximizing the Scientific Value of Existing Biospecimen Collections</a>
+          more-info: true
           row:
-            - cell: Notice of intent to Publish a Funding
-            - cell: Row 1 Year
-            - cell: Clinical Research
-            - cell: Expires
-            - cell: Contact
-        - label: Row 2
+            - cell: NOT-OD-21-044
+            - cell: R21
+            - cell: Clinical Trial Not Allowed
+            - cell: ""
+            - cell: <a href="">Rachel Grana Mayne</a> <br>240-276-5899<br><a href="">rachel.mayne@nih.gov</a>
+        - label: <a href=""> Notice of Intent to Publish a Funding Opportunity Announcement for Secondary Analyses of Existing Datasets of Tobacco Use and Health </a>
+          more-info: true
           row:
-            - cell: Notice of intent to Publish a Funding
-            - cell: Row 1 Year
-            - cell: Clinical Research
-            - cell: Expires
-            - cell: Contact
-        - label: Row 3
+            - cell: NOT-OD-21-045
+            - cell: R21
+            - cell: Clinical Trial Not Allowed
+            - cell: ""
+            - cell: <a href="">Rachel Grana Mayne</a> <br>240-276-5899<br><a href="">rachel.mayne@nih.gov</a>
+        - label: <a href=""> Notice of NIH Participation in Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science </a>
           row:
-            - cell: Notice of intent to Publish a Funding
-            - cell: Row 1 Year
-            - cell: Clinical Research
-            - cell: Expires
-            - cell: Contact
+            - cell: NOT-OD-21-011
+            - cell: ""
+            - cell: ""
+            - cell: ""
+            - cell: <a href="">Robin Vanderpool</a> <br>240-276-6558<br><a href="">robin.vanderpool@nih.gov</a>
+        - label: <a href=""> Notice of Amendment of NCI Participation in PAR-20-164, Mechanisms and Consequences of Sleep Disparities in the U.S.</a>
+          row:
+            - cell: NOT-CA-20-075
+            - cell: ""
+            - cell: ""
+            - cell: ""
+            - cell: <a href="">Kara Hall</a> <br>240-276-6831<br><a href="">hallka@mail.nih.gov</a><br><br><a href="">Todd Horowitz</a> <br>240-276-6963<br><a href="">horowitzts@mail.nih.gov</a>
     - title: Bordered Table
       table_headers:
         - label: Title
