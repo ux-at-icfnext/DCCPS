@@ -20,7 +20,7 @@ ink:
 primary:
   - value: '#162e51'
     token: 'primary-darker'
-  - value: '#1a4480'
+  - value: '#212529'
     token: 'primary-dark'
   - value: '#0050d8'
     token: 'primary-vivid'

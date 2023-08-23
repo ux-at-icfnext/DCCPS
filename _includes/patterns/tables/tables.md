@@ -17,10 +17,11 @@
   {% for subentry in entry.rows %}
     <tr>
       <th scope="row">{{subentry.label}}</th>
-      <td>
-        {{subentry.desc}}
-      </td>
-      <td>{{subentry.year}}</td>
+        {% for subsubentry in subentry.row %}
+            <td>
+                {{subsubentry.cell}}
+            </td>
+        {% endfor %}
     </tr>
   {% endfor %}
   </tbody>

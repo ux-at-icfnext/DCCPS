@@ -12,22 +12,37 @@ csspath: patterns/tables/index.scss
 tables:
   content:
     - title: Bordered Table
+      table_class: usa-table--striped
       table_headers:
         - label: Title
         - label: Description
         - label: Year
+        - label: Clinical Research
+        - label: Expires
+        - label: Contact
       rows:
-        - label: Row 1 Title
-          desc: Row 1 Description
-          year: Row 1 Year
-        - label: Row 2 Title
-          desc: Row 2 Description
-          year: Row 2 Year
-        - label: Row 3 Title
-          desc: Row 3 Description
-          year: Row 3 Year
+        - label: Row 1
+          row:
+            - cell: Notice of intent to Publish a Funding
+            - cell: Row 1 Year
+            - cell: Clinical Research
+            - cell: Expires
+            - cell: Contact
+        - label: Row 2
+          row:
+            - cell: Notice of intent to Publish a Funding
+            - cell: Row 1 Year
+            - cell: Clinical Research
+            - cell: Expires
+            - cell: Contact
+        - label: Row 3
+          row:
+            - cell: Notice of intent to Publish a Funding
+            - cell: Row 1 Year
+            - cell: Clinical Research
+            - cell: Expires
+            - cell: Contact
     - title: Bordered Table
-      table_class: usa-table--striped
       table_headers:
         - label: Title
         - label: Description
