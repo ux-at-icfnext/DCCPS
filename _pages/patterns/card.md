@@ -24,11 +24,65 @@ card:
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    - title: Card Title 4
-      media: https://placehold.co/400
-      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+card-2:
+  settings:
+    group_class: usa-card--header-first icon-image
+    media_class: usa-card__media--inset
+  content:
+    - title: Card Title
+      media: /assets/icons/apply-icon.png
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - title: Card Title 2
+      media: /assets/icons/apply-icon.png
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - title: Card Title 3
+      media: /assets/icons/apply-icon.png
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+card-3:
+  settings:
+    group_class: usa-card--header-first
+    media_class: usa-card__media--inset
+  content:
+    - title: Card Title
+      media: /assets/images/funded-USA.png
+      content: ""
+    - title: Card Title 2
+      media: /assets/images/funded-USA.png
+      content: ""
+    - title: Card Title 3
+      media: /assets/images/funded-USA.png
+      content: ""
+
+card-4:
+  settings:
+    group_class: usa-card--header-first list-card
+  content:
+    - title: Card Title
+      list-card:
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+    - title: Card Title 2
+      list-card:
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+    - title: Card Title 3
+      list-card:
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
+        - list-item: 1 R01 DA039456 01
+          list-item_title: "The Social Interactome Of Recovery: Social Media As Therapy Development"
 
 jekyll: |
   {% include patterns/card/card.md content=page.card.content settings=page.card.settings %}
@@ -40,6 +94,9 @@ jekyll: |
 
 ## The Design
 {% include patterns/card/card.md content=page.card.content settings=page.card.settings %}
+{% include patterns/card/card.md content=page.card-2.content settings=page.card-2.settings %}
+{% include patterns/card/card.md content=page.card-3.content settings=page.card-3.settings %}
+{% include patterns/card/card.md content=page.card-4.content settings=page.card-4.settings %}
 ---
 
 ## Theme Settings

@@ -6,3 +6,21 @@
 .usa-card__body{
     padding: 20px;
 }
+.icon-image{
+    img{
+        height: auto;
+        width: 80px;
+        margin-left: 3rem;
+    }
+}
+.list-card{
+    .usa-card__body{
+        margin-left: 1.5rem;
+    }
+    a{
+        color: #2f70a8;
+    }
+    .bold-link{
+        font-weight: bold;
+    }
+}
