@@ -79,9 +79,22 @@
             color: #2f70a8;
         }
     }
+    .name{
+        a{
+            color: #2f70a8;
+        }
+    }
+    .email{
+        a{
+            color: #2f70a8;
+        }
+    }
     .usa-card--flag{
         .usa-card__heading{
             margin-left: 0;
+            a{
+                color: #2f70a8;
+            }
         }
         .usa-card__header{
             background-color: #F2F2F2;
@@ -220,6 +233,9 @@
         }
     }
     .blog-box{
+        a{
+            color: #2f70a8;
+        }
         .dark-banner{
             background-color: #363636;
             color: white;
