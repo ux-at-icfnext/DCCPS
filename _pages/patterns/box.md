@@ -190,7 +190,7 @@ card-10:
 
 card-11:
   settings:
-    grid_class: "desktop: grid-col-6"
+    grid_class: "desktop: grid-col-12"
     group_class: usa-card--flag
     bg-color_class: light-background
     media_class: usa-card__media--inset

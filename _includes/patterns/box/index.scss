@@ -31,6 +31,12 @@
     .usa-card__heading{
     margin-left: 2.5rem;
     }
+    .usa-card__img{
+        background-color: #F2F2F2;
+        img{
+            height: auto;
+        }
+    }
     .light-background{
         .usa-card__footer{
             background-color: #F2F2F2;
