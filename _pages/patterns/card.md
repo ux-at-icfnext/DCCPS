@@ -31,14 +31,14 @@ card-2:
     media_class: usa-card__media--inset
   content:
     - title: Card Title
-      media: /assets/icons/apply-icon.png
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      media: /assets/icons/funding-icon.png
+      content: View a list of funding opportunities that are currently accepting applications.
     - title: Card Title 2
-      media: /assets/icons/apply-icon.png
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      media: /assets/icons/new-grantees-icon.png
+      content: Find resources for research, funding opportunities, and workshops that may be helpful to new and early-stage investigators.
     - title: Card Title 3
       media: /assets/icons/apply-icon.png
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: Find resources on the NIH grant application process, including application tips, forms, and instructions.
 
 card-3:
   settings:
