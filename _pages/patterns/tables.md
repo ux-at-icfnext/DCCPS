@@ -77,6 +77,31 @@ tables-2:
            - label: Ashley Wilder Smith, PhD, MPH
              cell: smithas@mail.nih.gov
 
+tables-3:
+  content:
+    - title: Event Table
+      rows:
+        - date: January 1, 2021
+          icon: /assets/icons/event-webinar-icon.png
+          type: Webinar
+          series: Webinar Title Goes Here
+        - date: January 1, 2021
+          icon: /assets/icons/event-meeting-icon.png
+          type: Meeting
+          series: Meeting Title Goes Here
+        - date: January 1, 2021
+          icon: /assets/icons/event-webinar-icon.png
+          series: Conference Title Goes Here
+        - date: January 1, 2021
+          icon: /assets/icons/event-webinar-icon.png
+          series: Workshop Title Goes Here
+        - date: January 1, 2021
+          icon: /assets/icons/event-webinar-icon.png
+          series: Training Title Goes Here
+        - date: January 1, 2021
+          icon: /assets/icons/event-webinar-icon.png
+          series: Virtual Meeting Title Goes Here
+
 jekyll: |
   {% include patterns/tables/tables.md content=page.tables.content settings=page.tables.settings %}
 
@@ -90,6 +115,8 @@ jekyll: |
 {% include patterns/tables/tables.md content=page.tables.content %}
 
 {% include patterns/tables/tables-multi.md content=page.tables-2.content %}
+
+{% include patterns/tables/event-table.md content=page.tables-3.content %}
 ---
 
 ## Theme Settings
