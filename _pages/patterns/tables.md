@@ -51,21 +51,31 @@ tables:
             - cell: ""
             - cell: ""
             - cell: <a href="">Kara Hall</a> <br>240-276-6831<br><a href="">hallka@mail.nih.gov</a><br><br><a href="">Todd Horowitz</a> <br>240-276-6963<br><a href="">horowitzts@mail.nih.gov</a>
-    - title: Bordered Table
-      table_headers:
-        - label: Title
-        - label: Description
-        - label: Year
-      rows:
-        - label: Row 1 Title
-          desc: Row 1 Description
-          year: Row 1 Year
-        - label: Row 2 Title
-          desc: Row 2 Description
-          year: Row 2 Year
-        - label: Row 3 Title
-          desc: Row 3 Description
-          year: Row 3 Year
+
+tables-2:
+  content:
+    - title: Multi Header Table
+      column_num: 2
+      link_table: true
+      sections:
+        - header: Biobehavioral Mechanisms of Prognosis
+          rows:
+           - label: Paige Green, PhD, MPH
+             cell: paige.green@nih.gov
+           - label: Frank Perna, EdD, PhD
+             cell: pernafm@mail.nih.gov
+        - header: Biomarkers of Survival
+          rows:
+           - label: Mukesh Verma, PhD
+             cell: vermam@mail.nih.gov
+        - header: Comorbidities and Survival
+          rows:
+           - label: Joanne Elena, PhD, MPH
+             cell: elenajw@mail.nih.gov
+           - label: Lisa Gallicchio, PhD
+             cell: lisa.gallicchio@nih.gov
+           - label: Ashley Wilder Smith, PhD, MPH
+             cell: smithas@mail.nih.gov
 
 jekyll: |
   {% include patterns/tables/tables.md content=page.tables.content settings=page.tables.settings %}
@@ -78,6 +88,8 @@ jekyll: |
 
 ## The Design
 {% include patterns/tables/tables.md content=page.tables.content %}
+
+{% include patterns/tables/tables-multi.md content=page.tables-2.content %}
 ---
 
 ## Theme Settings
