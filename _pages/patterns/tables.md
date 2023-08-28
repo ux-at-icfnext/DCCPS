@@ -90,16 +90,20 @@ tables-3:
           type: Meeting
           series: Meeting Title Goes Here
         - date: January 1, 2021
-          icon: /assets/icons/event-webinar-icon.png
+          icon: /assets/icons/event-conference-icon.png
+          type: Conference
           series: Conference Title Goes Here
         - date: January 1, 2021
-          icon: /assets/icons/event-webinar-icon.png
+          icon: /assets/icons/event-workshop-icon.png
+          type: Workshop
           series: Workshop Title Goes Here
         - date: January 1, 2021
-          icon: /assets/icons/event-webinar-icon.png
+          icon: /assets/icons/event-training-icon.png
+          type: Training
           series: Training Title Goes Here
         - date: January 1, 2021
-          icon: /assets/icons/event-webinar-icon.png
+          icon: /assets/icons/event-virtual-icon.png
+          type: Virtual Meeting
           series: Virtual Meeting Title Goes Here
 
 jekyll: |

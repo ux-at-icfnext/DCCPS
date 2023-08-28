@@ -14,7 +14,7 @@
                 <img src="{{subentry.icon}}"/>
                 <span class="series-type">{{subentry.type}}</span>
             </td>
-            <td><a href="{{series-link}}">{{subentry.series}}</a></td>
+            <td class="series-link"><span class="series-type">Series Title:</span><a href="{{series-link}}">{{subentry.series}}</a></td>
         </tr>
     {% endfor %}
   </tbody>

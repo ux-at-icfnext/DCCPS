@@ -9,9 +9,15 @@
 .event-table th{
     background-color: #f2f2f2;
 }
-.series-type{
-    display: block;
-    font-weight: bold;
-    font-size: 0.75rem;
+.event-table{
     text-align: center;
+    .series-link{
+        text-align: left;
+        vertical-align: middle;
+    }
+    .series-type{
+        display: block;
+        font-weight: bold;
+        font-size: 0.75rem;
+    }
 }
