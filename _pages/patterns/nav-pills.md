@@ -1,15 +1,15 @@
 ---
 layout: right
-title: Process List
-permalink: /patterns/process-list
+title: Nav Pills
+permalink: /patterns/nav-pills
 section: Patterns # initial cap required to make menu work
 summary: |
-  A process list displays the steps or stages of important instructions or processes. Please review the <a href="https://designsystem.digital.gov/components/process-list/">USWDS: Process List/a> for more information on how to use this component.
+  Nav pills are a grouping of navigation links within the main content of a page. The difference between buttons and the nav pills is the a button is a singular action whereas the nav pills are a grouping of navigation links. Visually the nav pills are slightly larger, are flat (no shadow), and have a defined border.
 
-htmlpath: patterns/process-list/process-list-html.md
-csspath: patterns/process-list/index.scss
+htmlpath: patterns/nav-pills/nav-pills-html.md
+csspath: patterns/nav-pills/index.scss
 
-process-list:
+nav-pills:
   content:
     - title: Process List Item 1
       content: |
@@ -22,14 +22,14 @@ process-list:
       content: |
         Process List Content
 jekyll: |
-  {% include patterns/process-list/process-list.md content=page.process-list.content settings=page.process-list.settings %}
+  {% include patterns/nav-pills/nav-pills.md content=page.nav-pills.content settings=page.nav-pills.settings %}
 
-  Without settings - {% include patterns/process-list/process-list.md content=page.process-list.content %}
+  Without settings - {% include patterns/nav-pills/nav-pills.md content=page.nav-pills.content %}
 ---
 {{ page.summary }}
 
 ## The Design
-{% include patterns/process-list/process-list-html.md %}
+{% include patterns/nav-pills/nav-pills-html.md %}
 ---
 
 ## Theme Settings

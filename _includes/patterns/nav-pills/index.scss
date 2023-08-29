@@ -1,0 +1,25 @@
+.nav-pills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: column!important;
+    .nav-item{
+        margin-bottom: 8px;
+    }
+    .nav-link{
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        color: #2f70a8;
+        border: 1px solid #2f70a8;
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 10px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+}
