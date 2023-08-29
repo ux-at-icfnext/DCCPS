@@ -72,5 +72,4 @@ None
 {% highlight liguid %}
   {{ page.jekyll }}
 {% endhighlight %}
-=======
 ---
