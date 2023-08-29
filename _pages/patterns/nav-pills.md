@@ -11,16 +11,16 @@ csspath: patterns/nav-pills/index.scss
 
 nav-pills:
   content:
-    - title: Process List Item 1
-      content: |
-        Process List Content
-      detail-list:
-        - text: Detail List Text Goes Here
-        - text: Text
-        - text: Text
-    - title: Process List Item 2
-      content: |
-        Process List Content
+    - title: Overview and History
+      link: ""
+    - title: Vision and Mission
+      link: ""
+    - title: Leadership at a Glance
+      link: ""
+    - title: Meet the DCCPS Staff
+      link: ""
+    - title: Fellowships and Training (PDF, 200KB)
+      link: ""
 jekyll: |
   {% include patterns/nav-pills/nav-pills.md content=page.nav-pills.content settings=page.nav-pills.settings %}
 
@@ -29,26 +29,12 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/nav-pills/nav-pills-html.md %}
+{% include patterns/nav-pills/nav-pills.md content=page.nav-pills.content settings=page.nav-pills.settings %}
 ---
 
 ## Theme Settings
-- $theme-process-list-counter-background-color - The background color of the counter circle.
-- $theme-process-list-counter-border-color - Color of the border around the counter circle.
-- $theme-process-list-counter-border-width - Size of the border around the counter circle.
-- $theme-process-list-counter-font-family - Font family of the counter text.
-- $theme-process-list-counter-font-size - Font size of the counter text.
-- $theme-process-list-counter-gap-color - Color of gap between counter and connector. This should the the same as the background color behind the component.
-- $theme-process-list-counter-gap-width - Size of gap between counter and connector.
-- $theme-process-list-counter-size - Size of the counter circle.
-- $theme-process-list-counter-text-color - Color of the number text inside the counter circle.
-- $theme-process-list-connector-color - Color of the connector line between counter circles.
-- $theme-process-list-connector-width - Width of the connector line between counter circles.
-- $theme-process-list-font-family - Font family of the content text.
-- $theme-process-list-font-size - Font size of the content text.
-- $theme-process-list-heading-color - Color of the heading text.
-- $theme-process-list-heading-font-family - Font family of the heading text.
-- $theme-process-list-heading-font-size - Font size of the heading text.
+
+N/A
 
 ## Variations
 None
