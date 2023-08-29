@@ -48,20 +48,6 @@
           </nav>
         {% endif %}
         </div>
-        <div class="tablet:grid-col-4">
-          <div class="usa-sign-up">
-          {% if type == "prototype" %}
-            <h3 class="usa-sign-up__heading">Sign up</h3>
-            <form class="usa-form">
-              <label class="usa-label" for="email" id=""
-                >Your email address</label
-              >
-              <input class="usa-input" id="email" name="email" type="email" />
-              <button class="usa-button" type="submit">Sign up</button>
-            </form>
-            {% endif %}
-          </div>
-        </div>
       </div>
     </div>
   </div>

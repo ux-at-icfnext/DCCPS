@@ -82,7 +82,7 @@
           <div class="usa-card__body">
             <div class="link-button">
               {% if card.name %}
-                <span><a href="">{{card.name}}</a></span>
+                <span class="name"><a href="">{{card.name}}</a></span>
                 {% if card.location %}
                   <span class="location">{{card.location}}</span>
                 {% endif %}
@@ -91,7 +91,7 @@
                 <span class="role">{{card.role}}</span>
               {% endif %}
               {% if card.link %}
-                <span><a href="{{card.href}}">{{card.link}}</a></span>
+                <span class="email"><a href="{{card.href}}">{{card.link}}</a></span>
               {% endif %}
               {%if card.flag-btn %}
               <ul class="usa-button-group {{ class }} {{ seg }}">
