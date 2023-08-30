@@ -41,7 +41,7 @@ secondary:
     class: usa-focus usa-button--secondary
   - link: "/"
     text: disabled
-    class: usa-button--disabled usa-button--secondary
+    class: usa-button--disabled
     disabled: true
   - link: "/"
     text: unstyled
