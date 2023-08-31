@@ -41,7 +41,7 @@ secondary:
     class: usa-focus usa-button--secondary
   - link: "/"
     text: disabled
-    class: usa-button--disabled usa-button--secondary
+    class: usa-button--disabled
     disabled: true
   - link: "/"
     text: unstyled
@@ -187,26 +187,6 @@ jekyll2: "{% include patterns/button/button.md content=page.btn-group.btn settin
 
 **Secondary**
 {% include patterns/button/button.md content=page.secondary %}
-
-**Accent Cool**
-{% include patterns/button/button.md content=page.accent-cool %}
-
-**Accent Warm**
-{% include patterns/button/button.md content=page.accent-warm %}
-
-**Base**
-{% include patterns/button/button.md content=page.base %}
-
-**Outline**
-{% include patterns/button/button.md content=page.outline %}
-
-**Outline Inverse**
-<div class="bg-base-darkest padding-1" style="max-width: fit-content">
-{% include patterns/button/button.md content=page.inverse %}
-</div>
-
-**Big Buttons**
-{% include patterns/button/button.md content=page.big %}
 
 ## Theme Settings
 - $theme-button-font-family  - Font family of the button.
