@@ -20,14 +20,11 @@
 
         padding-bottom: 1rem;
         @media only screen and (min-width: 880px) {
-        z-index: 2;
+
 
         top: 70px;
         right: 5%;
-        width: 55%;
-        height: 90%;
         object-fit: cover;
-        object-position: 0% 100%;
         padding-bottom: 0;
         }
     }
@@ -47,7 +44,6 @@
     }
     .hero-image img{
         top: 40px;
-        width: 50%;
         height: 100%;
         right: 0%;
     }
@@ -56,7 +52,9 @@
     }
 }
 .text-img-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
 }
 .hero-btns{
     margin-top: 1rem;
