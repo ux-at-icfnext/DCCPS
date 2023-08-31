@@ -21,7 +21,7 @@
         padding-bottom: 1rem;
         @media only screen and (min-width: 880px) {
         z-index: 2;
-        position: absolute;
+
         top: 70px;
         right: 5%;
         width: 55%;
@@ -54,6 +54,9 @@
     .usa-button{
         width: 50%;
     }
+}
+.text-img-container{
+    display: flex;
 }
 .hero-btns{
     margin-top: 1rem;
