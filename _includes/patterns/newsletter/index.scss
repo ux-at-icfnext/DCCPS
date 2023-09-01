@@ -1,0 +1,23 @@
+.subscribe{
+    background-image: url(/assets/images/subscribe-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+    min-height: 350px;
+}
+.newsletter-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    .sign-up{
+        padding-top: 1rem;
+    }
+}
+.newsletter-heading{
+    text-align: center;
+}
