@@ -17,7 +17,7 @@ csspath: patterns/newsletter/index.scss
 
 ## The Design
 {% include patterns/newsletter/newsletter-html.md settings="prototype" %}
-
+<br>
 {% include patterns/newsletter/newsletter-html.md settings="prototype" %}
 ---
 
