@@ -7,6 +7,7 @@
         <div class="sign-up">
             <section aria-label="Search component">
                 <form class="usa-search" role="search">
+                    <label class="input-group-text">Email Address:</label>
                     <label class="usa-sr-only" for="search-field">Subscribe</label>
                     <input class="usa-input" id="search-field" type="search" name="search" />
                     <button class="usa-button" type="submit">
@@ -19,6 +20,8 @@
                     </button>
                 </form>
             </section>
+            <p>By signing up for this email you are agreeing to receive news and information from NCI DCCPS. <a href="">Click here to visit NCI’s policies.</a></p>
+            <p><a href="">Unsubscribe here.</a> Easy unsubscribe links are also provided in every email.</p>
         </div>
     </div>
 </div>
