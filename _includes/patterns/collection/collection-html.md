@@ -27,11 +27,11 @@
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
-          >2019 Overview and Highlights</a
+          >Patients Discuss Genomic Data in Cancer Care</a
         >
       </span>
       <p class="usa-collection__description">
-        DCCPS’ annual report highlights behavioral research and its role across the cancer control continuum, from prevention to diagnosis and treatment to survivorship.
+        NCI’s genomic data workshop included researchers and clinicians as well as patients with cancer, survivors of the disease, and patient advocates.
       </p>
     </div>
   </li>
@@ -45,11 +45,11 @@
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
-          >2019 Overview and Highlights</a
+          >Prescribing Exercise as Cancer Treatment</a
         >
       </span>
       <p class="usa-collection__description">
-        DCCPS’ annual report highlights behavioral research and its role across the cancer control continuum, from prevention to diagnosis and treatment to survivorship.
+        Dr. Kathryn Schmitz discusses research findings connecting physical activity with improved cancer outcomes and what these new guidelines mean for providers and survivors.
       </p>
     </div>
   </li>

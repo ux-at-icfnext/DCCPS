@@ -1,6 +1,7 @@
 .usa-collection{
     .usa-collection__item{
-        align-items:flex-start;
+        border-top: none;
+        margin-top: 2rem;
     }
     img{
         width: 68px;
@@ -16,5 +17,22 @@
         display: block;
         font-weight: bold;
         font-size: 0.75rem;
+    }
+}
+.animated-collection{
+    .usa-collection__heading{
+        font-size: 1rem;
+        font-weight: 400;
+        a:hover{
+            text-decoration: none;
+        }
+    }
+    .usa-collection__item{
+        border-left: 4px solid #42a5fd;
+        padding-left: 1rem;
+        padding-top: 0;
+    }
+    .due-date{
+        font-weight: bold;
     }
 }
