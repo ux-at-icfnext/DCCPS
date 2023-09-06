@@ -20,6 +20,19 @@
     }
 }
 .animated-collection{
+    .usa-collection__item{
+        transition-property: margin-left;
+        transition-duration: 0.35s;
+    }
+    .arrow{
+        display: none;
+        img{
+            border: none;
+            height: 20px;
+            width: 16px;
+            margin-top: 1.5rem;
+        }
+    }
     .usa-collection__heading{
         font-size: 1rem;
         font-weight: 400;
@@ -27,12 +40,25 @@
             text-decoration: none;
         }
     }
-    .usa-collection__item{
+    .usa-collection__body{
         border-left: 4px solid #42a5fd;
         padding-left: 1rem;
         padding-top: 0;
     }
     .due-date{
         font-weight: bold;
+    }
+    .usa-collection__item:hover{
+        margin-left: 2rem;
+        .arrow{
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color: #183A57;
+        }
+        .usa-collection__body{
+            border-color: #183A57;
+        }
     }
 }

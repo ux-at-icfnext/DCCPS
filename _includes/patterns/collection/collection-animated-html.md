@@ -1,5 +1,8 @@
 <ul class="usa-collection animated-collection">
   <li class="usa-collection__item">
+    <div class="arrow">
+        <img src="/assets/icons/arrow-2x.png"/>
+    </div>
     <div class="usa-collection__body">
       <span class="usa-collection__heading">
         <a
@@ -13,6 +16,9 @@
     </div>
   </li>
   <li class="usa-collection__item">
+    <div class="arrow">
+        <img src="/assets/icons/arrow-2x.png"/>
+    </div>
     <div class="usa-collection__body">
       <span class="usa-collection__heading">
         <a
@@ -26,6 +32,9 @@
     </div>
   </li>
   <li class="usa-collection__item">
+    <div class="arrow">
+        <img src="/assets/icons/arrow-2x.png"/>
+    </div>
     <div class="usa-collection__body">
       <span class="usa-collection__heading">
         <a
