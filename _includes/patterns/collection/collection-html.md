@@ -1,90 +1,56 @@
 <ul class="usa-collection">
   <li class="usa-collection__item">
+    <div class="collection-icon">
+      <img src="/assets/icons/report_icon-2x.png"/>
+    </div>
     <div class="usa-collection__body">
+      <span class="type">Report</span>
       <span class="usa-collection__heading">
         <a
           class="usa-link"
           href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
-          >Gears of Government President’s Award winners</a
+          >2019 Overview and Highlights</a
         >
       </span>
       <p class="usa-collection__description">
-        Today, the Administration announces the winners of the Gears of
-        Government President’s Award. This program recognizes the contributions
-        of individuals and teams across the federal workforce who make a
-        profound difference in the lives of the American people.
+        DCCPS’ annual report highlights behavioral research and its role across the cancer control continuum, from prevention to diagnosis and treatment to survivorship.
       </p>
-      <ul class="usa-collection__meta" aria-label="More information">
-        <li class="usa-collection__meta-item">
-          By Sondra Ainsworth and Constance Lu
-        </li>
-        <li class="usa-collection__meta-item">
-          <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
-        </li>
-      </ul>
-      <ul class="usa-collection__meta" aria-label="Topics">
-        <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
-        <li class="usa-collection__meta-item usa-tag">PMA</li>
-        <li class="usa-collection__meta-item usa-tag">OMB</li>
-      </ul>
     </div>
   </li>
-  <li class="usa-collection__item">
+    <li class="usa-collection__item">
+    <div class="collection-icon">
+      <img src="/assets/icons/blog_icon-2x.png"/>
+    </div>
     <div class="usa-collection__body">
+      <span class="type">Blog</span>
       <span class="usa-collection__heading">
         <a
           class="usa-link"
-          href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/"
-          >Women-owned small business dashboard</a
+          href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
+          >Patients Discuss Genomic Data in Cancer Care</a
         >
       </span>
       <p class="usa-collection__description">
-        In honor of National Women’s Small Business Month, we’ve partnered with
-        SBA’s Office of Government Contracting and Business Development and
-        Office of Program Performance, Analysis, and Evaluation to highlight the
-        Women-Owned Small Businesses (WOSBs) data dashboard!
+        NCI’s genomic data workshop included researchers and clinicians as well as patients with cancer, survivors of the disease, and patient advocates.
       </p>
-      <ul class="usa-collection__meta" aria-label="More information">
-        <li class="usa-collection__meta-item">By Constance Lu</li>
-        <li class="usa-collection__meta-item">
-          <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
-        </li>
-      </ul>
-      <ul class="usa-collection__meta" aria-label="Topics">
-        <li class="usa-collection__meta-item usa-tag">SBA</li>
-      </ul>
     </div>
   </li>
   <li class="usa-collection__item">
+    <div class="collection-icon">
+      <img src="/assets/icons/blog_icon-2x.png"/>
+    </div>
     <div class="usa-collection__body">
+      <span class="type">Blog</span>
       <span class="usa-collection__heading">
         <a
           class="usa-link"
-          href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/"
-          >September 2020 updates show progress on cross-agency and agency
-          priority goals</a
+          href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/"
+          >Prescribing Exercise as Cancer Treatment</a
         >
       </span>
       <p class="usa-collection__description">
-        Today, we published progress updates for both Cross-Agency Priority
-        (CAP) Goals and Agency Priority Goals (APGs) for the third quarter of
-        FY2020. These updates highlight recent milestones and accomplishments as
-        well as related initiatives that support progress towards a more modern
-        and effective government.
+        Dr. Kathryn Schmitz discusses research findings connecting physical activity with improved cancer outcomes and what these new guidelines mean for providers and survivors.
       </p>
-      <ul class="usa-collection__meta" aria-label="More information">
-        <li class="usa-collection__meta-item">By Eric L. Miller</li>
-        <li class="usa-collection__meta-item">
-          <time datetime="2020-09-17T12:00:00+01:00">September 17, 2020</time>
-        </li>
-      </ul>
-      <ul class="usa-collection__meta" aria-label="Topics">
-        <li class="usa-collection__meta-item usa-tag">Quarterly update</li>
-        <li class="usa-collection__meta-item usa-tag">CAP goal</li>
-        <li class="usa-collection__meta-item usa-tag">APG</li>
-        <li class="usa-collection__meta-item usa-tag">PMA</li>
-        <li class="usa-collection__meta-item usa-tag">Success story</li>
-      </ul>
     </div>
   </li>
 </ul>

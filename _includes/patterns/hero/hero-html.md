@@ -16,7 +16,7 @@
                 </a>
             </div>
         </div>
-        <div class="hero-image"><img src="/assets/images/hero.jpg" /></div>
+        <div class="hero-image"></div>
     </div>
   </div>
 </section>

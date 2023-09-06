@@ -1,32 +1,26 @@
 .usa-hero {
-    .usa-hero__callout {
-    background-color: #002552;
-    padding: 0;
-    }
-    background-image: none;
-    background-position: right 30px center;
-    background-size: 50%;
-    height: auto;
-    border: 2px solid;
-    background-repeat: no-repeat;
-    background-color: #002552;
+    background: url(/assets/images/hero-bg-texture-od.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
     width: 100%;
-    border: 5px solid #002552;
-    border-bottom: 5px solid #E50E63;
     margin-bottom: 20px;
     font-family: Lora, serif;
-
-    .hero-image img {
-
-        padding-bottom: 1rem;
-        @media only screen and (min-width: 880px) {
-
-
-        top: 70px;
-        right: 5%;
-        object-fit: cover;
-        padding-bottom: 0;
-        }
+    .usa-hero__callout {
+    padding: 0;
+    }
+    .hero-image{
+        background-image: url(/assets/images/hero-bg-image-od-A.jpg);
+        max-width: 55%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .usa-hero__heading{
         font-family: Montserrat;
@@ -37,6 +31,21 @@
         background-color: white;
         color:#002552;
     }
+}
+.text-img-container::after{
+    background: linear-gradient(to left, transparent 0%, 
+    rgba(0, 27, 55, 0.028) 11.9%, rgba(0, 27, 55, 0.104) 22.5%, 
+    rgba(0, 27, 55, 0.216) 32.2%, rgba(0, 27, 55, 0.352) 41.2%, 
+    rgba(0, 27, 55, 0.5) 50%, rgba(0, 27, 55, 0.648) 58.8%, 
+    rgba(0, 27, 55, 0.784) 67.8%, rgba(0, 27, 55, 0.896) 77.5%, 
+    rgba(0, 27, 55, 0.972) 88.1%, #001b37 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    transform: scaleX(-1);
 }
 .hero-landing{
     .usa-hero__callout{

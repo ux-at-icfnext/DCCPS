@@ -29,7 +29,14 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
+
+### Spotlight
+
 {% include patterns/collection/collection-html.md%}
+
+### Funding
+
+{% include patterns/collection/collection-animated-html.md%}
 ---
 
 ## Theme Settings
