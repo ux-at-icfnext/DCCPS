@@ -1,24 +1,25 @@
 ---
 layout: right
-title: Tooltip
-permalink: /patterns/tooltip
+title: Video
+permalink: /patterns/video
 section: Patterns # initial cap required to make menu work
 summary: |
-  A tooltip is a short descriptive message that appears when a user hovers or focuses on an element. Please review the <a href="https://designsystem.digital.gov/components/tooltip/">USWDS: Tool Tip</a> for more information on how to use this component.
+  
 
-htmlpath: patterns/tooltip/tooltip-html.md
-csspath: patterns/tooltip/index.scss
+htmlpath: patterns/video/video-html.md
+csspath: patterns/video/index.scss
 
-position: right
-buttonText: Tool Tip Button
-text: right
+episode_link:
+episode_name:
+transcript_url:
+
 jekyll: |
-  {% include patterns/tooltip/tooltip.md %}
+  {% include patterns/video/video.md content=page.video.content settings=page.video.settings%}
 ---
 {{ page.summary }}
 
 ## The Design
-{% include patterns/tooltip/tooltip-html.md %}
+{% include patterns/video/video-html.md %}
 ---
 
 ## Theme Settings
