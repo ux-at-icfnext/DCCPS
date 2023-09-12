@@ -38,9 +38,6 @@ jekyll: |
 
 {% include patterns/collection/collection-animated-html.md%}
 
-### Event
-
-{% include patterns/collection/collection-event-html.md%}
 ---
 
 ## Theme Settings
