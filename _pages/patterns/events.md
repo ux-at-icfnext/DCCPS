@@ -1,13 +1,13 @@
 ---
 layout: right
-title: Collection
-permalink: /patterns/collection
+title: Events
+permalink: /patterns/events
 section: Patterns # initial cap required to make menu work
 summary: |
   The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="https://designsystem.digital.gov/components/collection/">USWDS: Collection</a> for more information on how to use this component.
 
-htmlpath: patterns/collection/collection-html.md
-csspath: patterns/collection/index.scss
+htmlpath: patterns/events/events-html.md
+csspath: patterns/events/index.scss
 
 collection:
   content:
@@ -30,14 +30,7 @@ jekyll: |
 
 ## The Design
 
-### Spotlight
-
-{% include patterns/collection/collection-html.md%}
-
-### Funding
-
-{% include patterns/collection/collection-animated-html.md%}
-
+{% include patterns/events/events-html.md%}
 ---
 
 ## Theme Settings
