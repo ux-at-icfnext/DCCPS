@@ -1,0 +1,43 @@
+.title-banner {
+    color: #FFFFFF;
+    height: 40px;
+    .container{
+        max-width: 720px;
+        margin-left: 3rem;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .program-name{
+        margin-bottom: 0px;
+        font-size: 0.9375rem;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}
+.brp-banner{
+    background-color: #1c5e86;
+}
+.egrp-banner{
+    background-color: #008391;
+}
+.hdrp-banner{
+    background-color: #740A3C;
+}
+.srp-banner{
+    background-color: #146758;
+}
+.is-banner{
+    background-color: #82368c;
+}
+.ocs-banner{
+    background-color: #008391;
+}
+.hdhe-banner{
+    background-color: #2d383e;
+}
