@@ -9,18 +9,48 @@ summary: |
 htmlpath: patterns/program-banners/program-banners-html.md
 csspath: patterns/program-banners/index.scss
 
-process-list:
+program-banner-brp:
+  settings:
+    banner-class: brp-banner
   content:
-    - title: Process List Item 1
-      content: |
-        Process List Content
-      detail-list:
-        - text: Detail List Text Goes Here
-        - text: Text
-        - text: Text
-    - title: Process List Item 2
-      content: |
-        Process List Content
+    - title: Behavioral Research Program
+
+program-banner-egrp:
+  settings:
+    banner-class: egrp-banner
+  content:
+    - title: Epidemiology and Genomics Research Program
+
+program-banner-hdrp:
+  settings:
+    banner-class: hdrp-banner
+  content:
+    - title: Healthcare Delivery Research Program
+
+program-banner-srp:
+  settings:
+    banner-class: srp-banner
+  content:
+    - title: Surveillance Research Program
+
+program-banner-is:
+  settings:
+    banner-class: is-banner
+  content:
+    - title: Implementation Science
+
+program-banner-ocs:
+  settings:
+    banner-class: ocs-banner
+  content:
+    - title: Office of Cancer Survivorship
+
+program-banner-hdhe:
+  settings:
+    banner-class: hdhe-banner
+  content:
+    - title: Health Disparities and Health Equality
+
 jekyll: |
   {% include patterns/program-banners/program-banners.md content=page.program-banners.content settings=page.program-banners.settings %}
 
@@ -29,7 +59,19 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/program-banners/program-banners-html.md %}
+{% include patterns/program-banners/program-banners.md content=page.program-banner-brp.content settings=page.program-banner-brp.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-egrp.content settings=page.program-banner-egrp.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-hdrp.content settings=page.program-banner-hdrp.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-srp.content settings=page.program-banner-srp.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-is.content settings=page.program-banner-is.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-ocs.content settings=page.program-banner-ocs.settings %}
+<br>
+{% include patterns/program-banners/program-banners.md content=page.program-banner-hdhe.content settings=page.program-banner-hdhe.settings %}
 ---
 
 ## Theme Settings
