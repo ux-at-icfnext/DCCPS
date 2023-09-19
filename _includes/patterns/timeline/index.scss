@@ -1,5 +1,6 @@
 .timeline-container{
     max-width: 720px;
+    position: relative;
     justify-content: center!important;
     flex: 0 0 auto;
     width: 100%;
@@ -7,10 +8,13 @@
     padding: 3rem 0;
     color: #111111;
     height: 1600px;
-
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 1.25rem;
+    }
     .timeline{
         width: 100%;
-        position: relative;
         padding: 1px 0;
         list-style: none;
         .timeline-label{
@@ -100,18 +104,18 @@
             clear: both;
         }
     }
-    .timeline::before{
-        content: " ";
-        display: block;
-        border-right-style: solid;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        height: 100% !important;
-        margin-left: 2px;
-        border-right-width: 4px;
-        border-right-color: rgba(52, 40, 104, 0.1);
-    }
+}
+.timeline-container::before{
+    content: " ";
+    display: block;
+    border-right-style: solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100% !important;
+    margin-left: 2px;
+    border-right-width: 4px;
+    border-right-color: rgba(52, 40, 104, 0.1);
 }

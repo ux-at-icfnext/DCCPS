@@ -1,5 +1,6 @@
 <div class="timeline-container">
     <div class="timeline">
+        <h2>Timeline</h2>
         <span class="timeline-label">
             <span class="label">2019</span>
         </span>
