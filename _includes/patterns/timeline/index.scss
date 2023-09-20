@@ -103,6 +103,19 @@
         .timeline-item::after{
             clear: both;
         }
+        .timeline-item:nth-of-type(even):not(.timeline-item-left){
+            padding-left: 2rem;
+            padding-right: 0;
+            float: right;
+            clear: right;
+            .timeline-point{
+                top: 18px;
+                left: -7px;
+            }
+            .timeline-event{
+                float: right !important;
+            }
+        }
     }
 }
 .timeline-container::before{
@@ -110,7 +123,7 @@
     display: block;
     border-right-style: solid;
     position: absolute;
-    top: 0;
+    top: 10rem;
     left: 0;
     bottom: 0;
     width: 50%;
