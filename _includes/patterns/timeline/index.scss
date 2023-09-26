@@ -7,13 +7,18 @@
     background-color: #f2f2f2;
     padding: 3rem 0;
     color: #111111;
+    h2{
+        text-align: center;
+    }
 }
+
 // Timeline Container
 .timeline {
 	width: 100%;
 	position: relative;
 	padding: 1px 0;
 	list-style: none;
+    //h2
 	// Timeline Label - Year
 	.timeline-label {
 		position: relative;
