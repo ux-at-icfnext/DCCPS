@@ -15,6 +15,10 @@ csspath: patterns/hero/index.scss
 
 ## The Design
 {% include patterns/hero/hero-html.md %}
+{% include patterns/hero/hero-brp-html.md %}
+{% include patterns/hero/hero-is-html.md %}
+{% include patterns/hero/hero-ocs-html.md %}
+{% include patterns/hero/hero-hd-html.md %}
 --- 
 
 ## Theme Settings
