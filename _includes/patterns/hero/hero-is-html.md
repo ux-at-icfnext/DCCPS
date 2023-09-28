@@ -3,17 +3,17 @@
     <div class="text-img-container">
         <div>
             <h1 class="usa-hero__heading">
-                <span class="usa-hero__heading--alt">DCCPS</span>
+                <span class="usa-hero__heading--alt">IS</span>
             </h1> 
-            <p>A quick statement capturing the essence of Child Welfare Information Gateway goes here. This can be two to three lines in length. The button will link to the About Us page.</p>
+            <p>Improving the impact of cancer control and population science on the health and health care of the population, and fostering the rapid integration of research, practice, and policy.</p>
             <div class="hero-btns">
-                <a class="usa-button hero-landing-button"
+              <div class="hero-links">
+                <img src="/assets/icons/twitter_icon_2x.png"/>
+                <a class="share-page"
                 href="{{ hero.button.href | relative_url }}">
-                More about us
+                Stay up-to-date on everything from DCCPS @NCI_ImplSci
                 </a>
-                <a class="share-page" href="">
-                Share this page <i class="fa-solid fa-share-nodes"></i>
-                </a>
+              </div>
             </div>
         </div>
         <div class="hero-image"></div>

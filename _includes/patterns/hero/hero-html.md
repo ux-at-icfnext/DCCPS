@@ -5,15 +5,15 @@
             <h1 class="usa-hero__heading">
                 <span class="usa-hero__heading--alt">DCCPS</span>
             </h1> 
-            <p>A quick statement capturing the essence of Child Welfare Information Gateway goes here. This can be two to three lines in length. The button will link to the About Us page.</p>
+            <p>The Division of Cancer Control and Population Sciences (DCCPS) aims to reduce cancer risk, incidence, and death and enhance quality of life for cancer survivors by supporting innovative research and recommending ways to apply that research in quality health care delivery.</p>
             <div class="hero-btns">
-                <a class="usa-button hero-landing-button"
+              <div class="hero-links">
+                <img src="/assets/icons/twitter_icon_2x.png"/>
+                <a class="share-page"
                 href="{{ hero.button.href | relative_url }}">
-                More about us
+                Stay up-to-date on everything from DCCPS @NCICancerCtrl
                 </a>
-                <a class="share-page" href="">
-                Share this page <i class="fa-solid fa-share-nodes"></i>
-                </a>
+              </div>
             </div>
         </div>
         <div class="hero-image"></div>
