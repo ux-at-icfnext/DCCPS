@@ -1,5 +1,5 @@
 ---
-layout: right
+layout: large-pattern
 title: Hero
 permalink: /patterns/hero
 section: Patterns # initial cap required to make menu work
