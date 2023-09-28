@@ -56,14 +56,11 @@
         height: 100%;
         right: 0%;
     }
-    .usa-button{
-        width: 50%;
-    }
 }
 .text-img-container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1rem;
+    grid-template-columns: 2fr 2fr;
+    gap: 6rem;
 }
 .hero-btns{
     margin-top: 1rem;
@@ -71,11 +68,21 @@
         display: block;
     }
     .share-page{
-        margin-top: 1rem;
         color: white;
+        font-size: 1rem;
         .fa-solid{
             margin-left: 0.5rem;
         }
+    }
+}
+
+.hero-links{
+    display: flex;
+    margin-bottom: 20px;
+    img{
+        width: 32px;
+        height: 32px;
+        margin: 10px;
     }
 }
 

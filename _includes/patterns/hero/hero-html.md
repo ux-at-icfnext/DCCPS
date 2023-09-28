@@ -7,13 +7,19 @@
             </h1> 
             <p>A quick statement capturing the essence of Child Welfare Information Gateway goes here. This can be two to three lines in length. The button will link to the About Us page.</p>
             <div class="hero-btns">
-                <a class="usa-button hero-landing-button"
+              <div class="hero-links">
+                <img src="/assets/icons/twitter_icon_2x.png"/>
+                <a class="share-page"
                 href="{{ hero.button.href | relative_url }}">
-                More about us
+                Stay up-to-date on everything from DCCPS @NCIBehaviors
                 </a>
+              </div>
+              <div class="hero-links">
+                <img src="/assets/icons/twitter_icon_2x.png"/>
                 <a class="share-page" href="">
-                Share this page <i class="fa-solid fa-share-nodes"></i>
+                Subscribe to the quarterly e-newsletter from BRP.
                 </a>
+              </div>
             </div>
         </div>
         <div class="hero-image"></div>
