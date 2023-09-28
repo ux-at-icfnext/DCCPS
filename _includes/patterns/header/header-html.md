@@ -1,4 +1,12 @@
-
+<div class="title-banner brp-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="program-name">Program Area Name </div>
+            </div>
+        </div>
+    </div>
+</div>
 <header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar">
@@ -19,9 +27,78 @@
             aria-expanded="false"
             aria-controls="basic-nav-section-one"
           >
-            <span>&lt;Current section&gt;</span>
+            <span>Subpage 1</span>
           </button>
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-two"
+          >
+            <span>Subpage 2</span>
+          </button>
+          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-three"
+          >
+            <span>Subpage 3</span>
+          </button>
+          <ul id="basic-nav-section-three" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-four"
+          >
+            <span>Subpage 4</span>
+          </button>
+          <ul id="basic-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
@@ -41,11 +118,14 @@
             type="button"
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
-            aria-controls="basic-nav-section-two"
+            aria-controls="basic-nav-section-five"
           >
-            <span>&lt;Section&gt;</span>
+            <span>Subpage 5</span>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
+          <ul id="basic-nav-section-five" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
             <li class="usa-nav__submenu-item">
               <a href=""><span>&lt;Navigation link&gt;</span></a>
             </li>
@@ -58,27 +138,54 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-six"
+          >
+            <span>Subpage 6</span>
+          </button>
+          <ul id="basic-nav-section-six" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-nav-section-seven"
+          >
+            <span>Special Focus Areas</span>
+          </button>
+          <ul id="basic-nav-section-seven" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
         </li>
       </ul>
-      <section aria-label="Search component">
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="search-field">Search</label>
-          <input
-            class="usa-input"
-            id="search-field"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
-            />
-          </button>
-        </form>
-      </section>
     </nav>
   </div>
 </header>
