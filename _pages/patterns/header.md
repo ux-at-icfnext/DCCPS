@@ -1,5 +1,5 @@
 ---
-layout: right
+layout: large-pattern
 title: Header
 permalink: /patterns/header
 section: Patterns # initial cap required to make menu work
@@ -17,7 +17,7 @@ csspath: patterns/header/index.scss
 {{ page.summary }}
 
 ## The Design
-{% include patterns/header/header.md settings="prototype" %}
+{% include patterns/header/header-html.md %}
 ---
 
 {% include patterns/alert/alert.md content=page.alert %}

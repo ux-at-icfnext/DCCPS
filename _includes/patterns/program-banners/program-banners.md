@@ -6,7 +6,7 @@
 {% endif %}
 
 {%for item in items %}
-<div class="title-banner {{ banner-class }}">
+<div class="title-banner usa-nav-container {{ banner-class }}">
     <div class="container">
         <div class="row">
             <div class="col-12">
