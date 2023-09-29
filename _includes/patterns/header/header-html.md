@@ -103,16 +103,19 @@
           </button>
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 1.A</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 1.B</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 1.C</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 1.D</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>Subpage 1.E</span></a>
             </li>
           </ul>
         <li class="usa-nav__primary-item">
@@ -122,22 +125,67 @@
             aria-expanded="false"
             aria-controls="basic-nav-section-two"
           >
-            <span>Subpage 2</span>
+            <span>Subpage 2 (Mega-Menu)</span>
           </button>
-          <ul id="basic-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-          </ul>
+          <div id="basic-nav-section-two" class="usa-nav__submenu mega-menu">
+            <div class="column">
+              <ul>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.A</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.B</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.C</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.D</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.E</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.F</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.G</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.H</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.I</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.J</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.K</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.L</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.M</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.N</span></a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                  <a href=""><span>Subpage 2.O</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
         </li>
         <li class="usa-nav__primary-item">
@@ -151,13 +199,19 @@
           </button>
           <ul id="basic-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 3.A</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 3.B</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 3.C</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>Subpage 3.D</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>Subpage 3.D</span></a>
             </li>
           </ul>
         </li>
@@ -172,16 +226,19 @@
           </button>
           <ul id="basic-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 4.A</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 4.B</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 4.C</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 4.D</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>Subpage 4.E</span></a>
             </li>
           </ul>
         </li>
@@ -196,16 +253,19 @@
           </button>
           <ul id="basic-nav-section-five" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 5.A</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 5.B</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 5.C</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 5.D</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>Subpage 5.E</span></a>
             </li>
           </ul>
         </li>
@@ -220,16 +280,13 @@
           </button>
           <ul id="basic-nav-section-six" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 6.A</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 6.B</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Subpage 6.C</span></a>
             </li>
           </ul>
         </li>
@@ -244,16 +301,13 @@
           </button>
           <ul id="basic-nav-section-seven" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Models of Survivorship Care</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Pediatric and Adolescent and Young Adult (AYA) Cancer Survivorship</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href=""><span>Survivorship Needs for Individuals Living with Advanced and Metastatic Cancers</span></a>
             </li>
           </ul>
         </li>
