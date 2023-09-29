@@ -1,5 +1,5 @@
 ---
-layout: right
+layout: large-pattern
 title: Header
 permalink: /patterns/header
 section: Patterns # initial cap required to make menu work
