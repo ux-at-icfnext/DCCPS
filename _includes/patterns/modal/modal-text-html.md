@@ -1,24 +1,24 @@
 <div class="margin-y-3">
   <a
-    href="#example-modal-1"
+    href="#example-modal-2"
     class="usa-button"
-    aria-controls="example-modal-1"
+    aria-controls="example-modal-2"
     data-open-modal
     >Open default modal</a
   >
   <div
     class="usa-modal"
-    id="example-modal-1"
-    aria-labelledby="modal-1-heading"
-    aria-describedby="modal-1-description"
+    id="example-modal-2"
+    aria-labelledby="modal-2-heading"
+    aria-describedby="modal-2-description"
   >
     <div class="usa-modal__content">
       <div class="usa-modal__main">
-        <h2 class="usa-modal__heading" id="modal-1-heading">
+        <h2 class="usa-modal__heading" id="modal-2-heading">
           Are you sure you want to continue?
         </h2>
         <div class="usa-prose">
-          <p id="modal-1-description">
+          <p id="modal-2-description">
             You have unsaved changes that will be lost.
           </p>
         </div>

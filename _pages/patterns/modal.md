@@ -6,7 +6,7 @@ section: Patterns # initial cap required to make menu work
 summary: |
   A modal disables page content and focuses the user’s attention on a single task or message. Please review the <a href="https://designsystem.digital.gov/components/modal/">USWDS: Modal</a> for more information on how to use this component.
 
-htmlpath: patterns/modal/modal-html.md
+htmlpath: patterns/modal/modal-image-html.md
 csspath: patterns/modal/index.scss
 
 modal-button: Modal Button
@@ -24,7 +24,9 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/modal/modal-html.md %}
+{% include patterns/modal/modal-image-html.md %}
+
+{% include patterns/modal/modal-text-html.md %}
 ---
 
 ## Theme Settings
