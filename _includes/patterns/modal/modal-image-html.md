@@ -1,10 +1,10 @@
 <div class="margin-y-3">
   <a
     href="#example-modal-1"
-    class="usa-button"
+    class="usa-button image-modal-button"
     aria-controls="example-modal-1"
     data-open-modal
-    >Open default modal</a
+    ><img src="/assets/images/modal-image.png"/></a
   >
   <div
     class="usa-modal"
@@ -16,24 +16,6 @@
       <div class="usa-modal__main">
         <div class="usa-prose">
           <img src="/assets/images/modal-image.png"/>
-        </div>
-        <div class="usa-modal__footer">
-          <ul class="usa-button-group">
-            <li class="usa-button-group__item">
-              <button type="button" class="usa-button" data-close-modal>
-                Continue without saving
-              </button>
-            </li>
-            <li class="usa-button-group__item">
-              <button
-                type="button"
-                class="usa-button usa-button--unstyled padding-105 text-center"
-                data-close-modal
-              >
-                Go back
-              </button>
-            </li>
-          </ul>
         </div>
       </div>
       <button
