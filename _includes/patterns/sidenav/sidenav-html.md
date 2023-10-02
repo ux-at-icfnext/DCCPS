@@ -1,4 +1,5 @@
-<nav aria-label="Side navigation,,,">
+<nav aria-label="Side navigation,,," class="sidenav">
+  <h2 class="section-menu">Section Menu</h2>
   <ul class="usa-sidenav">
     <li class="usa-sidenav__item">
       <a href="javascript:void(0);">Parent link</a>
