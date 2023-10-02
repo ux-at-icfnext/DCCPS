@@ -14,13 +14,8 @@
   >
     <div class="usa-modal__content">
       <div class="usa-modal__main">
-        <h2 class="usa-modal__heading" id="modal-1-heading">
-          Are you sure you want to continue?
-        </h2>
         <div class="usa-prose">
-          <p id="modal-1-description">
-            You have unsaved changes that will be lost.
-          </p>
+          <img src="/assets/images/modal-image.png"/>
         </div>
         <div class="usa-modal__footer">
           <ul class="usa-button-group">
