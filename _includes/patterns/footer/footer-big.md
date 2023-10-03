@@ -16,7 +16,7 @@
   <div class="usa-footer__primary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-8">
+        <div class="tablet:grid-col-8 footer-grid">
         {% if type == "prototype" %}
           <nav class="usa-footer__nav" aria-label="Footer navigation,,">
             <div class="grid-row grid-gap-4">
