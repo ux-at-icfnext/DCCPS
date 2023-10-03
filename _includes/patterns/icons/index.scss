@@ -1,0 +1,31 @@
+.icon-component{
+    margin: 5px 0;
+
+    a{
+        display: block;
+        color: #2f70a8;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 50%;
+        background: #FFFFFF;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        margin-right: 8px;
+        transition: all .2s ease-in-out;
+    }
+    img{
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+        vertical-align: middle;
+    }
+    .text{
+        font-size: 0.9375rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+}
