@@ -6,7 +6,7 @@
   {% assign nav = site.data.lib-nav.nav %}
 {% endif %}
 
-<header class="usa-header usa-header--basic">
+<header class="usa-header usa-header--basic upper-header">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo" id="-logo">
