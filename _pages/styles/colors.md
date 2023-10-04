@@ -4,7 +4,7 @@ title: Colors
 permalink: /styles/colors
 section: Styles # initial cap required to make menu work
 summary: |
-  A button draws attention to important actions with a large selectable surface.
+  Color Palette
 ---
 
 
