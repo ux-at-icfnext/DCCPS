@@ -4,7 +4,7 @@ title: Timeline
 permalink: /patterns/timeline
 section: Patterns # initial cap required to make menu work
 summary: |
-  A process list displays the steps or stages of important instructions or processes. Please review the <a href="https://designsystem.digital.gov/components/process-list/">USWDS: Process List/a> for more information on how to use this component.
+  A timeline component is a responsive list of events that animate in on scroll. The divider should be the largest unit (either years or months) and the cells should be the smaller unit (months or days). Whenever possible the timeline should be over the light gray background to separate it from other content.
 
 htmlpath: patterns/timeline/timeline-html.md
 csspath: patterns/timeline/index.scss

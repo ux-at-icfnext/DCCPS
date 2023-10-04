@@ -4,7 +4,7 @@ title: Program Banners
 permalink: /patterns/program-banners
 section: Patterns # initial cap required to make menu work
 summary: |
-  A process list displays the steps or stages of important instructions or processes. Please review the <a href="https://designsystem.digital.gov/components/process-list/">USWDS: Process List/a> for more information on how to use this component.
+  Each Program Area for DCCPS has a program banner under the DCCPS logo and above the main navigation. The Office of Director (OD) site does not have a program banner.
 
 htmlpath: patterns/program-banners/program-banners-html.md
 csspath: patterns/program-banners/index.scss

@@ -4,7 +4,7 @@ title: Side Navigation
 permalink: /patterns/sidenav
 section: Patterns # initial cap required to make menu work
 summary: |
-  A process list displays the steps or stages of important instructions or processes. Please review the <a href="https://designsystem.digital.gov/components/process-list/">USWDS: Process List/a> for more information on how to use this component.
+  Hierarchical, vertical navigation to place at the side of a page.
 
 htmlpath: patterns/sidenav/sidenav-html.md
 csspath: patterns/sidenav/index.scss

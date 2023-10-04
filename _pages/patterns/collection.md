@@ -4,7 +4,7 @@ title: Collection
 permalink: /patterns/collection
 section: Patterns # initial cap required to make menu work
 summary: |
-  The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="https://designsystem.digital.gov/components/collection/">USWDS: Collection</a> for more information on how to use this component.
+  A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source. The following component is based on the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="https://designsystem.digital.gov/components/collection/">USWDS: Collection</a> for more information on how to use this component.
 
 htmlpath: patterns/collection/collection-html.md
 csspath: patterns/collection/index.scss

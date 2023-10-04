@@ -4,7 +4,7 @@ title: Back to Top
 permalink: /patterns/back-to-top
 section: Patterns # initial cap required to make menu work
 summary: |
-  Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure.
+  The back to top button appears in the lower right corner. It is a circle with an up arrow that flips when the user hovers over it.
 
 htmlpath: patterns/back-to-top/back-to-top-html.md
 csspath: patterns/back-to-top/index.scss

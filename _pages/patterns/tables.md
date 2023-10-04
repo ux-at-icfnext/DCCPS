@@ -4,7 +4,7 @@ title: Tables
 permalink: /patterns/tables
 section: Patterns # initial cap required to make menu work
 summary: |
-  The tab component consists of two distinct zones: selected and unselected. There are always at least two tabs and one is selected by default. Tabs are used to make it easy to explore and switch between different views.
+  A table shows information in columns and rows.
 
 htmlpath: patterns/tables/tables-html.md
 csspath: patterns/tables/index.scss
