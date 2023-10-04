@@ -5,7 +5,7 @@
   {% for item in site.pages | sort: "title" %}
   {% assign sec = item.section | capitalize %}
   {% if section == sec  %}
-  <li class="usa-card {{ grid | default:'tablet:grid-col-4'}}">
+  <li class="usa-card {{ grid | default:'tablet:grid-col-4'}} landing-card">
       <div class="{{ class | default: 'usa-card__container' }}">
         <div class="usa-card__header">
           <h2 class="usa-card__heading"><a href="{{ item.url }}"> {{ item.title }} </a></h2>
