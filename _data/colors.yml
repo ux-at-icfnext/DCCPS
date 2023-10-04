@@ -1,5 +1,5 @@
 base:
-  - value: '#1b1b1b'
+  - value: '#111111'
     token: 'base-darkest'
   - value: '#3d4551'
     token: 'base-darker'
