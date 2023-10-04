@@ -4,7 +4,7 @@ title: Events
 permalink: /patterns/events
 section: Patterns # initial cap required to make menu work
 summary: |
-  The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the <a href="https://designsystem.digital.gov/components/collection/">USWDS: Collection</a> for more information on how to use this component.
+  The event section on the homepage appears only when there is an upcoming event. If no event is scheduled or close then this section would not appear.
 
 htmlpath: patterns/events/events-html.md
 csspath: patterns/events/index.scss

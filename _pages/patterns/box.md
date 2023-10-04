@@ -4,7 +4,7 @@ title: Box
 permalink: /patterns/box
 section: Patterns # initial cap required to make menu work
 summary: |
-  A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links.
+  Boxes are primarily information which may contain links. Boxes may or may not contain links (and may contain multiple links). Boxes represents a portion of a document whose content is only indirectly related to the document's main content. If the box is a sidebar box, then it is often created using the HTML aside tag
 
 htmlpath: patterns/box/box-html.md
 csspath: patterns/box/index.scss

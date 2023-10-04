@@ -4,7 +4,7 @@ title: Icons
 permalink: /patterns/icons
 section: Patterns # initial cap required to make menu work
 summary: |
-  Breadcrumbs provide secondary navigation to help users understand where they are in a website.
+  DCCPS uses the same favicon and app icon as <a href="https://www.cancer.gov/">Cancer.gov</a>.
 
 htmlpath: patterns/icons/icons-html.md
 csspath: patterns/icons/index.scss
