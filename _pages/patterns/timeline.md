@@ -1,5 +1,5 @@
 ---
-layout: right
+layout: large-pattern
 title: Timeline
 permalink: /patterns/timeline
 section: Patterns # initial cap required to make menu work
