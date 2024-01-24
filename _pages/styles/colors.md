@@ -22,7 +22,7 @@ _See the [USWDS](https://designsystem.digital.gov/design-tokens/color/theme-toke
 Set the theme palette by setting the values you want in the [theme settings file](/docs/themesettings). You can use either a [theme token](https://designsystem.digital.gov/design-tokens/color/system-tokens/#using-color-tokens-2) or a hex value.
 
 
-{% include partials/colors-table.md content=site.data.color %}
+{% include partials/dccps-colors-table.md content=site.data.dccps-color %}
 
 
 ## Library & Prototype use
