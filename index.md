@@ -22,6 +22,11 @@ card:
       btn:
         - link: "/patterns"
           text: View
+    - title: Prototpye
+      content: Lorem stuff that takes up a bunch of space that might be a few lines
+      btn:
+        - link: "/prototype"
+          text: View
 ---
 
 {% include patterns/card/card-group.md headings=page.card.headings content=page.card.list settings=page.card.settings %}

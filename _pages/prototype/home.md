@@ -1,7 +1,7 @@
 ---
 layout: default
 # categories: [prototype]
-title: Basic Page
+title: Home
 type: [prototype]
-permalink: prototype/basic/
+permalink: prototype/home/
 ---

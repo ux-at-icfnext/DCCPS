@@ -8,8 +8,8 @@ permalink: /prototype/
 <div class="grid-container" markdown="1">
 
 ## Demo
-<a href="/prototype/demo-home">Presentation</a>
+<a href="/prototype/home">Home</a>
 <br>
-<a href="/prototype/demo">Demo</a>
+<a href="/prototype/basic">Basic Page</a>
 
 </div>
