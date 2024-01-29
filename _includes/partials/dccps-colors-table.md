@@ -14,6 +14,7 @@
     <td>hex</td>
     <td>name</td>
     <td>RGB</td>
+    <td>token</td>
   </tr>
   {% for c in color %}
   <tr>
@@ -22,9 +23,10 @@
     {% if c.short %}
       <td>{{ c.short }}</td>
     {% else %}
-      <td>{{ c.token }}</td>
+      <td>{{ c.name }}</td>
     {% endif %}
     <td>{{ c.rgb }}</td>
+    <td>{{ c.token }}</td>
   </tr>
   {% endfor %}
 </table>
