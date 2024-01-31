@@ -1,21 +1,42 @@
 .sidenav{
     width: 25%;
-
+    
+    .section-menu{
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    }
     .usa-sidenav{
         background-color: #f2f2f2;
         padding-bottom: 10px;
         border-bottom: 1px solid #ededed;
     }
-
     a{
         font-size: 18px;
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
         line-height: 1.3;
         text-decoration: none;
         position: relative;
         display: block;
         width: 100%;
         padding: 10px 16px;
+    }
+    a:not(.usa-button):not(.usa-current){
         color: #2f70a8;
+    }
+    a:not(.usa-button):not(.usa-current):hover{
+        color: white;
+    }
+    .usa-sidenav__item{
+        a:hover{
+        background-color: #2f70a8;
+        color: white;
+        }
+    }
+    .usa-current::after{
+        border-left: #2f70a8;
+    }
+    .usa-current{
+        background-color: #f9f9f9;
+        color: #363636;
     }
 }
 .section-menu{

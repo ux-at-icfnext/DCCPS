@@ -9,7 +9,7 @@ summary: |
 htmlpath: patterns/sidenav/sidenav-html.md
 csspath: patterns/sidenav/index.scss
 
-timeline:
+sidenav:
   content:
     - title: Process List Item 1
       content: |
@@ -30,14 +30,14 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
-{% include patterns/sidenav/sidenav-html.md %}
+{% include patterns/sidenav/sidebar-nav.md %}
 ---
 
 ## Theme Settings
 N/A
 
 ## Variations
-None
+{% include patterns/sidenav/sidenav-html.md %}
 
 ## Code Examples
 {% include partials/code-accordion.md %}
