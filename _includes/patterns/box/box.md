@@ -13,19 +13,18 @@
 {% if set.media_class %}
     {% assign media_class=set.media_class %}
 {% endif %}
-
 <ul class="usa-card-group box-component"> 
   {% for card in items %}
     <li class="usa-card {{ grid | default:'tablet:grid-col-4'}}">
       <div class="usa-card__container {{ class | default: 'usa-card__container' }} {{ bg-color_class}}">
         {% if card.title %}
             {% if card.icon %}
-                <div class="usa-card__header">
+                <div class="usa-card__header icon-header">
                         <div class="title_icon">
                             <img src="{{card.icon}}" alt="{{card.alt}}">
                         </div>
                     <div>
-                        <span>{{card.icon-label}}</span>
+                        <span class="icon-label">{{card.icon-label}}</span>
                         <h2 class="usa-card__heading">{{card.title}}</h2>
                     </div>
                 </div>
@@ -95,10 +94,14 @@
               {% endif %}
               {%if card.flag-btn %}
               <ul class="usa-button-group {{ class }} {{ seg }}">
-                <li class="usa-button-group__item">
+                <li class="usa-button-group__item flag-button">
                   <a href="{{ card.btn-link }}" class="usa-button {{ card.btn-class }}"
                     {% if btn.disabled %} disabled="disabled" {% endif %}
                     >{{ card.flag-btn }}</a
+                  >
+                  <a href="{{ card.btn-link }}" class="usa-button semi-button {{ card.btn-class }}"
+                    {% if btn.disabled %} disabled="disabled" {% endif %}
+                    ><i class="fa-solid fa-up-right-from-square"></i></a
                   >
                 </li>
               </ul>

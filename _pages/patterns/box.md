@@ -16,10 +16,10 @@ card:
     bg-color_class: light-background
   content:
     - content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 card-2:
   settings:
@@ -28,10 +28,10 @@ card-2:
     bg-color_class: dark-background
   content:
     - content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 card-3:
   settings:
@@ -60,7 +60,30 @@ card-4:
   settings:
     grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
-    bg-color_class: dark-background
+    bg-color_class: gray-background
+  content:
+    - title: Sidebar Title
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title 2
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
+      btn: button
+      btn-text: Button
+      btn-link: Link
+    - title: Sidebar Title 3
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Icon Label
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+card-4-2:
+  settings:
+    grid_class: "tablet:grid-col-4"
+    group_class: usa-card--header-first
+    bg-color_class: gray-background
   content:
     - title: Sidebar Title
       content: |
@@ -278,14 +301,20 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
+### Box: Standard and Alternate
 {% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
 
 {% include patterns/box/box.md content=page.card-2.content settings=page.card-2.settings %}
-
+### Box: Sidebar box
 {% include patterns/box/box.md content=page.card-3.content settings=page.card-3.settings %}
-
+<div style="background-color: #f2f2f2; padding: 2rem;">
 {% include patterns/box/box.md content=page.card-4.content settings=page.card-4.settings %}
+</div>
+<div style="background-color: #183A57; padding: 2rem;">
+{% include patterns/box/box.md content=page.card-4-2.content settings=page.card-4-2.settings %}
+</div>
 
+### Box: Profile (staff information with headeshot image shown in LG, MD, & SM)
 {% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
@@ -293,17 +322,17 @@ jekyll: |
 {% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
-
+### Box: Sample Application
 {% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
-
+### Box: Featured Grantees & Feature Fellows (Large with Quote, Medium with No Quote, and Carousel)
 {% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
 
 {% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
-
+### Box: Blog (Current and Past)
 {% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
-
+### Box: Featured Monograph
 {% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
-
+### Box: Search Funding Opportunities
 {% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
 ---
 
