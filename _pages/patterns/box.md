@@ -1,5 +1,5 @@
 ---
-layout: right
+layout: large-pattern
 title: Box
 permalink: /patterns/box
 section: Patterns # initial cap required to make menu work
@@ -131,13 +131,13 @@ card-6:
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - title: <a href="">Ali Abazeed, MPH, MPP</a>
-      subtitle: PUBLIC HEALTH ADVISOR
+    - name: <a href="">Ali Abazeed, MPH, MPP</a>
+      role: PUBLIC HEALTH ADVISOR
       link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
-    - title: <a href="">Sarah Bruce Bernal, MA</a>
-      subtitle: PROGRAM ANALYST
+    - name: <a href="">Sarah Bruce Bernal, MA</a>
+      role: PROGRAM ANALYST
       link: sarah.bernal@nih.gov
       media: /assets/images/bernal.jpg
       content: ""
