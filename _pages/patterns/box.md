@@ -114,13 +114,20 @@ card-5:
       link: dchamber@mail.nih.gov
       media: /assets/images/chambers-cropped.jpg
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <ul class="content-list">
+        <span class="content-header">Interests:</span>
+        <li>Intervention adaptation/evolvability</li>
+        <li>Sustainability</li>
+        <li>Learning healthcare systems</li>
+        <li>Implementation research networks</li>
+        <li>De-implementation</li>
+        </ul>
       flag-btn: Follow on Twitter
 
 card-6:
   settings:
     grid_class: "desktop: grid-col-6"
-    group_class: usa-card--flag
+    group_class: usa-card--flag profile-card-small
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:

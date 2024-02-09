@@ -200,9 +200,7 @@
               </section>
               <a href="" class="search-link">{{card.search-link}}</a>
             {% endif %}
-            <p>
-              {{ card.content }}
-            </p>
+            {{ card.content }}
           </div>
         {% endif %}
         {% if card.footer %}
