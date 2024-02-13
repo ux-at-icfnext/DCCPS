@@ -1,9 +1,46 @@
 //Profile Box
 .box-component{
     .profile-card{
+        background-color: #F2F2F2;
+        .usa-card__media{
+            background-color: #F2F2F2;
+        }
+        .usa-card__media--inset{
+            padding: 0;
+        }
+        .usa-card__img{
+            padding-top: 0;
+        }
+        img{
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
         .usa-card__body{
             display: flex;
-            gap: 2rem;
+            gap: 1rem;
+        }
+        .name{
+            font-size: 1.25rem;
+            font-weight: 700;
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        }
+        .name{
+            a:hover{
+                color: #1f496f;
+            }
+        }
+        .role{
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            color: #272727;
+            font-size: 0.875rem;
+        }
+        .email{
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            font-size: 1.125rem;
+            font-weight: 300;
+        }
+        .email:hover{
+            color: #1f496f;
         }
         .content-header{
             font-weight: bold;
@@ -114,11 +151,6 @@
                 max-width: 100%;
                 vertical-align: middle;
             }
-        }
-        .usa-card__media--inset{
-            padding-right: 0;
-            padding-top: 0.5rem;
-            padding-left: 0.5rem;
         }
         .light-background{
             .usa-card__footer{
