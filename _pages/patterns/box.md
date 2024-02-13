@@ -309,9 +309,9 @@ jekyll: |
 
 ## The Design
 ### Box: Standard and Alternate
-{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+{% include patterns/box/box-standard.html %}
 
-{% include patterns/box/box.md content=page.card-2.content settings=page.card-2.settings %}
+{% include patterns/box/box-standard-title.html %}
 ### Box: Sidebar box
 {% include patterns/box/box.md content=page.card-3.content settings=page.card-3.settings %}
 <div style="background-color: #f2f2f2; padding: 2rem;">
@@ -322,7 +322,7 @@ jekyll: |
 </div>
 
 ### Box: Profile (staff information with headeshot image shown in LG, MD, & SM)
-{% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
+{% include patterns/box/box-profile.html %}
 
 {% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
