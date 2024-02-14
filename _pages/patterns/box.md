@@ -326,7 +326,7 @@ jekyll: |
 
 {% include patterns/box/box-profile-small.html %}
 
-{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
+{% include patterns/box/box-profile-circle.html %}
 
 {% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
 ### Box: Sample Application
