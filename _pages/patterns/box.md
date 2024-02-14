@@ -330,7 +330,7 @@ jekyll: |
 
 {% include patterns/box/box-sidebar-image.html %}
 ### Box: Sample Application
-{% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
+{% include patterns/box/box-sample-app.html %}
 ### Box: Featured Grantees & Feature Fellows (Large with Quote, Medium with No Quote, and Carousel)
 {% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
 
