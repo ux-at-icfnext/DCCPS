@@ -324,7 +324,7 @@ jekyll: |
 ### Box: Profile (staff information with headeshot image shown in LG, MD, & SM)
 {% include patterns/box/box-profile.html %}
 
-{% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
+{% include patterns/box/box-profile-small.html %}
 
 {% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
 
