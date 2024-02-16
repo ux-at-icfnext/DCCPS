@@ -16,7 +16,8 @@
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
         }
         .usa-card__body{
-            display: flex;
+            display: grid;
+            grid-template-columns: auto auto auto;
             gap: 2.5rem;
         }
         .name{
@@ -171,6 +172,14 @@
                 color: white;
             }
         }
+    }
+}
+
+//Feature Box
+.box-component{
+    .role, .location{
+        font-weight: bold;
+        font-size: 0.875rem;
     }
 }
 @media only screen and (min-width: 1020px) {
