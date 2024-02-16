@@ -334,9 +334,9 @@ jekyll: |
 ### Box: Featured Grantees & Feature Fellows (Large with Quote, Medium with No Quote, and Carousel)
 {% include patterns/box/box-featured.html %}
 
-{% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
+{% include patterns/box/box-featured-small.html %}
 ### Box: Blog (Current and Past)
-{% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
+{% include patterns/box/box-blog.html %}
 ### Box: Featured Monograph
 {% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
 ### Box: Search Funding Opportunities
