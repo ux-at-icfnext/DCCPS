@@ -192,10 +192,50 @@
             grid-template-columns: auto auto;
             gap: 1rem;
             padding: 1rem;
+            padding-top: 0;
         }
         .usa-button-group{
             background-color: #f2f2f2;
             padding: 1rem;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 2fr;
+        }
+        .dark-banner{
+            background-color: #363636;
+            color: white;
+            padding: 15px 20px;
+            align-items: center;
+            font-weight: bold;
+        }
+        .usa-card__header{
+            display: block;
+            background-color: #F2F2F2;
+            padding-top: 0;
+            padding-bottom: 0;
+            h2{
+                a{
+                    color: #2f70a8;
+                }
+            }
+            .usa-card__heading{
+                margin-left: 0;
+            }
+            span{
+                color: black;
+                margin-left: 0;
+                font-size: 0.875rem;
+                text-transform: uppercase;
+            }
+            .name_date{
+                padding: 10px 0;
+            }
+        }
+        img{
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            width: 200px;
+            max-height: auto;
         }
     }
 }
@@ -449,54 +489,6 @@
             }
             .usa-card__img{
                 padding-top: 15px;
-            }
-        }
-        .monograph{
-            .dark-banner{
-                background-color: #363636;
-                color: white;
-                padding: 15px 20px;
-                align-items: center;
-            }
-            .usa-card__header{
-                display: block;
-                background-color: #F2F2F2;
-                h2{
-                    a{
-                        color: #2f70a8;
-                    }
-                }
-                .usa-card__heading{
-                    margin-left: 0;
-                }
-                span{
-                    color: black;
-                    margin-left: 0;
-                }
-                .name_date{
-                    padding: 10px 0;
-                }
-            }
-            img{
-                border: 4px solid #FFFFFF;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-                width: 200px;
-                max-height: auto;
-            }
-            .blog-box__content{
-                display: grid;
-                grid-template-columns: auto auto;
-                gap: 1rem;
-            }
-            .usa-card__body{
-                padding-top: 15px;
-            }
-            .usa-card__img{
-                padding-top: 15px;
-            }
-            .usa-button-group{
-                display: grid;
-                grid-template-columns: 1.5fr 1.5fr 2fr;
             }
         }
     }
