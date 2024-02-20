@@ -239,6 +239,15 @@
         }
     }
 }
+
+//Search Box
+.box-component{
+    .search-box{
+        .usa-card__body{
+            padding-top: 1rem;
+        }
+    }
+}
 @media only screen and (min-width: 1020px) {
     .box-component{
         .usa-card__container{
@@ -269,9 +278,6 @@
             a{
                 color: white;
             }
-        }
-        .usa-card--header-first .usa-card__body{
-            padding-top: 0;
         }
         .usa-card__body{
             padding: 20px;

@@ -340,7 +340,7 @@ jekyll: |
 ### Box: Featured Monograph
 {% include patterns/box/box-monograph.html %}
 ### Box: Search Funding Opportunities
-{% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
+{% include patterns/box/box-search.html %}
 ---
 
 ## Theme Settings
