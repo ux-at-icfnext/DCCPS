@@ -338,7 +338,7 @@ jekyll: |
 ### Box: Blog (Current and Past)
 {% include patterns/box/box-blog.html %}
 ### Box: Featured Monograph
-{% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
+{% include patterns/box/box-monograph.html %}
 ### Box: Search Funding Opportunities
 {% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
 ---

@@ -182,6 +182,23 @@
         font-size: 0.875rem;
     }
 }
+
+//Monograph Box
+.box-component{
+    .monograph{
+        .monograph__content{
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .usa-button-group{
+            background-color: #f2f2f2;
+            padding: 1rem;
+        }
+    }
+}
 @media only screen and (min-width: 1020px) {
     .box-component{
         .usa-card__container{
