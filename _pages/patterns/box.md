@@ -17,7 +17,9 @@ card:
   content:
     - content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      type: standard
     - title: Sidebar Title 2
+      type: standard-title
       content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -29,7 +31,9 @@ card-2:
   content:
     - content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      type: standard
     - title: Sidebar Title 2
+      type: standard-title
       content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -40,9 +44,11 @@ card-3:
     bg-color_class: light-background
   content:
     - title: Sidebar Title
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -50,6 +56,7 @@ card-3:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
+      type: sidebar
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -63,9 +70,11 @@ card-4:
     bg-color_class: gray-background
   content:
     - title: Sidebar Title
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -73,6 +82,7 @@ card-4:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
+      type: sidebar
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -86,9 +96,11 @@ card-4-2:
     bg-color_class: gray-background
   content:
     - title: Sidebar Title
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
+      type: sidebar
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -96,6 +108,7 @@ card-4-2:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
+      type: sidebar
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -105,11 +118,13 @@ card-4-2:
 card-5:
   settings:
     grid_class: "desktop: grid-col-12"
-    group_class: usa-card--flag profile-card
-    bg-color_class: light-background
+    group_class: profile-card
+    bg-color_class:
     media_class: usa-card__media--inset
   content:
     - name: <a href="">David Chambers, DPhil</a>
+      type: profile
+      profile: true
       role: DEPUTY DIRECTOR FOR IMPLEMENTATION SCIENCE
       link: dchamber@mail.nih.gov
       media: /assets/images/chambers-cropped.jpg
@@ -132,11 +147,13 @@ card-6:
     media_class: usa-card__media--inset
   content:
     - name: <a href="">Ali Abazeed, MPH, MPP</a>
+      type: profile-small
       role: PUBLIC HEALTH ADVISOR
       link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
     - name: <a href="">Sarah Bruce Bernal, MA</a>
+      type: profile-small
       role: PROGRAM ANALYST
       link: sarah.bernal@nih.gov
       media: /assets/images/bernal.jpg
@@ -150,11 +167,13 @@ card-7:
     media_class: usa-card__media--inset
   content:
     - title: Ali Abazeed, MPH, MPP
+      type: profile-circle
       subtitle: Institute
       link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
     - title: Ali Abazeed, MPH, MPP
+      type: profile-circle
       subtitle: Institute
       link: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
@@ -167,6 +186,7 @@ card-8:
     bg-color_class: light-background
   content:
     - title: <a href="">Robert T. Croyle, PhD</a>
+      type: sidebar-image
       subtitle: DIRECTOR, DCCPS
       media: /assets/images/robert_croyle.png
       content: |
@@ -182,6 +202,7 @@ card-9:
     - title: |
         Sexual Health Empowerment for Cervical Health Literacy and    Cancer Prevention
       principal-investigator: Megha Ramaswamy, Ph.D. Exit Disclaimer
+      type: sample-app
       location: UNIVERSITY OF KANSAS SCHOOL OF MEDICINE
       profile: /assets/images/ramaswamy-megha.jpg
       content: ""
@@ -194,6 +215,7 @@ card-9:
     - title: |
         Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
       principal-investigator: Wendy Demark-Wahnefried, Ph.D.
+      type: sample-app
       location: UNIVERSITY OF ALABAMA AT BIRMINGHAM
       profile: /assets/images/wendy-demark-wahnefried.jpg
       content: ""
@@ -211,6 +233,7 @@ card-10:
     bg-color_class: light-background
   content:
     - name: Amanda Fallin-Bennett, Ph.D., R.N.
+      type: featured
       location: UNIVERSITY OF KENTUCKY
       role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
       media: /assets/images/amanda-fallinbennett.jpg
@@ -226,12 +249,14 @@ card-11:
     media_class: usa-card__media--inset
   content:
     - name: Claire Spears, Ph.D.
+      type: featured-small
       role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
       location: GEORGIA STATE UNIVERSITY
       media: /assets/images/claire-spears.jpg
       content: ""
       flag-btn: Other TRCB Grantees
     - name: Olivia Wackowski, Ph.D., M.P.H.
+      type: featured-small
       role: PROGRAM ANALYST
       location: |
                 RUTGERS UNIVERSITY — SCHOOL OF PUBLIC HEALTH AND CANCER INSTITUTE OF NEW JERSEY
@@ -249,6 +274,7 @@ card-12:
     - blog-title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
       dispatch-banner: true
+      type: blog
       author: Sarah Kobrin
       date: February, 2020
       profile-picture: /assets/images/kobrin.jpg
@@ -257,6 +283,7 @@ card-12:
     - blog-title: |
         Reflections on D&I Measurement Challenges, Progress, and Next Steps
       author: Gila Neta
+      type: blog
       date: January, 2019
       profile-picture: /assets/images/neta.jpg
       blog-blurb: On the heels of the <a href="">12th Annual Conference on the Science of Dissemination and Implementation Exit Disclaimer</a>, I find myself reflecting on the essential topic of measurement.
@@ -270,6 +297,7 @@ card-13:
     media_class: usa-card__media--inset
   content:
     - monograph: MONOGRAPH 22
+      type: monograph
       monograph-title: A Socioecological Approach to Addressing Tobacco-Related Health Disparities
       top-banner: true
       date: September, 2017
@@ -292,6 +320,7 @@ card-14:
     bg-color_class: light-background
   content:
     - title: Find Cancer Control Funding Opportunities
+      type: search
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Funding
       search: true
@@ -309,10 +338,13 @@ jekyll: |
 
 ## The Design
 ### Box: Standard and Alternate
-{% include patterns/box/box-standard.html %}
 
-{% include patterns/box/box-standard-title.html %}
+{% include patterns/box/box.md content=page.card.content settings=page.card.settings %}
+
+{% include patterns/box/box.md content=page.card-2.content settings=page.card-2.settings %}
+
 ### Box: Sidebar box
+
 {% include patterns/box/box.md content=page.card-3.content settings=page.card-3.settings %}
 <div style="background-color: #f2f2f2; padding: 2rem;">
 {% include patterns/box/box.md content=page.card-4.content settings=page.card-4.settings %}
@@ -322,7 +354,7 @@ jekyll: |
 </div>
 
 ### Box: Profile (staff information with headeshot image shown in LG, MD, & SM)
-{% include patterns/box/box-profile.html %}
+{% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
 {% include patterns/box/box-profile-small.html %}
 

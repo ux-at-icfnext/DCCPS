@@ -1,3 +1,139 @@
+//Global
+.box-component{
+    .usa-card__container{
+        border: none;
+        border-radius: 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+    }
+    .usa-card__body{
+        padding: 20px;
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        font-size: 1.125;
+        font-weight: 300;
+        color: #111111;
+        a{
+            color: #2f70a8;
+        }
+    }
+    .light-background{
+        .usa-card__footer{
+            background-color: #F2F2F2;
+        }
+        .usa-card__body{
+            background-color: #F2F2F2;
+        }
+        .usa-card__media{
+            background-color: #F2F2F2;
+        }
+    }
+    .gray-background{
+        background-color: white;
+    }
+    .dark-background{
+        .usa-card__header{
+            background-color: #10273a;
+        }
+        .usa-card__body{
+            background-color: #183A57;
+            color: white;
+        }
+        .usa-card__footer{
+            background-color: #183A57;;
+        }
+        a{
+            color: white;
+        }
+    }
+    .usa-card__footer{
+        a{
+            background-color: #2f70a8;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background-color .4s ease-in-out;
+        }
+        a:hover{
+            background-color: #183A57;
+        }
+    }
+    .usa-card__img{
+        background-color: #F2F2F2;
+        img{
+            aspect-ratio: 1/1;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+    }
+    .round-img{
+        img{
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            width: 84px;
+            max-height: 84px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            float: left;
+            aspect-ratio: 1/1;
+        }
+        a{
+            color: #2f70a8;
+        }
+    }
+    .dark-banner{
+        background-color: #363636;
+        color: white;
+        padding: 15px 20px;
+        align-items: center;
+    }
+}
+
+//Sidebar Box{
+    .box-component{
+        .icon-label{
+            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            font-size: 0.625rem;
+        }
+        .icon-header{
+            h2{
+                margin-left: 2.5rem;
+            }
+            span{
+                margin-left: 2.5rem;
+            }
+        }
+        .usa-card__header{
+            background-color: #363636;
+            color: white;
+            padding: 20px;
+            display: flex;
+            border-radius: 0;
+            border-color: #363636;
+            span{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+            }
+            a{
+                color: white;
+            }
+        }
+        .title_icon{
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            width: 40px;
+            height: 40px;
+            margin-right: 1rem;
+            overflow: hidden;
+        }
+        .usa-card__heading{
+            font-size: 1.25rem;
+        }
+    }
 //Profile Box
 .box-component{
     .profile-card{
@@ -31,6 +167,9 @@
             }
         }
         .role{
+            display: block;
+            font-weight: bold;
+            font-size: 0.875rem;
             font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
             color: #272727;
             font-size: 0.875rem;
@@ -183,6 +322,50 @@
     }
 }
 
+//Blog Box
+.box-component{
+    .blog-box{
+        .usa-card__header{
+            display: block;
+            background-color: #F2F2F2;
+            h2{
+                a{
+                    color: #2f70a8;
+                }
+            }
+            .usa-card__heading{
+                margin-left: 0;
+            }
+            span{
+                color: black;
+                margin-left: 0;
+            }
+            .name_date{
+                border-bottom: solid black 1px;
+                padding: 10px 0;
+            }
+        }
+        img{
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            width: 84px;
+            max-height: 84px;
+        }
+        .blog-box__content{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+        }
+        .usa-card__body{
+            padding-top: 15px;
+        }
+        .usa-card__img{
+            padding-top: 15px;
+        }
+    }
+}
+
 //Monograph Box
 .box-component{
     .monograph{
@@ -246,256 +429,11 @@
         .usa-card__body{
             padding-top: 1rem;
         }
-    }
-}
-@media only screen and (min-width: 1020px) {
-    .box-component{
-        .usa-card__container{
-            border: none;
-            border-radius: 0;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
-        }
-        .icon-header{
-            h2{
-                margin-left: 2.5rem;
-            }
-            span{
-                margin-left: 2.5rem;
-            }
-        }
-        .usa-card__header{
-            background-color: #363636;
-            color: white;
-            padding: 20px;
-            display: flex;
-            border-radius: 0;
-            border-color: #363636;
-            span{
-                text-transform: uppercase;
-                font-weight: bold;
-                font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-            }
-            a{
-                color: white;
-            }
-        }
-        .usa-card__body{
-            padding: 20px;
-            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-            font-size: 1.125;
-            font-weight: 300;
-            color: #111111;
-            a{
-                color: #2f70a8;
-            }
-        }
-        .usa-card__footer{
-            a{
-                background-color: #2f70a8;
-                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-                font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-                font-size: 1rem;
-                font-weight: 600;
-                transition: background-color .4s ease-in-out;
-            }
-            a:hover{
-                background-color: #183A57;
-            }
-        }
-        .icon-label{
-            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-            font-size: 0.625rem;
-        }
-        .title_icon{
-            content: '';
-            position: absolute;
-            top: 20px;
-            left: 10px;
-            width: 40px;
-            height: 40px;
-            margin-right: 1rem;
-            overflow: hidden;
-        }
-        .usa-card__heading{
-            font-size: 1.25rem;
-        }
-        .usa-card__img{
-            background-color: #F2F2F2;
-            img{
-                aspect-ratio: 1/1;
-                height: auto;
-                max-width: 100%;
-                vertical-align: middle;
-            }
-        }
-        .light-background{
-            .usa-card__footer{
-                background-color: #F2F2F2;
-            }
-            .usa-card__body{
-                background-color: #F2F2F2;
-            }
-            .usa-card__media{
-                background-color: #F2F2F2;
-            }
-        }
-        .gray-background{
-            background-color: white;
-        }
-        .dark-background{
-            .usa-card__header{
-                background-color: #10273a;
-            }
-            .usa-card__body{
-                background-color: #183A57;
-                color: white;
-            }
-            .usa-card__footer{
-                background-color: #183A57;;
-            }
-            a{
-                color: white;
-            }
-        }
         .usa-search{
             margin-bottom: 1rem;
         }
         .search-link{
             color: #2f70a8;
-        }
-        .round-img{
-            img{
-                border: 4px solid #FFFFFF;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-                border-radius: 50%;
-                width: 84px;
-                max-height: 84px;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                float: left;
-                aspect-ratio: 1/1;
-            }
-            a{
-                color: #2f70a8;
-            }
-        }
-        .name{
-            a{
-                color: #2f70a8;
-                font-size: 1.25rem;
-                font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-            }
-        }
-        .name:hover{
-            color: #1f496f;
-        }
-        .role{
-            display: block;
-            font-weight: bold;
-            font-size: 0.875rem;
-            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-            color: #272727;
-        }
-        .email{
-            a{
-                color: #2f70a8;
-            }
-        }
-        
-        
-        .profile-card-small{
-            img{
-                border: 4px solid #FFFFFF;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-                height: -webkit-fill-available;
-            }        
-            .usa-card__body{
-                display: grid;
-                grid-template-columns: auto auto;
-                gap: 1.5rem;
-                font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-                color: #111111;
-                font-size: 1.125rem;
-                font-weight: 300;
-                padding-right: 0;
-                margin-left: 6rem;
-                span{
-                    display: block;
-                    font-weight: bold;
-                    font-size: 0.875rem;
-                    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-                    color: #272727;
-                    a{
-                        color: #2f70a8;
-                    }
-                }
-                a{
-                    color: white;
-                }
-                .email{
-                    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                }
-                .email:hover{
-                    color: #1f496f;
-                }
-            }
-            
-        }
-        .col-6-card{
-            .usa-card__img img{
-                height: auto;
-            }
-        }
-        .blog-box{
-            a{
-                color: #2f70a8;
-            }
-            .dark-banner{
-                background-color: #363636;
-                color: white;
-                padding: 15px 20px;
-                align-items: center;
-            }
-            .usa-card__header{
-                display: block;
-                background-color: #F2F2F2;
-                h2{
-                    a{
-                        color: #2f70a8;
-                    }
-                }
-                .usa-card__heading{
-                    margin-left: 0;
-                }
-                span{
-                    color: black;
-                    margin-left: 0;
-                }
-                .name_date{
-                    border-bottom: solid black 1px;
-                    padding: 10px 0;
-                }
-            }
-            img{
-                border: 4px solid #FFFFFF;
-                box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-                border-radius: 50%;
-                width: 84px;
-                max-height: 84px;
-            }
-            .blog-box__content{
-                display: grid;
-                grid-template-columns: auto auto;
-                gap: 1rem;
-            }
-            .usa-card__body{
-                padding-top: 15px;
-            }
-            .usa-card__img{
-                padding-top: 15px;
-            }
         }
     }
 }
