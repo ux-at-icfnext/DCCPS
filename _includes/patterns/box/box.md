@@ -25,37 +25,39 @@
               <span class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</span>
             {% endif %}
           {% endif %}
-          <div class="usa-card__header icon-header">
-            {% if card.icon %}
-              <div class="title_icon">
-                  <img src="{{card.icon}}" alt="{{card.icon-alt}}">
-              </div>
-              <div>
-                <span class="icon-label">{{card.icon-label}}</span>
-                <h2 class="usa-card__heading">{{card.title}}</h2>
-              </div>
-            {% else %}
-              <div>
-                {% if card.monograph %}
-                  <div class="name_date">
-                    <span>{{card.monograph-number}}</span><span> : </span><span>{{card.date}}</span>
+          {% if card.title %}
+            <div class="usa-card__header icon-header">
+              {% if card.icon %}
+                <div class="title_icon">
+                    <img src="{{card.icon}}" alt="{{card.icon-alt}}">
+                </div>
+                <div>
+                  <span class="icon-label">{{card.icon-label}}</span>
+                  <h2 class="usa-card__heading">{{card.title}}</h2>
+                </div>
+              {% else %}
+                <div>
+                  {% if card.monograph %}
+                    <div class="name_date">
+                      <span>{{card.monograph-number}}</span><span> : </span><span>{{card.date}}</span>
+                    </div>
+                  {% endif %}
+                  <h2 class="usa-card__heading">{{card.title}}</h2>
+                </div>
+                {% if card.blog %}
+                <div class="name_date">
+                  <span>{{card.name}}</span><span> | </span><span>{{card.date}}</span>
+                </div>
+                {% endif %}
+              {% endif %}
+                {% if card.sidebar-image %}
+                  <div>
+                    <h2 class="usa-card__heading"><a href="">{{card.name}}</a></h2>
+                    <span class="subtitle">{{card.role}}</span>
                   </div>
                 {% endif %}
-                <h2 class="usa-card__heading">{{card.title}}</h2>
-              </div>
-              {% if card.blog %}
-              <div class="name_date">
-                <span>{{card.name}}</span><span> | </span><span>{{card.date}}</span>
-              </div>
-              {% endif %}
-            {% endif %}
-              {% if card.sidebar-image %}
-                <div>
-                  <h2 class="usa-card__heading"><a href="">{{card.name}}</a></h2>
-                  <span class="subtitle">{{card.role}}</span>
-                </div>
-              {% endif %}
-          </div>
+            </div>
+          {% endif %}
           {% if card.sidebar-image %}
             <div class="usa-card__media">
                 <div class="usa-card__img">
@@ -136,7 +138,7 @@
                     </p>
                 </div>
               </div>
-            {% if card.monograph %}
+            {% elsif card.monograph %}
               <div class="monograph__content">
                 <div class="blog-profile">
                     <div class="usa-card__img">
@@ -162,7 +164,7 @@
                   </ul>
                 </div>
               </div>
-            {% if card.search %}
+            {% elsif card.search %}
               <section aria-label="Search component">
                 <form class="usa-search" role="search">
                     <label class="usa-sr-only" for="search-field">Search</label>
@@ -181,8 +183,6 @@
                   <span>- {{card.quote}}</span>
                 {% endif %}
               </div>
-            {% endif %}
-            {% endif %}
             {% endif %}
           </div>
           {% if card.sample-app %}

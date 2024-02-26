@@ -137,7 +137,7 @@ card-5:
         <li>Implementation research networks</li>
         <li>De-implementation</li>
         </ul>
-      flag-btn: Follow on Twitter
+      btn-text: Follow on Twitter
 
 card-6:
   settings:
