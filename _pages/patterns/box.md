@@ -13,13 +13,11 @@ card:
   settings:
     grid_class: "desktop: grid-col-6"
     group_class: usa-card--header-first
-    bg-color_class: light-background
   content:
     - content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      type: standard
-    - title: Sidebar Title 2
-      type: standard-title
+      bg-color: light-background
+    - bg-color: dark-background
       content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -27,13 +25,14 @@ card-2:
   settings:
     grid_class: "desktop: grid-col-6"
     group_class: usa-card--header-first
-    bg-color_class: dark-background
   content:
-    - content: |
+    - title: Sidebar Title
+      bg-color: light-background
+      content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       type: standard
     - title: Sidebar Title 2
-      type: standard-title
+      bg-color: dark-background
       content: |
         Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <a href="">ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -41,14 +40,13 @@ card-3:
   settings:
     grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
-    bg-color_class: light-background
   content:
     - title: Sidebar Title
-      type: sidebar
+      bg-color: light-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
-      type: sidebar
+      bg-color: light-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -56,7 +54,7 @@ card-3:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
-      type: sidebar
+      bg-color: light-background
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -67,14 +65,13 @@ card-4:
   settings:
     grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
-    bg-color_class: gray-background
   content:
     - title: Sidebar Title
-      type: sidebar
+      bg-color: gray-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
-      type: sidebar
+      bg-color: gray-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -82,7 +79,7 @@ card-4:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
-      type: sidebar
+      bg-color: gray-background
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -93,14 +90,13 @@ card-4-2:
   settings:
     grid_class: "tablet:grid-col-4"
     group_class: usa-card--header-first
-    bg-color_class: gray-background
   content:
     - title: Sidebar Title
-      type: sidebar
+      bg-color: gray-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     - title: Sidebar Title 2
-      type: sidebar
+      bg-color: gray-background
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       footer: true
@@ -108,7 +104,7 @@ card-4-2:
       btn-text: Button
       btn-link: Link
     - title: Sidebar Title 3
-      type: sidebar
+      bg-color: gray-background
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Icon Label
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -142,40 +138,40 @@ card-5:
 card-6:
   settings:
     grid_class: "desktop: grid-col-6"
-    group_class: usa-card--flag profile-card-small
+    group_class: profile-card
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
     - name: <a href="">Ali Abazeed, MPH, MPP</a>
-      type: profile-small
+      profile: true
       role: PUBLIC HEALTH ADVISOR
-      link: ali.abazeed@nih.gov
+      email: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
     - name: <a href="">Sarah Bruce Bernal, MA</a>
-      type: profile-small
+      profile: true
       role: PROGRAM ANALYST
-      link: sarah.bernal@nih.gov
+      email: sarah.bernal@nih.gov
       media: /assets/images/bernal.jpg
       content: ""
 
 card-7:
   settings:
     grid_class: "desktop: grid-col-6"
-    group_class: usa-card--flag round-img
+    group_class: profile-card round-img
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - title: Ali Abazeed, MPH, MPP
-      type: profile-circle
+    - name: Ali Abazeed, MPH, MPP
+      profile: true
       subtitle: Institute
-      link: ali.abazeed@nih.gov
+      email: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
-    - title: Ali Abazeed, MPH, MPP
-      type: profile-circle
+    - name: Ali Abazeed, MPH, MPP
+      profile: true
       subtitle: Institute
-      link: ali.abazeed@nih.gov
+      email: ali.abazeed@nih.gov
       media: /assets/images/abazeed.jpg
       content: ""
 
@@ -186,45 +182,39 @@ card-8:
     bg-color_class: light-background
   content:
     - title: <a href="">Robert T. Croyle, PhD</a>
-      type: sidebar-image
-      subtitle: DIRECTOR, DCCPS
+      sidebar-image: true
+      role: DIRECTOR, DCCPS
       media: /assets/images/robert_croyle.png
       content: |
         Robert Croyle, Ph.D., was appointed director of the Division of Cancer Control and Population Sciences (DCCPS) at the National Cancer Institute (NCI) in July 2003. In this role, he oversees a research portfolio and operating budget of nearly half a billion dollars and serves on NCI’s Scientific Program Leaders governance group.
 
 card-9:
   settings:
-    grid_class: "desktop: grid-col-12"
+    grid_class: "desktop: grid-col-6"
     group_class: usa-card--header-first sample-app
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
     - title: |
         Sexual Health Empowerment for Cervical Health Literacy and    Cancer Prevention
+      sample-app: true
       principal-investigator: Megha Ramaswamy, Ph.D. Exit Disclaimer
       type: sample-app
       location: UNIVERSITY OF KANSAS SCHOOL OF MEDICINE
-      profile: /assets/images/ramaswamy-megha.jpg
+      media: /assets/images/ramaswamy-megha.jpg
       content: ""
       award-number: 1R01CA181047-01A1
       footer: true
-      btn: true
-      btn-text: View Abstract
-      btn-2: true
-      btn-2-text: View Grant Application (PDF, 100KB)
     - title: |
         Vegetable Garden Feasibility Trial to Promote Function in      Older Cancer Survivors
+      sample-app: true
       principal-investigator: Wendy Demark-Wahnefried, Ph.D.
       type: sample-app
       location: UNIVERSITY OF ALABAMA AT BIRMINGHAM
-      profile: /assets/images/wendy-demark-wahnefried.jpg
+      media: /assets/images/wendy-demark-wahnefried.jpg
       content: ""
       award-number: 1R21CA182508-01
       footer: true
-      btn: true
-      btn-text: View Abstract
-      btn-2: true
-      btn-2-text: View Grant Application (PDF, 100KB)
 
 card-10:
   settings:
@@ -356,13 +346,14 @@ jekyll: |
 ### Box: Profile (staff information with headeshot image shown in LG, MD, & SM)
 {% include patterns/box/box.md content=page.card-5.content settings=page.card-5.settings %}
 
-{% include patterns/box/box-profile-small.html %}
+{% include patterns/box/box.md content=page.card-6.content settings=page.card-6.settings %}
 
-{% include patterns/box/box-profile-circle.html %}
+{% include patterns/box/box.md content=page.card-7.content settings=page.card-7.settings %}
 
-{% include patterns/box/box-sidebar-image.html %}
+{% include patterns/box/box.md content=page.card-8.content settings=page.card-8.settings %}
+
 ### Box: Sample Application
-{% include patterns/box/box-sample-app.html %}
+{% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 ### Box: Featured Grantees & Feature Fellows (Large with Quote, Medium with No Quote, and Carousel)
 {% include patterns/box/box-featured.html %}
 

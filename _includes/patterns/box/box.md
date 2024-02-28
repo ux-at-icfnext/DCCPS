@@ -17,7 +17,7 @@
 <ul class="usa-card-group box-component"> 
   {% for card in items %}
     <li class="usa-card {{ grid | default:'desktop: grid-col-6}}">
-        <div class="usa-card__container {{ class | default: 'usa-card__container' }} {{ bg-color_class}}">
+        <div class="usa-card__container {{ class | default: 'usa-card__container' }} {{ card.bg-color}}">
           {% if card.banner %}
             {% if card.monograph %}
               <span class="dark-banner">Featured Monograph</span>
@@ -76,14 +76,16 @@
                 <span class="name"><a href="">{{card.name}}</a></span>
                 <span class="role">{{card.role}}</span>
                 <p class="email"><a href="dchamber@mail.nih.gov">{{card.email}}</a></p>
-                <ul class="usa-button-group">
-                  <li class="usa-button-group__item flag-button">
-                    <a href="" class="usa-button">{{card.btn-text}}</a>
-                    <a href="" class="usa-button semi-button">
-                      <i class="fa-solid fa-up-right-from-square"></i>
-                    </a>
-                  </li>
-                </ul>
+                {% if card.btn-text %}
+                  <ul class="usa-button-group">
+                    <li class="usa-button-group__item flag-button">
+                      <a href="" class="usa-button">{{card.btn-text}}</a>
+                      <a href="" class="usa-button semi-button">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                      </a>
+                    </li>
+                  </ul>
+                {% endif %}
               </div>
             {% endif %}
             {% if card.sample-app %}
@@ -97,7 +99,7 @@
                         </div>
                       </div>  
                       <div>
-                          <span><a href="" class="investigator">{{card.name}}<i class="fas fa-external-link-alt"></i></a></span>
+                          <span><a href="" class="investigator">{{card.principal-investigator}}<i class="fas fa-external-link-alt"></i></a></span>
                           <span class="location">{{card.location}}</span>
                       </div>                
                     </div>
@@ -185,21 +187,19 @@
               </div>
             {% endif %}
           </div>
-          {% if card.sample-app %}
-            {% if card.footer %}
-              <div class="usa-card__footer">
-                <ul class="usa-button-group">
-                    <li class="usa-button-group__item">
-                        <a href="{{ card.btn-link }}" class="usa-button">View Abstract</a>
-                    </li>
-                    <li class="usa-button-group__item">
-                        <a href="" class="usa-button">View Grant Application (PDF, 100KB)</a>
-                    </li>
-                </ul>
-              </div>
-            {% endif %}
-          {% endif %}
           {% if card.footer %}
+            {% if card.sample-app %}
+                <div class="usa-card__footer">
+                  <ul class="usa-button-group">
+                      <li class="usa-button-group__item">
+                          <a href="{{ card.btn-link }}" class="usa-button">View Abstract</a>
+                      </li>
+                      <li class="usa-button-group__item">
+                          <a href="" class="usa-button">View Grant Application (PDF, 100KB)</a>
+                      </li>
+                  </ul>
+                </div>
+            {% else %}
             <div class="usa-card__footer">
               <ul class="usa-button-group">
                 <li class="usa-button-group__item">
@@ -208,6 +208,7 @@
               </ul>
             </div>
           {% endif %}
+        {% endif %}
         </div>
     </li>
   {% endfor %}

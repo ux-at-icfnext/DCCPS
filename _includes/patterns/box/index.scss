@@ -8,7 +8,7 @@
     .usa-card__body{
         padding: 20px;
         font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-        font-size: 1.125;
+        font-size: 1.125rem;
         font-weight: 300;
         color: #111111;
         a{
@@ -216,9 +216,11 @@
         .usa-card__header{
             background-color: #F2F2F2;
             padding-top: 3rem;
+            display: block;
             span{
                 margin-left: 0;
                 color: black;
+                font-size: 0.875rem;
             }
             h2{
                 margin-left: 0;
@@ -289,8 +291,12 @@
             width: 84px;
             max-height: 84px;
         }
+        .usa-card__body{
+            background-color: #F2F2F2;
+        }
         .sample-app__content{
             display: flex;
+            gap: 1rem;
             .principal-investigator{
                 display: flex;
                 span{
@@ -303,7 +309,13 @@
                 .location{
                     font-size: 0.875rem;
                 }
+                .fas{
+                    padding-left: 0.5rem;
+                }
             }
+        }
+        .usa-card__footer{
+            background-color: #F2F2F2;
         }
         .usa-button-group{
             flex-wrap: nowrap;
