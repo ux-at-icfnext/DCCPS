@@ -83,10 +83,17 @@
         }
     }
     .dark-banner{
+        width: 100%;
+        font-size: 0.625rem;
+        line-height: 1.2;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+        margin: 0;
+        padding: 8px 12px;
+        text-transform: uppercase;
+        text-align: center;
         background-color: #363636;
-        color: white;
-        padding: 15px 20px;
-        align-items: center;
+        color: #FFFFFF;
     }
 }
 
@@ -329,8 +336,38 @@
 //Feature Box
 .box-component{
     .role, .location{
-        font-weight: bold;
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
         font-size: 0.875rem;
+        line-height: 1.2;
+        font-weight: 700;
+        margin: 0 0 15px;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+        color: #272727;
+    }
+    blockquote{
+        font-family: "Merriweather", "Times New Roman", Times, Georgia, serif;
+        font-size: 1rem;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.6;
+        max-width: 75ex;
+        color: #272727;
+        border-left: none;
+        margin-bottom: 2px;
+        position: relative;
+        padding-left: 8px;
+        padding-bottom: 2px;
+        margin-top: 0;
+    }
+    cite{
+        font-size: 1.125rem;
+        line-height: 1.2;
+        font-style: normal;
+        max-width: 90ex;
+        padding: 5px 20px;
+        display: block;
+        position: relative;
     }
 }
 
@@ -340,13 +377,19 @@
         .usa-card__header{
             display: block;
             background-color: #F2F2F2;
-            h2{
+            .blog-title{
+                margin-left: 0;
                 a{
                     color: #2f70a8;
+                    text-decoration: underline;
                 }
             }
             .usa-card__heading{
                 margin-left: 0;
+            }
+            h3{
+                margin-top: 0;
+                margin-bottom: 0;
             }
             span{
                 color: black;
@@ -355,6 +398,9 @@
             .name_date{
                 border-bottom: solid black 1px;
                 padding: 10px 0;
+                span{
+                    font-size: 1rem;
+                }
             }
         }
         img{
@@ -370,7 +416,8 @@
             gap: 1rem;
         }
         .usa-card__body{
-            padding-top: 15px;
+            padding-top: 0;
+            background-color: #F2F2F2;
         }
         .usa-card__img{
             padding-top: 15px;
@@ -381,6 +428,14 @@
 //Monograph Box
 .box-component{
     .monograph{
+        .monograph-title{
+            color: #2f70a8;
+        }
+        .usa-card__body{
+            background-color: #f2f2f2;
+            padding-left: 0;
+            padding-top: 0;
+        }
         .monograph__content{
             background-color: #f2f2f2;
             display: grid;
@@ -395,13 +450,18 @@
             padding-left: 0;
             display: grid;
             grid-template-columns: 1.5fr 1.5fr 2fr;
+            a{
+                color: white;
+            }
         }
         .dark-banner{
             background-color: #363636;
             color: white;
             padding: 15px 20px;
-            align-items: center;
+            text-align: left;
             font-weight: bold;
+            font-size: 1rem;
+            line-height: 2;
         }
         .usa-card__header{
             display: block;
@@ -409,8 +469,14 @@
             padding-top: 0;
             padding-bottom: 0;
             h2{
+                color: #2f70a8;
+                margin-left: 0;
+                margin-top: 0;
                 a{
                     color: #2f70a8;
+                    text-decoration: underline;
+                    text-align: left;
+                    cursor: pointer;
                 }
             }
             .usa-card__heading{
@@ -424,6 +490,7 @@
             }
             .name_date{
                 padding: 10px 0;
+                font-size: 0.875rem;
             }
         }
         img{
@@ -440,6 +507,7 @@
     .search-box{
         .usa-card__body{
             padding-top: 1rem;
+            background-color: #F2F2F2;
         }
         .usa-search{
             margin-bottom: 1rem;

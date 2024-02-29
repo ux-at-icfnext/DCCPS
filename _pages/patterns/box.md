@@ -24,7 +24,7 @@ card:
 card-2:
   settings:
     grid_class: "desktop: grid-col-6"
-    group_class: usa-card--header-first
+    group_class: usa-card--header-first sidebar
   content:
     - title: Sidebar Title
       bg-color: light-background
@@ -39,7 +39,7 @@ card-2:
 card-3:
   settings:
     grid_class: "tablet:grid-col-4"
-    group_class: usa-card--header-first
+    group_class: usa-card--header-first sidebar
   content:
     - title: Sidebar Title
       bg-color: light-background
@@ -64,7 +64,7 @@ card-3:
 card-4:
   settings:
     grid_class: "tablet:grid-col-4"
-    group_class: usa-card--header-first
+    group_class: usa-card--header-first sidebar
   content:
     - title: Sidebar Title
       bg-color: gray-background
@@ -89,7 +89,7 @@ card-4:
 card-4-2:
   settings:
     grid_class: "tablet:grid-col-4"
-    group_class: usa-card--header-first
+    group_class: usa-card--header-first sidebar
   content:
     - title: Sidebar Title
       bg-color: gray-background
@@ -219,34 +219,39 @@ card-9:
 card-10:
   settings:
     grid_class: "desktop: grid-col-12"
-    group_class: usa-card--flag profile-card
+    group_class: profile-card
     bg-color_class: light-background
   content:
     - name: Amanda Fallin-Bennett, Ph.D., R.N.
-      type: featured
+      featured: true
       location: UNIVERSITY OF KENTUCKY
       role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
       media: /assets/images/amanda-fallinbennett.jpg
       content: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        After growing up in rural Kentucky, I moved to 
+        California and was struck by the stark geographic 
+        disparity in tobacco control policies, and became 
+        passionate about closing the gap in rural, southern 
+        states.
       flag-btn: Other TRCB Grantees
+      quote: Amanda Fallin-Bennett, Ph.D., R.N.
 
 card-11:
   settings:
-    grid_class: "desktop: grid-col-12"
-    group_class: usa-card--flag
+    grid_class: "desktop: grid-col-6"
+    group_class: profile-card
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
     - name: Claire Spears, Ph.D.
-      type: featured-small
+      featured: true
       role: PSYCHOLOGIST AND HEALTH DISPARITIES RESEARCHER
       location: GEORGIA STATE UNIVERSITY
       media: /assets/images/claire-spears.jpg
       content: ""
       flag-btn: Other TRCB Grantees
     - name: Olivia Wackowski, Ph.D., M.P.H.
-      type: featured-small
+      featured: true
       role: PROGRAM ANALYST
       location: |
                 RUTGERS UNIVERSITY — SCHOOL OF PUBLIC HEALTH AND CANCER INSTITUTE OF NEW JERSEY
@@ -256,28 +261,26 @@ card-11:
 
 card-12:
   settings:
-    grid_class: "desktop: grid-col-12"
+    grid_class: "desktop: grid-col-6"
     group_class: usa-card--header-first blog-box
     bg-color_class: light-background
     media_class: usa-card__media--inset
   content:
-    - blog-title: |
+    - title: |
         Understanding Context: Learning How Organizations Affect Healthcare Delivery
-      dispatch-banner: true
-      type: blog
-      author: Sarah Kobrin
+      banner: true
+      blog: true
+      name: Sarah Kobrin
       date: February, 2020
-      profile-picture: /assets/images/kobrin.jpg
-      blog-blurb: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
-      content: ""
-    - blog-title: |
+      media: /assets/images/kobrin.jpg
+      content: Healthcare delivery settings influence every step of how care is given, yet far more work is needed to effectively describe characteristics of these settings; to link those characteristics to outcomes; and to develop setting-changing interventions to improve care quality.
+    - title: |
         Reflections on D&I Measurement Challenges, Progress, and Next Steps
-      author: Gila Neta
-      type: blog
+      name: Gila Neta
+      blog: true
       date: January, 2019
-      profile-picture: /assets/images/neta.jpg
-      blog-blurb: On the heels of the <a href="">12th Annual Conference on the Science of Dissemination and Implementation Exit Disclaimer</a>, I find myself reflecting on the essential topic of measurement.
-      content: ""
+      media: /assets/images/neta.jpg
+      content: On the heels of the <a href="">12th Annual Conference on the Science of Dissemination and Implementation Exit Disclaimer</a>, I find myself reflecting on the essential topic of measurement.
 
 card-13:
   settings:
@@ -287,35 +290,25 @@ card-13:
     media_class: usa-card__media--inset
   content:
     - monograph: MONOGRAPH 22
-      type: monograph
-      monograph-title: A Socioecological Approach to Addressing Tobacco-Related Health Disparities
-      top-banner: true
+      title: A Socioecological Approach to Addressing Tobacco-Related Health Disparities
+      banner: true
       date: September, 2017
-      profile-picture: /assets/images/m22_cover.jpg
-      blurb: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
-      content: ""
-      monograph-buttons: true
-      footer: false
-      btn: button 1
-      btn-text: View Monograph 22 (PDF, 12.8 MB)
-      btn-2: button 2
-      btn-2-text: View Executive Summary (PDF, 1.1 MB)
-      btn-3: button 3
-      btn-3-text: View Overview Presentation (PDF, 2.8 MB)
+      media: /assets/images/m22_cover.jpg
+      content: Examines the current evidence surrounding tobacco-related health disparities across the tobacco use continuum–initiation, secondhand smoke exposure, current use, frequency and intensity, cessation, relapse, morbidity, and mortality–and the implications for future research and implementation of effective strategies.
 
 card-14:
   settings:
     grid_class: "tablet:grid-col-6"
-    group_class: usa-card--header-first
+    group_class: usa-card--header-first search-box
     bg-color_class: light-background
   content:
     - title: Find Cancer Control Funding Opportunities
-      type: search
+      search: true
       icon: /assets/icons/sidebar-box-icons_2x.png
       icon-label: Funding
       search: true
       search-placeholder: Search for Funding
-      search-link: View all DCCPS Funding Opportunities
+      link: View all DCCPS Funding Opportunities
       content: ""
 
 jekyll: |
@@ -355,15 +348,22 @@ jekyll: |
 ### Box: Sample Application
 {% include patterns/box/box.md content=page.card-9.content settings=page.card-9.settings %}
 ### Box: Featured Grantees & Feature Fellows (Large with Quote, Medium with No Quote, and Carousel)
-{% include patterns/box/box-featured.html %}
+{% include patterns/box/box.md content=page.card-10.content settings=page.card-10.settings %}
 
-{% include patterns/box/box-featured-small.html %}
+{% include patterns/box/box.md content=page.card-11.content settings=page.card-11.settings %}
+
 ### Box: Blog (Current and Past)
-{% include patterns/box/box-blog.html %}
+
+{% include patterns/box/box.md content=page.card-12.content settings=page.card-12.settings %}
+
 ### Box: Featured Monograph
-{% include patterns/box/box-monograph.html %}
+
+{% include patterns/box/box.md content=page.card-13.content settings=page.card-13.settings %}
+
 ### Box: Search Funding Opportunities
-{% include patterns/box/box-search.html %}
+
+{% include patterns/box/box.md content=page.card-14.content settings=page.card-14.settings %}
+
 ---
 
 ## Theme Settings

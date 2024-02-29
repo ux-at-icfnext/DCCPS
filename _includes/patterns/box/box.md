@@ -22,7 +22,7 @@
             {% if card.monograph %}
               <span class="dark-banner">Featured Monograph</span>
             {% else %}
-              <span class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</span>
+              <h4 class="dark-banner">RECENT DISPATCH FROM IMPLEMENTATION SCIENCE AT NCI</h4>
             {% endif %}
           {% endif %}
           {% if card.title %}
@@ -39,10 +39,16 @@
                 <div>
                   {% if card.monograph %}
                     <div class="name_date">
-                      <span>{{card.monograph-number}}</span><span> : </span><span>{{card.date}}</span>
+                      <span>{{card.monograph}}</span><span> : </span><span>{{card.date}}</span>
                     </div>
                   {% endif %}
-                  <h2 class="usa-card__heading">{{card.title}}</h2>
+                  {% if card.blog %}
+                    <h3 class="blog-title"><a>{{card.title}}</a></h3>
+                  {% elsif card.monograph %}
+                    <h2 class="monograph-title"><a>{{card.title}}</a></h2>
+                  {% else %}
+                    <h2 class="usa-card__heading">{{card.title}}</h2>
+                  {% endif %}
                 </div>
                 {% if card.blog %}
                 <div class="name_date">
@@ -118,7 +124,7 @@
               </div>
               <div class="link-button">
                 <span class="name"><a href="">{{card.name}}</a></span>
-                <span class="location">{{card.location}}</span>
+                <p class="location">{{card.location}}</p>
                 <p class="role">{{card.role}}</p>
                 <ul class="usa-button-group">
                   <li class="usa-button-group__item flag-button">
@@ -155,7 +161,7 @@
                   </div>
                   <ul class="usa-button-group">
                     <li class="usa-button-group__item">
-                        <a href="" class="usa-button">View {{card.monograph-number}} (PDF, 12.8 MB)</a>
+                        <a href="" class="usa-button">View {{card.monograph}} (PDF, 12.8 MB)</a>
                     </li>
                     <li class="usa-button-group__item">
                         <a href="" class="usa-button">View Executive Summary (PDF, 1.1 MB)</a>
@@ -180,9 +186,11 @@
               <a href="" class="search-link">{{card.link}}</a>
             {% else %}
               <div class="content-area">
-                {{card.content}}
                 {% if card.quote %}
-                  <span>- {{card.quote}}</span>
+                  <blockquote>"{{card.content}}"</blockquote>
+                  <cite>- {{card.quote}}</cite>
+                  {% else %}
+                  <div>{{card.content}}</div>
                 {% endif %}
               </div>
             {% endif %}
