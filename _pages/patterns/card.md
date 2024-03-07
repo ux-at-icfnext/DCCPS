@@ -93,9 +93,23 @@ jekyll: |
 {{ page.summary }}
 
 ## The Design
+
+### Card: Link (1 link, entire card is a link)
+
 {% include patterns/card/card.md content=page.card.content settings=page.card.settings %}
+
+### Card Sizes
+
 {% include patterns/card/card.md content=page.card-2.content settings=page.card-2.settings %}
+
+### Card: Image in Link (1 Link with image in content area)
+
 {% include patterns/card/card.md content=page.card-3.content settings=page.card-3.settings %}
+
+### Card: Multi-Link (Multiple links within Content Area)
+
+{% include patterns/card/card.md content=page.card-4.content settings=page.card-4.settings %}
+
 {% include patterns/card/card.md content=page.card-4.content settings=page.card-4.settings %}
 ---
 
