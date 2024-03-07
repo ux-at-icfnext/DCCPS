@@ -56,7 +56,70 @@ card-3:
     - title: Sidebar Title 3
       bg-color: light-background
       icon: /assets/icons/sidebar-box-icons_2x.png
-      icon-label: Icon Label
+      icon-label: Funding
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: News and Highlights
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title 2
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Contact
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
+      btn: button
+      btn-text: Button
+      btn-link: Link
+    - title: Sidebar Title 3
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Webinar
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Get Help
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title 2
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Stories
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
+      btn: button
+      btn-text: Button
+      btn-link: Link
+    - title: Sidebar Title 2
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Feature
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      footer: true
+      btn: button
+      btn-text: Button
+      btn-link: Link
+    - title: Sidebar Title 3
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Fact Sheet
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      content: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - title: Sidebar Title 3
+      bg-color: light-background
+      icon: /assets/icons/sidebar-box-icons_2x.png
+      icon-label: Event Series
       desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       content: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

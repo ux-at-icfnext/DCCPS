@@ -31,7 +31,7 @@
                 <div class="title_icon">
                     <img src="{{card.icon}}" alt="{{card.icon-alt}}">
                 </div>
-                <div>
+                <div class="icon-label-header">
                   <span class="icon-label">{{card.icon-label}}</span>
                   <h2 class="usa-card__heading">{{card.title}}</h2>
                 </div>

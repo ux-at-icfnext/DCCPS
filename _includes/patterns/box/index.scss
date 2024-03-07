@@ -1,7 +1,7 @@
 //Global
 .box-component{
     .usa-card__container{
-        border: none;
+        border: 1px solid #e5e5e5;
         border-radius: 0;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
     }
@@ -99,14 +99,16 @@
 
 //Sidebar Box{
     .box-component{
+        .icon-label-header{
+            h2{
+                margin-left: 2.5rem;
+            }
+        }
         .icon-label{
             font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
             font-size: 0.625rem;
         }
         .icon-header{
-            h2{
-                margin-left: 2.5rem;
-            }
             span{
                 margin-left: 2.5rem;
             }
