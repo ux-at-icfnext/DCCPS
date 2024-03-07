@@ -2,5 +2,27 @@
     -webkit-mask: url(/assets/icons/slash.svg) no-repeat center/contain
 }
 .usa-breadcrumb__link:visited{
-    color: #005ea2;
+    color: #1f496f;
+}
+.usa-breadcrumb__link{
+    color: #2f70a8;
+}
+.usa-breadcrumb__link:hover{
+    color: #1f496f;
+}
+.usa-breadcrumb{
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    ol{
+        background-color: #FFFFFF;
+        border-radius: 3px;
+        padding: 6px 12px;
+        font-size: 0.875rem;
+        font-weight: 400;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        position: relative;
+        top: -28px;
+    }
+    .current_page{
+        color: #6c757d;
+    }
 }
