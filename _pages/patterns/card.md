@@ -100,9 +100,11 @@ jekyll: |
 
 ### Card Sizes
 
-{% include patterns/card/card.md content=page.card-2.content settings=page.card-2.settings %}
+{% include patterns/card/card.md content=page.card.content settings=page.card.settings %}
 
 ### Card: Image in Link (1 Link with image in content area)
+
+{% include patterns/card/card.md content=page.card-2.content settings=page.card-2.settings %}
 
 {% include patterns/card/card.md content=page.card-3.content settings=page.card-3.settings %}
 
