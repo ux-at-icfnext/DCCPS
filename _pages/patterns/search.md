@@ -18,6 +18,8 @@ jekyll2: |
 {{ page.summary | markdownify }}
 
 ## The Design
+{% include patterns/search/search-bar-html.md %}
+<br>
 {% include patterns/search/search-html.md %}
 ---
 

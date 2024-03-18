@@ -1,0 +1,22 @@
+.search-bar{
+    width:fit-content;
+    button{
+        background-color: transparent;
+        border: 1px solid #ced5da;
+        border-radius: 3px;
+        border-left: none;
+        img{
+            display: block;
+        }
+    }
+    button:hover{
+        background-color: transparent;
+        border: 1px solid #ced5da;
+        border-left: none;
+    }
+}
+.usa-search__input, [type=search]{
+    border: 1px solid #ced5da;
+    border-right: none;
+    border-radius: 3px;
+}
