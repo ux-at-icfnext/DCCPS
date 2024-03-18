@@ -4,14 +4,31 @@
     background-color: white;
 }
 .usa-nav__secondary{
+    margin-bottom: 1rem;
     .usa-search{
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .search-link{
+        color: #2f70a8;
+        text-decoration: underline;
     }
 }
-
+.usa-nav{
+    background-color: #292929;
+}
+.usa-header--extended .usa-nav{
+    border-top: none;
+}
+.usa-nav__primary{
+    .current{
+        background-color: #3f3f3f;
+    }
+}
+.usa-nav__secondary{
+    bottom: 6rem;
+}
 
 .usa-header{
-    background-color: #2e2e2e;
 
     a, span{
         color: white;
@@ -29,14 +46,7 @@
     .usa-navbar{
         width: 100%;
     }
-    .search-link{
-        color: #2f70a8;
-        display: block;
-        text-align: end;
-        margin-top: 4px;
-        font-size: 0.875rem;
-        font-weight: 400;
-    }
+    
     .usa-search{
         margin-bottom: 0.5rem;
     }
