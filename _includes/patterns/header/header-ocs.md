@@ -98,7 +98,7 @@
     </div>
     <button type="button" class="usa-menu-btn">Menu</button>
   </div>
-  <div class="title-banner brp-banner usa-nav-container">
+  <div class="title-banner ocs-banner usa-nav-container">
     <div class="container">
       <div class="row">
         <div class="col-12">
