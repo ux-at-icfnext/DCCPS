@@ -10,14 +10,28 @@ alert:
   status: info
   content: There are two headers. The extra header should be removed from the system, once you've chosen your version.
 
-htmlpath: patterns/header/header-html.md
+htmlpath: patterns/header/header-od.md
 csspath: patterns/header/index.scss
 ---
 
 {{ page.summary }}
 
 ## The Design
-{% include patterns/header/header-html.md %}
+
+### OD Header
+{% include patterns/header/header-od.md %}
+### BRP Header
+{% include patterns/header/header-brp.md %}
+### EGRP Header
+{% include patterns/header/header-egrp.md %}
+### HDRP Header
+{% include patterns/header/header-hdrp.md %}
+### IS Header
+{% include patterns/header/header-is.md %}
+### SRP Header
+{% include patterns/header/header-srp.md %}
+### OCS Header
+{% include patterns/header/header-ocs.md %}
 ---
 
 {% include patterns/alert/alert.md content=page.alert %}

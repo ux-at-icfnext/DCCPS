@@ -6,7 +6,7 @@ section: Patterns # initial cap required to make menu work
 summary: |
   Search allows users an alternate pathway to content than through main navigation. This search widget is often used on header elements, or in page, to start the search journey. _See the [Search Results Template](/templates/search) - for more information on how search functions._
 
-htmlpath: patterns/header/header-html.md
+htmlpath: patterns/search/search-html.md
 csspath: patterns/header/index.scss
 
 jekyll: |
