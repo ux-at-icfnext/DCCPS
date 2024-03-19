@@ -102,7 +102,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="program-name">Program Area Name </div>
+          <div class="program-name">Office of Cancer Survivorship </div>
         </div>
       </div>
     </div>
@@ -123,11 +123,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
-            aria-controls="extended-nav-section-pa"
+            aria-controls="sg-ocs"
           >
-            <span>Program Areas</span>
+            <span>Statistics and Graphs</span>
           </button>
-          <ul id="extended-nav-section-pa" class="usa-nav__submenu">
+          <ul id="sg-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -155,11 +155,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
-            aria-controls="extended-nav-section-rp"
+            aria-controls="definitions-ocs"
           >
-            <span>Research Portfolios</span>
+            <span>Definitions</span>
           </button>
-          <ul id="extended-nav-section-rp" class="usa-nav__submenu">
+          <ul id="definitions-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -187,11 +187,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
-            aria-controls="extended-nav-section-fo"
+            aria-controls="ri-ocs"
           >
-            <span>Funding Opportunities</span>
+            <span>Research and Information</span>
           </button>
-          <ul id="extended-nav-section-fo" class="usa-nav__submenu">
+          <ul id="ri-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -219,11 +219,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link usa-current"
             aria-expanded="false"
-            aria-controls="extended-nav-section-pd"
+            aria-controls="fg-ocs"
           >
-            <span>Publicarions & Data</span>
+            <span>Funding and Grants</span>
           </button>
-          <ul id="extended-nav-section-pd" class="usa-nav__submenu">
+          <ul id="fg-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -251,11 +251,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
-            aria-controls="extended-nav-section-re"
+            aria-controls="sfa-ocs"
           >
-            <span>Research Emphasis</span>
+            <span>Special Focus Areas</span>
           </button>
-          <ul id="extended-nav-section-re" class="usa-nav__submenu">
+          <ul id="sfa-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -278,11 +278,11 @@
             type="button"
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
-            aria-controls="extended-nav-section-ad"
+            aria-controls="about-ocs"
           >
-            <span>About DCCPS</span>
+            <span>About OCS</span>
           </button>
-          <ul id="extended-nav-section-ad" class="usa-nav__submenu">
+          <ul id="about-ocs" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
                 ><span>&lt;Navigation link&gt;</span></a
@@ -303,9 +303,6 @@
       </ul>
       <div class="usa-nav__secondary">
         {% include patterns/search/search-bar-html.md %}
-        <ul class="usa-nav__secondary-links">
-          <li><a href="" class="search-link">DCCPS Employee Intranet</a></li>
-        </ul>
       </div>
     </div>
   </nav>
