@@ -104,6 +104,9 @@
         <div class="col-12">
           <div class="program-name">Behavioral Research Program </div>
         </div>
+        <div class="mobile-menu">
+          <button type="button" class="usa-menu-btn">Menu</button>
+        </div>
       </div>
     </div>
   </div>
@@ -121,7 +124,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-fobrp"
           >
@@ -153,7 +156,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-aoi"
           >
@@ -185,7 +188,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-rrt"
           >
@@ -217,7 +220,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-pb"
           >
