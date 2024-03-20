@@ -121,7 +121,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-fgegrp"
           >
@@ -153,7 +153,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-raegrp"
           >
@@ -185,7 +185,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-rregrp"
           >
@@ -217,7 +217,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-newsegrp"
           >

@@ -121,7 +121,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="funding-hdrp"
           >
@@ -153,7 +153,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="data-tools-hdrp"
           >
@@ -185,7 +185,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="research-networks-hdrp"
           >
@@ -217,7 +217,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="cross-cutting-hdrp"
           >

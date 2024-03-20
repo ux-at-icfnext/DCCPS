@@ -24,8 +24,28 @@
         background-color: #3f3f3f;
     }
 }
+.usa-nav__primary{
+    li:hover{
+        background-color: #3f3f3f;
+    }
+}
 .usa-nav__secondary{
     bottom: 6rem;
+}
+.mobile-menu{
+    background-color: #4c4f52;
+}
+
+.usa-nav__primary{
+    button[aria-expanded=true]{
+    background-color: #005ea2;
+    }
+}
+.usa-nav__submenu{
+    background-color: #005ea2;
+    li:hover{
+        background-color: #1a4480;
+    }
 }
 
 .usa-header{

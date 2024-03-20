@@ -112,7 +112,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-pa"
           >
@@ -144,7 +144,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-rp"
           >
@@ -153,22 +153,27 @@
           <ul id="extended-nav-section-rp" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Currently Funded Grants</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Maps of Awarded Grants</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Research Initiatives</span></a
               >
             </li>
             <li class="usa-nav__submenu-item">
               <a href="javascript:void(0);"
-                ><span>&lt;Navigation link&gt;</span></a
+                ><span>Funding History & Trends</span></a
+              >
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="javascript:void(0);"
+                ><span>DCCPS Cancer Moonshot Funding</span></a
               >
             </li>
           </ul>
@@ -176,7 +181,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-fo"
           >
@@ -208,7 +213,7 @@
         <li class="usa-nav__primary-item">
           <button
             type="button"
-            class="usa-accordion__button usa-nav__link usa-current"
+            class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="extended-nav-section-pd"
           >
