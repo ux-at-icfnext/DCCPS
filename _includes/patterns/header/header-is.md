@@ -96,7 +96,6 @@
     <div class="usa-logo">
       <img src="/assets/icons/nci-dccps-logo_2x.png" />
     </div>
-    <button type="button" class="usa-menu-btn">Menu</button>
   </div>
   <div class="title-banner is-banner usa-nav-container">
     <div class="container">
@@ -106,6 +105,10 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="mobile-menu usa-nav-container">
+    <button type="button" class="usa-menu-btn">Menu</button>
+    <span class="mobile-search">Search</span>
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">

@@ -278,7 +278,7 @@
             </ul>
           </li>
         </ul>
-        <div class="usa-nav__secondary">
+        <div class="usa-nav__secondary search-no-link">
           {% include patterns/search/search-bar-html.md %}
         </div>
       </div>

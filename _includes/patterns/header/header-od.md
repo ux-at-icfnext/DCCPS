@@ -96,7 +96,16 @@
     <div class="usa-logo">
       <img src="/assets/icons/nci-dccps-logo_2x.png" />
     </div>
+  </div>
+  <div class="mobile-menu usa-nav-container">
     <button type="button" class="usa-menu-btn">Menu</button>
+    <button class="mobile-search usa-menu-btn">
+      <img
+        src="/assets/img/usa-icons-bg/search--white.svg" 
+        class=""
+        alt="Search"
+        />
+    </button>
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">

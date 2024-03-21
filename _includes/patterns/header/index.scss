@@ -13,6 +13,11 @@
         text-decoration: underline;
     }
 }
+.search-no-link{
+    .usa-search{
+        margin-bottom: 2.5rem;
+    }
+}
 .usa-nav{
     background-color: #292929;
 }
@@ -38,12 +43,23 @@
     width: 100%;
     .mobile-search{
         float: right;
-        margin: 0.5rem;
+    }
+    .usa-menu-btn{
+        background-color: transparent;
+        margin-left: 0.5rem;
+    }
+    .usa-menu-btn:hover{
+        cursor: pointer;
     }
 }
 @media screen and (max-width: 1023px) { 
     .mobile-menu{ 
       display: block; 
+    }
+    .usa-logo{
+        img{
+            max-width: 75%;
+        }
     } 
   }
 
