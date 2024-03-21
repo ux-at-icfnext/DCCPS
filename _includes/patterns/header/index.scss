@@ -19,8 +19,20 @@
     }
 }
 .usa-nav{
-    background-color: #292929;
+    background-color: #4c4f52;
 }
+.usa-nav-link{
+    span{
+        font-weight: 300;
+    }
+}
+.usa-nav__primary-item{
+    
+    span{
+        font-weight: 300;
+    }
+}
+
 .usa-header--extended .usa-nav{
     border-top: none;
 }
@@ -60,7 +72,20 @@
         img{
             max-width: 75%;
         }
+    }
+    .usa-search{
+        input, button{
+            display: none;
+        }
     } 
+    .usa-nav__primary{
+        .current{
+            background-color: #71767a;
+        }
+        button:hover{
+            background-color: #71767a;
+        }
+    }
   }
 
 .usa-nav__primary{
