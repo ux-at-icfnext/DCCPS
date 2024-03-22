@@ -82,6 +82,9 @@
         .current{
             background-color: #71767a;
         }
+        .current:hover{
+            background-color: #71767a;
+        }
         button:hover{
             background-color: #71767a;
         }
@@ -100,6 +103,10 @@
     }
 }
 
+.usa-nav__primary a:not(.usa-button):hover{
+    background-color: #71767a;
+}
+
 .usa-header{
 
     a, span{
@@ -107,6 +114,9 @@
     }
 
     .usa-nav__primary button[aria-expanded=false] span:after{
+        background: url(/assets/img/usa-icons/expand_more__right_white.svg) no-repeat center/contain;
+    }
+    .usa-nav__primary button[aria-expanded=true] span:after{
         background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
     }
 }
