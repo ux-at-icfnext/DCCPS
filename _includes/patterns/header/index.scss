@@ -64,6 +64,13 @@
         cursor: pointer;
     }
 }
+@media screen and (min-width: 1024px){
+    .usa-header{
+        .usa-nav__primary button[aria-expanded=false] span:after{
+            background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
+        }
+    }
+}
 @media screen and (max-width: 1023px) { 
     .mobile-menu{ 
       display: block; 
@@ -71,6 +78,14 @@
     .usa-logo{
         img{
             max-width: 75%;
+        }
+    }
+    .usa-header{
+        .usa-nav__primary button[aria-expanded=false] span:after{
+            background: url(/assets/img/usa-icons/expand_more__right_white.svg) no-repeat center/contain;
+        }
+        .usa-nav__primary button[aria-expanded=true] span:after{
+            background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
         }
     }
     .usa-search{
@@ -111,13 +126,6 @@
 
     a, span{
         color: white;
-    }
-
-    .usa-nav__primary button[aria-expanded=false] span:after{
-        background: url(/assets/img/usa-icons/expand_more__right_white.svg) no-repeat center/contain;
-    }
-    .usa-nav__primary button[aria-expanded=true] span:after{
-        background: url(/assets/img/usa-icons/expand_more_white.svg) no-repeat center/contain;
     }
 }
 
