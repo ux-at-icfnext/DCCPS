@@ -64,6 +64,7 @@
         cursor: pointer;
     }
 }
+
 @media screen and (min-width: 1024px){
     .usa-header{
         .usa-nav__primary button[aria-expanded=false] span:after{
@@ -74,6 +75,9 @@
 @media screen and (max-width: 1023px) { 
     .mobile-menu{ 
       display: block; 
+    }
+    .usa-nav__secondary-links{
+        display: none;
     }
     .usa-logo{
         img{

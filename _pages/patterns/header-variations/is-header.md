@@ -1,7 +1,7 @@
 ---
 layout: large-pattern
-title: Header
-permalink: /patterns/header
+title: IS Header
+permalink: /patterns/header/is
 section: Patterns # initial cap required to make menu work
 summary: |
   A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.
@@ -19,25 +19,10 @@ csspath: patterns/header/index.scss
 ## The Design
 
 ### OD Header
-{% include patterns/header/header-od.md %}
-### BRP Header
-<a href="./brp">BRP Header</a>
-
-### EGRP Header
-<a href="./egrp">EGRP Header</a>
-
-### HDRP Header
-<a href="./hdrp">HDRP Header</a>
+<a href="../header">OD Header</a>
 
 ### IS Header
-<a href="./is">IS Header</a>
-
-### SRP Header
-<a href="./srp">SRP Header</a>
-
-### OCS Header
-<a href="./ocs">OCS Header</a>
-
+{% include patterns/header/header-is.md %}
 ---
 
 {% include patterns/alert/alert.md content=page.alert %}

@@ -1,7 +1,7 @@
 ---
 layout: large-pattern
-title: Header
-permalink: /patterns/header
+title: OCS Header
+permalink: /patterns/header/ocs
 section: Patterns # initial cap required to make menu work
 summary: |
   A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.
@@ -19,25 +19,10 @@ csspath: patterns/header/index.scss
 ## The Design
 
 ### OD Header
-{% include patterns/header/header-od.md %}
-### BRP Header
-<a href="./brp">BRP Header</a>
-
-### EGRP Header
-<a href="./egrp">EGRP Header</a>
-
-### HDRP Header
-<a href="./hdrp">HDRP Header</a>
-
-### IS Header
-<a href="./is">IS Header</a>
-
-### SRP Header
-<a href="./srp">SRP Header</a>
+<a href="../header">OD Header</a>
 
 ### OCS Header
-<a href="./ocs">OCS Header</a>
-
+{% include patterns/header/header-ocs.md %}
 ---
 
 {% include patterns/alert/alert.md content=page.alert %}
@@ -69,5 +54,3 @@ Please see the [search](/patterns/search) documentation for more information on 
 The library and prototype use the same header which is set in the `_layouts/default.html` file. At default it's using the regular jekyll partial header, this can be updated to use the extended header by changing `header.md` to `header-ext.md`.
 
 The navigation for the library is in `_data/lib-nav.yml` and for the prototype in `_data/nav.yml`. Settings for the logo and site name are in the `_data/settings.yml` file.
-
-

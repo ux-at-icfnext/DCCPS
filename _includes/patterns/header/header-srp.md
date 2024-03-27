@@ -108,7 +108,13 @@
   </div>
   <div class="mobile-menu usa-nav-container">
     <button type="button" class="usa-menu-btn">Menu</button>
-    <span class="mobile-search">Search</span>
+    <button class="mobile-search usa-menu-btn">
+      <img
+          src="/assets/img/usa-icons-bg/search--white.svg" 
+          class=""
+          alt="Search"
+          />
+    </button>
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
@@ -304,7 +310,7 @@
           </ul>
         </li>
       </ul>
-      <div class="usa-nav__secondary">
+      <div class="usa-nav__secondary search-no-link">
         {% include patterns/search/search-bar-html.md %}
       </div>
     </div>
