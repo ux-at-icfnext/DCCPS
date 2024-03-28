@@ -23,7 +23,7 @@
           type="button"
           class="usa-accordion__button usa-banner__button"
           aria-expanded="false"
-          aria-controls="gov-banner-default-default-od"
+          aria-controls="gov-banner-default-od"
         >
           <span class="usa-banner__button-text">Here’s how you know</span>
         </button>
@@ -31,7 +31,7 @@
     </header>
     <div
       class="usa-banner__content usa-accordion__content"
-      id="gov-banner-default-default-od"
+      id="gov-banner-default-od"
     >
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">

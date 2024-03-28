@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: prototype/landing
 # categories: [prototype]
 title: Home
 type: [prototype]
